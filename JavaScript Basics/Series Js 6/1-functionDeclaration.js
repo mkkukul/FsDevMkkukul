@@ -10,7 +10,6 @@ console.log("**** FUNC DECLARATION ******");
 
 //* ORNEK:
 //************************************************/
-yazdir();
 
 //! Fonksiyonun tanimlanmasi (declaration)
 
