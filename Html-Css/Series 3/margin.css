@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    padding: 2px;
+}
+.container{
+    background-color: darkorange;
+    margin: 150px;
+    padding: 2px;
+}
+.box1{
+    background-color: red;
+    padding: 2px;
+}
+.box2{
+    background-color: olive;
+    border: 3px solid red;
+    /* margin: 20px 30px 50px 15px ; */
+    /* width: 100px; */
+    /* margin: 20px 50px 30px; */
+    /* margin: 20px auto; */
+    /* margin: inherit; */
+    /* margin: -10px; */
+    padding: 2px;
+
+}
+.box3{
+    background-color: magenta;
+    /* margin-top: 50px; */
+    padding: 2px;
+}
+.box4{
+    background-color: cyan;
+    padding: 2px;
+}

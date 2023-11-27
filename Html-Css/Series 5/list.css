@@ -1,0 +1,43 @@
+ul{
+    /* padding-left: 5px;*/
+    list-style-type: none;
+}
+.item{
+     /* list-style-type: georgian;*/
+     /* list-style-position: inside;*/
+     /*list-style-position: outside;*/
+     /* list-style-type: "\1F44D"; */
+     /* list-style-type: "\1F609"; */
+}
+li::before{
+    /* content: "\2764";
+    color: blue;
+    padding-right: 10px; */
+}
+li::after{
+    /* content: "\2345";
+    color: blue;
+    padding-right: 25px; */
+}
+ol{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+ol li{
+    border: 1px solid red;
+    border-radius: 25px;
+    margin: 10px;
+    padding-left: 1rem;
+    background-color: aquamarine;
+    border-left: 7px solid gray;
+    color: brown;
+    width: 15rem;
+    /* display: inline-block; */
+    /* display: flex; */
+}
+ol li:hover{
+    background-color: gray;
+    color: lightsalmon;
+    border-left: 7px solid hotpink;
+}

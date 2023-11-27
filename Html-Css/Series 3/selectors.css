@@ -1,0 +1,40 @@
+
+div{
+
+/* border: 2px solid red; */
+}
+
+div p {
+    border: 2px solid red;
+}
+
+.container div p{
+    background-color: darkkhaki;
+}
+p + div{
+    background-color: aqua;
+}
+p[title="baslık1"]{
+    background-color: crimson;
+}
+p[title="baslık2"]{
+    background-color: olive;
+    border: solid 2px red;
+}
+h1[title="baslik3"]{
+    background-color: darkslateblue;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+p::first-line{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* #id{
+
+}
+.class{
+
+} */

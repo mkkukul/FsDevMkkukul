@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+}
+#par1{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize 10px red;
+    column-count: 4;
+}
+#par2{
+    color: rgba(255, 0, 0, 1);
+    text-align: right;
+    text-decoration: line-through dashed fuchsia;
+
+}
+#par3{
+    color: #1f8403;
+    text-align: justify;
+    text-decoration: underline double red ;    
+}
+#par4{
+    color: hsl(0, 100%, 50%);
+    text-decoration: underline green;
+    text-indent: 2rem;
+    letter-spacing: 10px;
+    
+}
+#par5{
+    color: fuchsia;
+    text-decoration: overline blue;
+    font-family: 'Coming Soon', cursive;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Lobster Two', cursive;     */
+    
+}
+#span1{
+    color: firebrick;
+    text-decoration:underline dashed darkolivegreen ;
+    
+}

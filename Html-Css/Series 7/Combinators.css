@@ -1,0 +1,42 @@
+
+/* COMBINATORS */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Descendent Selector */
+/* kutu class'ı içerisindeki tüm p'leri seç */
+/* .kutu p{ */
+    /* color: red; */
+/* } */
+/* Child Selector */
+/* parent'i kutu class olan tüm p'leri seç */
+/* .kutu >p{ */
+    /* color: green; */
+/* } */
+/* h1 + p { */
+   /* color: rgb(95, 83, 81); */
+/* } */
+/* h2 elementinden sonraki tüm p elementlerini ezer */
+/* h1 ~ p { */
+    /* color:hotpink */
+/* }
+ */
+
+/* .kutu .my-input{ */
+    /* color: hotpink  */
+/* } */
+ /* :checked{ */
+    /* color: red; */
+ /* } */
+ h3{
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid red;
+    outline: 3px solid purple ;
+    outline-offset: 10px;
+    border-radius: 50%;
+ }

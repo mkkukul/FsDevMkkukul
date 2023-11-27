@@ -1,0 +1,26 @@
+.p1{
+    /* border: 3px solid red; */
+    border-width: 3px  17px;
+    border-style: solid;
+    border-color: blue yellowgreen red orange;
+}
+
+.p2{
+    border: 5px dashed red;
+}
+.p3{
+    /* border:dashed 10px blue ; */
+    border: 10px solid red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+}
+.p4{
+    border: 20px double blueviolet;
+
+}
+
+.p5{
+    border: 15px groove orange;
+}
