@@ -56,6 +56,22 @@ const mesaj1 = yasHesapla("Elif Can", 1990);
 console.log(mesaj1);
 console.log(yasHesapla("Veli Canan", 1980))
 
+//* ORNEK4:
+//*****************************************************/
+function tekCift(sayi){
+    return sayi % 2 ? `${sayi} "TEKTIR"` : `${sayi} "CIFTTIR"`; 
+    
+}
+console.log(tekCift(5));
+console.log(tekCift(2));
+
+const sayi = +prompt("Bir Sayi Giriniz");
+console.log(tekCift(sayi));
+
+
+
+
+
 
 
 
