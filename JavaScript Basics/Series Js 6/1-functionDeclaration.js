@@ -27,7 +27,11 @@ yazdir();
 
 //* ORNEK2:
 //*************************************************/
-
+function selamla(ad,soyAd){
+    console.log(`Merhaba ${ad} ${soyAd}`)
+}
+selamla("Can","Yilmaz")
+selamla("Canan","Ozturk")
 
 //! Bir parametreyi cagirma sirasinda kullanmaz isek onun
 //! yerine default parametre atayabiliriz. Ornekteki lastName
