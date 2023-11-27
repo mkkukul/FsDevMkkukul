@@ -54,6 +54,7 @@ function yasHesapla(isim,dogumTarihi){
 }
 const mesaj1 = yasHesapla("Elif Can", 1990);
 console.log(mesaj1);
+console.log(yasHesapla("Veli Canan", 1980))
 
 
 
