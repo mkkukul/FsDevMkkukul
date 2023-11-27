@@ -27,11 +27,16 @@ yazdir();
 
 //* ORNEK2:
 //*************************************************/
-function selamla(ad,soyAd){
+// let x;
+// console.log()
+
+function selamla(ad,soyAd = ""){
+    // let ad = 'merhaba'
     console.log(`Merhaba ${ad} ${soyAd}`)
 }
 selamla("Can","Yilmaz")
 selamla("Canan","Ozturk")
+selamla("Ayse")
 
 //! Bir parametreyi cagirma sirasinda kullanmaz isek onun
 //! yerine default parametre atayabiliriz. Ornekteki lastName
@@ -40,6 +45,15 @@ selamla("Canan","Ozturk")
 //* ORNEK3:
 //***************************************************/
 
+function yasHesapla(isim,dogumTarihi){
+    
+    // const sonuc = `${isim}in yasi ${2023 - dogumTarihi} dir.`;
+    // const sonuc = `${isim}in yasi ${new Date().getFullYear() - dogumTarihi} dir.`;
+    // return sonuc;
+    return `${isim} in yasi ${new Date().getFullYear() - dogumTarihi}dir.`;
+}
+const mesaj1 = yasHesapla("Elif Can", 1990);
+console.log(mesaj1);
 
 
 
