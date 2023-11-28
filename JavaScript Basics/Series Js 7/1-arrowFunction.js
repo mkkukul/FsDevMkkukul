@@ -6,10 +6,22 @@
 // ! 3.YONTEM  : ARROW FUNCTION
 // !------------------------------------------------
 
-// console.log("**** ARROW ******");
+console.log("**** ARROW ******");
 
 // //* ORNEK: Silindir Hacmi
 // //************************************************/
+
+const r =Number(prompt("yaricap giriniz"))
+const h =Number(prompt("yukseklik giriniz"))
+const hacimHesapla = (r,h) => Math.PI*r*h;
+console.log(`${r},${h}=> Hacmi: `);
+
+
+
+
+
+
+
 
 // const r = Number(prompt("yaricap giriniz:"));
 // const h = Number(prompt("yukseklik giriniz:"));
