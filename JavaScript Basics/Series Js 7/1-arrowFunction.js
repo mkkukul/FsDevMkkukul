@@ -93,7 +93,28 @@
 //* hesaplayarak yazdiran fonksiyonu dongu ile kodlayiniz.
 //? FIBONACCI terimleri:  1, 1, 2, 3, 5, 8, 13, 21, ...
 
-    
+const fibo = (n) => {
+  let fib1 = 1;
+  let fib2 = 1;
+  let toplam = 0;
+
+  for(Let i = 2 ; i< n; i++){
+    toplam = fib1 + fib2;
+    fib1 = fib2;
+    fib2 = toplam;
+    console.log()
+  }
+
+} 
+const n = +prompt("n terimini giriniz:")
+if(n<0){
+  console.log("Lutfen 0 dana buyuk bir sayi giriniz");
+}
+else{
+  console.log(`FIBO(${n})= ${fibo(n)}`);
+}
+
+  
 
 
 
