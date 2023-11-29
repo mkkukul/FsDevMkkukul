@@ -38,20 +38,20 @@
 // console.log("YASINIZ:" + yasHesapla(tarih));
 // 
 
-const tarih = Number(prompt("Dogum Tarihini giriniz"));
-
-const yasHesapla = (tarih) => {
-  const yas = new Date().getFullYear() - tarih;
-  return yas;
-};
-
-console.log("YASINIZ:" + yasHesapla(tarih));
-
-function yasHesapla3(tarih){
-  const yas = newDate().getFullYear()-tarih;
-  return yas;
-  
-}
+// const tarih = Number(prompt("Dogum Tarihini giriniz"));
+// 
+// const yasHesapla = (tarih) => {
+  // const yas = new Date().getFullYear() - tarih;
+  // return yas;
+// };
+// 
+// console.log("YASINIZ:" + yasHesapla(tarih));
+// 
+// function yasHesapla3(tarih){
+  // const yas = newDate().getFullYear()-tarih;
+  // return yas;
+  // 
+// }
 // const tarih = Number(prompt("Dogum Tarihini giriniz:"));
 
 // //! Arrow Func yontemi ile tanimlama
@@ -92,6 +92,18 @@ function yasHesapla3(tarih){
 //* ORNEK: Girilen n. terime kadar Fibonacci sayilarinin toplamini
 //* hesaplayarak yazdiran fonksiyonu dongu ile kodlayiniz.
 //? FIBONACCI terimleri:  1, 1, 2, 3, 5, 8, 13, 21, ...
+
+    
+
+
+
+
+
+
+
+
+
+
 
 // let stringResult = "1,1";
 // f(n) = f(n-1) + f(n-2)
