@@ -14,14 +14,8 @@ console.log("**** ARROW ******");
 const r =Number(prompt("yaricap giriniz"))
 const h =Number(prompt("yukseklik giriniz"))
 const hacimHesapla = (r,h) => Math.PI*r*h;
-console.log(`${r},${h}=> Hacmi: `);
-
-
-
-
-
-
-
+// console.log(`${r},${h}=> Hacmi: ${hacimHesapla(r,h).toExponential}  `);
+console.log(`${r} , ${h} => Hacmi: ${hacimHesapla (r,h).toFixed(2)}`);
 
 // const r = Number(prompt("yaricap giriniz:"));
 // const h = Number(prompt("yukseklik giriniz:"));
