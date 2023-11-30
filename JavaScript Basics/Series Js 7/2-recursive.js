@@ -26,12 +26,12 @@ const fibo = (n) =>{
 
 };
 
-const n = +prompt("n terimini giriniz");
-if (n === 1|| n === 2 ) {
-  console.log("lutfen 0 dan buyuk bir sayi giriniz")
-} else {
+// const n = +prompt("n terimini giriniz");
+// if (n === 1|| n === 2 ) {
+console.log("lutfen 0 dan buyuk bir sayi giriniz")
+// } else {
   console.log(`FIBO(${n})= ${fibo(n)}`);
-}
+// }
 
 
 
