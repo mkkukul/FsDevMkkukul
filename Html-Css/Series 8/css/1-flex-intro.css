@@ -1,0 +1,12 @@
+* {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container {
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: row;
+}
+.container div{
+    background-color: gold;
+}
