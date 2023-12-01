@@ -1,13 +1,14 @@
 * {
     font-size: 1.2rem;
     text-align: center;
+    margin: 0;
 }
 .container {
     background-color: fuchsia;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .container div{
     background-color: gold;
