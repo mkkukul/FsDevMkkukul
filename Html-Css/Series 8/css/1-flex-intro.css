@@ -3,14 +3,14 @@
     text-align: center;
     margin: 0;
 }
-.container {
+.container{
     background-color: fuchsia;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.container div{
+.container div {
     background-color: gold;
     width: 5rem;
     height: 5rem;
