@@ -39,3 +39,14 @@
     width: 5rem;
     background-color: tomato;
 }
+.container2{
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    gap: 1rem;
+}
+.container2 div{
+    background-color: khaki;
+}
