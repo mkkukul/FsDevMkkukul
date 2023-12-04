@@ -68,7 +68,8 @@ div.nogrow{
     flex-wrap: nowrap;
     justify-content: center;
     gap: 1rem;
-    padding: o.5rem;
+    padding: 0.5rem;
+    width: 50vw;
     
 }
 .container3 div{
