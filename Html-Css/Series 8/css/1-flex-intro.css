@@ -43,10 +43,12 @@
     background-color: hotpink;
     display: flex;
     flex-wrap: nowrap;
-
     justify-content: center;
     gap: 1rem;
+    
 }
 .container2 div{
     background-color: khaki;
+    width: 5rem;
+    flex-grow: 1;
 }
