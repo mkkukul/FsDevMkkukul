@@ -51,4 +51,14 @@
     background-color: khaki;
     width: 5rem;
     flex-grow: 1;
+    flex-basis: 0;
+}
+div.grow2{
+    flex-grow: 2;
+}
+div.grow3{
+    flex-grow: 3;
+}
+div.nogrow{
+    flex-grow: 0;
 }
