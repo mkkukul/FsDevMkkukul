@@ -9,6 +9,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 40px 80px;
+    padding: 0.5;
 }
 .container div {
     background-color: gold;
