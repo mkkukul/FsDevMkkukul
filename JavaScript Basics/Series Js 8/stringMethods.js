@@ -15,5 +15,13 @@ console.log(str5,typeof str5)
 
 console.log(str1.concat(str2))
 console.log(str1,str2)
-str1 = str1.concat(str3)
+str1 = str1.concat(str3, "Path")
 console.log(str1)
+
+const myName = "Noah Adams"
+console.log(myName.toUpperCase())
+console.log(myName.toLowerCase())
+let yourName = "ismet"
+// yourName = yourName.toUpperCase();
+yourName = yourName.toLocaleUpperCase()
+console.log(yourName)
