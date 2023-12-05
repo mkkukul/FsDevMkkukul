@@ -23,5 +23,14 @@ console.log(myName.toUpperCase())
 console.log(myName.toLowerCase())
 let yourName = "ismet"
 // yourName = yourName.toUpperCase();
-yourName = yourName.toLocaleUpperCase()
+// yourName = yourName.toLocaleUpperCase()
+// yourName = yourName.toLocaleUpperCase('tr')
 console.log(yourName)
+
+// const esitMi = (str1, str2) => {
+    // return str1.toLocaleUpperCase() === str2.toLocaleUpperCase() 
+    // ? `${str1} ile ${str2} Esittir`
+    // : `${str1} ile ${str2} Esit degildir`;
+// }
+// esitMi("merhaba", "MerhabA")
+console.log(esitMi("merHaba", "MERHABA"));
