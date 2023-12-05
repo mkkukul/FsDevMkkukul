@@ -35,3 +35,30 @@ const esitMi = (str1, str2) => {
 // esitMi("merhaba", "MerhabA")
 console.log(esitMi("merHaba", "MERHABA"));
 
+const a = 'réservé'; // With accents, lowercase
+const b = 'RESERVE'; // No accents, uppercase
+
+console.log(a.localeCompare(b));
+// Expected output: 1
+console.log(a.localeCompare(b, 'en', { sensitivity: 'base' }));
+// Expected output: 0
+
+const str6 = "Full Stack Path and DS path"
+console.log(str6.charAt(5));
+console.log(str6.charAt(4));
+console.log(str6.charAt());
+console.log(str6.charAt(14));
+console.log(str6.length);
+console.log(str6.charAt(str6.length-1));
+
+const word = "To be or not to be, that is the question";
+console.log(word.includes("to be"));
+console.log(word.includes("That"));
+console.log(word.includes(""));
+console.log(word.includes("to be", 14));
+console.log(word.includes("to be", 13));
+
+
+
+
+
