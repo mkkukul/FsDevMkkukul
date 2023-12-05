@@ -59,6 +59,20 @@ console.log(word.includes("to be", 14));
 console.log(word.includes("to be", 13));
 
 
+const toBe = word.indexOf("or")
+console.log(toBe);
+// const be = word.indexOf("be")
+console.log(word.indexOf("be"))
+console.log(word.lastIndexOf("be"))
+console.log(word.lastIndexOf("BE"))
+// console.log(be);
+
+
+
+
+
+// console.log(word)
+// console.log(str4)
 
 
 
