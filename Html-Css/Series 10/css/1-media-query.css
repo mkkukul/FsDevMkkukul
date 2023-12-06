@@ -38,12 +38,33 @@ h1{
   text-decoration: none;
   color: var(--beyaz);
   padding: 1rem 1.5rem;
+  transition: all 1s;
 
 
 
 }
 .navbar a:hover{
   background-color: var(--gri-7);
+  color: var(--siyah);
+  font-weight: 600;
 
+}
+.row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+   
+
+}
+.col{
+
+}
+.fs{
+
+}
+.aws{
+
+}
+.data{
 
 }
