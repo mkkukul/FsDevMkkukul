@@ -79,3 +79,16 @@ h1{
   background-color: var(--gri-8);
   
 }
+@media screen and ( min-width: 600px) and (max-width: 992px){
+  body {
+    color: var(--beyaz);
+    background-color: var(--acik-kirmizi);
+  
+  }
+  .col{
+    width: 50%;
+    margin: 0.5rem 0;
+  }
+
+  
+}
