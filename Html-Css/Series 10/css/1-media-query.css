@@ -51,20 +51,27 @@ h1{
 }
 .row {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-   
+
 
 }
 .col{
+  padding: 1rem;
+  
 
 }
 .fs{
+  background-color: var(--gri-5);
 
 }
 .aws{
-
+  background-color: var(--gri-6);
 }
 .data{
-
+  background-color: var(--gri-7);
+}
+.cms{
+  background-color: var(--gri-8);
 }
