@@ -67,13 +67,13 @@ const esitMi = (str1, str2) => {
     : `${str1} ile ${str2} Esit degildir`;
 };
 
-const esitMi = (str1, str2) =>
-  str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
-    ? `${str1} ile ${str2} Esittir`
-    : `${str1} ile ${str2} Esit degildir`;
-
-console.log(esitMi("MerHaba", "MERHABA"));
-console.log(esitMi("Hello", "Hell"));
+// const esitMi = (str1, str2) =>
+  // str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
+    // ? `${str1} ile ${str2} Esittir`
+    // : `${str1} ile ${str2} Esit degildir`;
+// 
+// console.log(esitMi("MerHaba", "MERHABA"));
+// console.log(esitMi("Hello", "Hell"));
 
 //* ----------------------------------------------------------
 //* localeCompare()
