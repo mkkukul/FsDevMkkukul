@@ -1,0 +1,16 @@
+@import "theme.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: var(--ff-roboto);
+  background-color: var(--mavi-9);
+  color: var(--siyah);
+
+}
+h1{
+  background-color: var(--koyu-kirmizi);
+  width: 15rem;
+  text-align: center;
+}
