@@ -64,14 +64,18 @@ h1{
 }
 .fs{
   background-color: var(--gri-5);
-
+  width: 35%;
 }
 .aws{
   background-color: var(--gri-6);
+  width: 20%;
 }
 .data{
-  background-color: var(--gri-7);
+  width: 30%;background-color: var(--gri-7);
+  
 }
 .cms{
+  width: 15%;
   background-color: var(--gri-8);
+  
 }
