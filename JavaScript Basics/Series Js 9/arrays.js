@@ -155,17 +155,22 @@ console.log(array1);
 //? ===========================================================
 //?  DIZI ERISIM METOTLARI
 //? ===========================================================
-
+const sayilar1 = [3, 5, 2, "2", "uc", 2, "3", "bes", "5"];
 
 //* includes()
 //*-----------------------------------------------------------
-
+console.log(sayilar1.includes(5));
+console.log(sayilar1.includes("5"));
 
 //* indexOf(), lastIndexOf();
 //*-----------------------------------------------------------
 //* ilk eslesen indeksi dondurur.
-
-
+console.log(sayilar1.indexOf
+  (2)); //? 2
+  console.log(sayilar1.lastIndexOf
+  (2)); //? 5
+  console.log(sayilar1.lastIndexOf
+  (4)); //? -1
 
 //! Odev: prompt ile konsoldan bir sayi istenmeli (string veya number
 //! olarak) eger bu girilen sayi, dizi icerisinde bulunuyorsa indisi
@@ -175,7 +180,11 @@ console.log(array1);
 
 //* join()
 //*-----------------------------------------------------------
-//? join, dizinin elamanlari birlestirip string hale cevirir.
+//? join, dizinin elamanlari birlestirip string hale cevirir. değiştirmez orginali bozmaz
+console.log(sayilar1.join(" "));
+console.log(sayilar1.join()); 
+// 3 5...
+console.log(sayilar1);
 
 //* toString()
 //*-----------------------------------------------------------
