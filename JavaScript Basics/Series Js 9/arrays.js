@@ -48,9 +48,12 @@ console.log(diller[1]);
 const go = diller[3];
 console.log(go);
 console.log(isimler[isimler.length-1]);
+// ? at() son elemen için
+console.log(isimler.at(-1));
 //!  Diziye veri yazma
 // const isimler = ["ahmet", "ismet", "can", "canan", "Matheww"];
-
+isimler[1] = "saffet"
+console.log(isimler); 
 
 
 //!Uncaught TypeError: Assignment to constant variable.
