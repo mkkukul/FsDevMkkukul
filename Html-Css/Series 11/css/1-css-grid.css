@@ -36,8 +36,7 @@
 .content5 {
   background-color: cadetblue;
 }
-/* Anladığım kadarıyla, verdiğiniz CSS kodlarından birkaç temel konu hakkında açıklama yapabilirim:
-
+/*
 1. **Universal Selector (`*`):**
    ```css
    * {
