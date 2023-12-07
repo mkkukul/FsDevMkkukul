@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+/* !display: grid;: Bir grid konteyneri oluşturur.
+grid-template-columns: 12 sütunlu bir grid oluşturur, her biri eşit genişlikte (1fr).
+grid-template-rows: 4 satır oluşturur; ilk satır 200 piksel, ikinci satır 10 viewport height (vh), üçüncü satır kalan boş alanın yüksekliği (calc() fonksiyonu kullanılarak hesaplanır), dördüncü satır ise tekrar 10 vh'dir. */
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
