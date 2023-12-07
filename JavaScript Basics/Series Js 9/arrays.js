@@ -190,11 +190,40 @@ console.log(sayilar1);
 //*-----------------------------------------------------------
 //? toString fonksiyonu sadece dizinin elemanlarinin aralarina
 //? (virgul) koyarak birlestirir ve string yapar.
+console.log(sayilar1.toString());
 
+//* slice() Dizi içindeki belirli bir bölümü kesip, yeni bir dizi oluşturur.
+//*-----------------------------------------------------------
+const arabalar1 = ["BMW", "Mercedes", "Fiat", "Anadol"];
+const yeniArabalar = arabalar1.slice(2);
+console.log(yeniArabalar, arabalar1);
+
+const yeniArabalar1 = arabalar1.slice(1, 3);
+console.log(yeniArabalar1);
+
+//* concat() İki veya daha fazla diziyi birleştirir, yeni bir dizi oluşturur.
+//*-----------------------------------------------------------
+const yazilar = ["Bugun", "hava", "cok", "guzel"];
+const numbersArr = [1, 2, 5, 7];
+const combinedArr = yazilar.concat(
+  true,
+  numbersArr,
+  ["aslinda", "cok", "sicak"],
+  [["x", "y"]]
+);
+console.log(combinedArr);
+
+//* every()
 //*-----------------------------------------------------------
 //? Tum diziyi itere eder ve aldigi callback fonksiyonuna gore
 //? test gerceklestirir.Tum elemanlar icin test basarili ise
 //? true aksi takdirde false deger dondurur.
+
+const yasArray = [18, 22, 78, 34, 78, 79, 15];
+const check = yasArray.every((yas) => yas >= 18);
+check
+  ? console.log("Dizideki herkesin yasi 18'den buyuktur")
+  : console.log("Dizide 18 yas alti var");
 
 //* some()
 //*-----------------------------------------------------------
@@ -202,7 +231,8 @@ console.log(sayilar1);
 //? En az bir eleman icin bile test basarili ise true aksi
 //? takdirde false deger dondurur.
 
-
+const buyuk80 = yasArray.some((y) => y >= 80);
+console.log(buyuk80); //? false
 
 //* find(), findLast()
 //*-----------------------------------------------------------
@@ -211,7 +241,9 @@ console.log(sayilar1);
 //? Eger hic bir eleman kosulu saglamazsa undefined dondurur.
 
 //?Ornek: Yasi 30 dan buyuk olan ilk elemani yazdirin
-
+const yasIlk30 = yasArray.find((yas) => yas >= 30);
+const yasSon30 = yasArray.findLast((yas) => yas >= 30);
+console.log(yasIlk30, yasSon30);
 
 //* findIndex()
 //*-----------------------------------------------------------
@@ -220,3 +252,6 @@ console.log(sayilar1);
 //? Eger hic bir eleman kosulu saglamazsa -1 dondurur.
 
 //?Ornek: Yasi 30 dan buyuk olan ilk elemanin indexini yazdirin
+
+const foundIndex = yasArray.findIndex((yas) => yas >= 30);
+console.log(foundIndex);
