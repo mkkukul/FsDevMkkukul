@@ -213,7 +213,7 @@ const combinedArr = yazilar.concat(
 );
 console.log(combinedArr);
 
-//* every()
+//* every() fonksiyonu, bir dizideki tüm öğelerin belirli bir koşulu sağlayıp sağlamadığını kontrol eden ve sonucu true veya false olarak döndüren bir dizi metodudur.
 //*-----------------------------------------------------------
 //? Tum diziyi itere eder ve aldigi callback fonksiyonuna gore
 //? test gerceklestirir.Tum elemanlar icin test basarili ise
