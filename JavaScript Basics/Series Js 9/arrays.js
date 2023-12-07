@@ -7,7 +7,12 @@ console.log("***** ARRAYS ******");
 //* Dizi Tanimlama
 //* ---------------------------------------------------------
 
+const isimler =["ahmet", "ismet", "can", "canan" ];
+// !isimleri yazdırır
 
+console.log(isimler);
+console.log(typeof isimler);
+console.log(isimler.)
 
 // ! 1.Yöntem (Array Literal) - Tercih edilen yöntem
 
