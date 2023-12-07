@@ -1,13 +1,22 @@
 * {
+  /* box-sizing: border-box;: Kutu modelini belirtir. Öğe içeriğini, kenarlığı ve dolguyu genişlik ve yüksekliğin içine dahil eder.
+  margin: 0; padding: 0;: Sayfa üzerindeki tüm öğelerin dört kenarına boşluk veya iç içe geçme olmamasını sağlar. */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .container {
+  /* display: grid;: Bir grid konteyneri oluşturur.
+  grid-template-columns: 4 sütun oluşturur, her biri eşit genişlikte.
+  grid-template-rows: 4 satır oluşturur; ilk satır 25vh, diğer üç satır 25vh'den 0.5rem çıkartılarak oluşturulur.
+  row-gap ve column-gap: Satır ve sütunlar arasındaki boşlukları belirtir. */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* 4x 1fr sutun oluşturma */
+  grid-template-columns: repeat(4, 1fr); 
+  /* 4x25vh'lik genişlik */
   /* grid-template-rows: repeat(4, 25vh); */
+  /* calc hesap yapmayı saglar */
   grid-template-rows: 25vh repeat(3, calc(25vh - 0.5rem));
 
   /* gap: 1rem 2rem; */
@@ -16,14 +25,24 @@
 }
 
 .content {
+  /* Arka Plan rengi */
+  /* background-color: Arka plan rengini belirtir.
+  border: Kenarlık özelliğini belirtir.
+  display: flex;: İçeriğe flex özelliği kazandırır.
+  justify-content: center; align-items: center;: İçeriği hem yatayda hem dikeyde ortalar.
+  cursor: pointer;: Fare üzerine gelindiğinde imleci bir el işareti olarak gösterir. */
   background-color: lightcyan;
+  
   border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-
+  /* justify-self, align-self: Öğeyi sırasıyla yatay ve dikeyde ortalama özelliğini kazandırır.
+  grid-column-start, grid-column-end: Sütun başlangıcı ve bitişini belirtir.
+  grid-row-start, grid-row-end: Satır başlangıcı ve bitişini belirtir.
+  grid-area: Birleştirilmiş grid-row-start, grid-column-start, grid-row-end, ve grid-column-end özelliklerini tek bir satırda belirtir. */
 .content img,
 iframe {
   width: 100%;
