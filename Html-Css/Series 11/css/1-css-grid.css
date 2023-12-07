@@ -27,7 +27,7 @@
   justify-content: center;
   align-items: center;
 }
-
+/* Resim ekleme nasıl yapılır */ 
 .content7 {
   background-image: url(https://cdn.pixabay.com/photo/2022/08/17/08/58/sun-has-7391959__340.jpg);
   background-size: cover;
@@ -36,3 +36,63 @@
 .content5 {
   background-color: cadetblue;
 }
+/* Anladığım kadarıyla, verdiğiniz CSS kodlarından birkaç temel konu hakkında açıklama yapabilirim:
+
+1. **Universal Selector (`*`):**
+   ```css
+   * {
+     box-sizing: border-box;
+     margin: 1rem;
+     text-align: center;
+   }
+   ```
+   - `box-sizing: border-box;`: Kutu modelini belirtir. Bu, öğenin içeriği, kenarlığı ve dolgu miktarını toplam genişlik ve yükseklik içinde dahil etmek anlamına gelir.
+   - `margin: 1rem;`: Sayfa üzerindeki tüm öğelerin dört kenarına 1 rem genişliğinde boşluk ekler.
+   - `text-align: center;`: Sayfa üzerindeki tüm öğelerin metin içeriğini ortalar.
+
+2. **Grid Container (`container`):**
+   ```css
+   .container {
+     display: grid;
+     grid-template-columns: 200px 40vw 20rem;
+     grid-template-rows: 100px 200px 20vh 4rem;
+     justify-content: center;
+   }
+   ```
+   - `display: grid;`: Bir öğenin bir grid konteyneri olduğunu belirtir.
+   - `grid-template-columns`: 3 sütun belirtir: 200 piksel, ekran genişliğinin yüzde 40'u ve 20 rem.
+   - `grid-template-rows`: 4 satır belirtir: 100 piksel, 200 piksel, ekran yüksekliğinin yüzde 20'si ve 4 rem.
+   - `justify-content: center;`: Sütunları yatayda ortalar.
+
+3. **Grid Item (`content`):**
+   ```css
+   .content {
+     background-color: wheat;
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   ```
+   - `background-color`: Arka plan rengini belirtir.
+   - `border`: Kenarlık özelliğini belirtir.
+   - `display: flex;`: İçeriğe flex özelliği kazandırır.
+   - `justify-content: center;`: İçeriği yatayda ortalar.
+   - `align-items: center;`: İçeriği dikeyde ortalar.
+
+4. **Grid Item (`content7` ve `content5`):**
+   ```css
+   .content7 {
+     background-image: url(https://cdn.pixabay.com/photo/2022/08/17/08/58/sun-has-7391959__340.jpg);
+     background-size: cover;
+     background-position: center;
+   }
+
+   .content5 {
+     background-color: cadetblue;
+   }
+   ```
+   - `content7`: Arkaplan resmi ekler, boyutları kapsama şeklinde ve ortalanmış olarak ayarlar.
+   - `content5`: Arka plan rengini belirtir.
+
+Bu kodlar, bir web sayfasının temel yapısını ve tasarımını oluşturmak için kullanılan HTML ve CSS özelliklerini içerir. Eğer daha fazla açıklama veya sorunuz varsa sormaktan çekinmeyin! */
