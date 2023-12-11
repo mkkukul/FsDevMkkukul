@@ -33,7 +33,7 @@ for(let i=0 ; i<notlar.length;i++) {
   toplam += notlar[i];
 
 }
-console.log("ORTALAMA:", toplam/notlar.length);
+console.log("ORTALAMA:", toplam / notlar.length);
 
 // 
 // let toplam = 0;
