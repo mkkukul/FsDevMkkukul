@@ -31,6 +31,7 @@ prices.forEach((price, index, arr) => {
 });
 
 console.log(prices);
+// ! 1 ile 1.1  arasında % 10 Fark var
 
 //* ======================================================
 //*                       MAP METHOD
