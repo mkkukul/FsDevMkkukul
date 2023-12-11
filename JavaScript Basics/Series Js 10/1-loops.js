@@ -25,15 +25,16 @@ console.log(dizi);
 // 
 //?-------------- ÖRNEK -------------------
 //? Dizideki notlarin ortalamasini hesaplayiniz.
+ 
+const notlar = [55, 77, 23, 89, 100];
+let toplam = 0;
 
+for(let i=0 ; i<notlar.length;i++) {
+  toplam += notlar[i];
 
+}
+console.log("ORTALAMA:", toplam/notlar.length);
 
-
-
-
-
-// 
-// const notlar = [55, 77, 23, 89, 100];
 // 
 // let toplam = 0;
 // 
