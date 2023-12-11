@@ -55,6 +55,7 @@ console.log("ORTALAMA:", toplam  / notlar.length);
 //* fonksiyonu yaziniz. Eger aranilan isimde bir ogrenci yok ise
 //* fonksiyon "ogrenci bulunamadi" dondurulmelidir.
 //*--------------------------------------------------------
+// ! 1 Yöntem
 const students = ["ahmet", "mehmet", "ismet", "ahmet", "can","mehmet", "cem", ];
 const findStudents =(arr,search) => {
   let counter = 0;
@@ -71,7 +72,7 @@ const findStudents =(arr,search) => {
 }
 const name =prompt("Please enter a name").toLocaleLowerCase();
 console.log(findStudents(students,name));
-// ?
+// ! 2 Yöntem
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 // 
 // const findStudents = (arr, search) => {
