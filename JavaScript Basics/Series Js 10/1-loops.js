@@ -33,8 +33,8 @@ for(let i=0 ; i<notlar.length;i++) {
   toplam += notlar[i];
 
 }
-console.log("ORTALAMA:", toplam / notlar.length);
-
+console.log("ORTALAMA:", toplam  / notlar.length);
+// 
 // 
 // let toplam = 0;
 // 
@@ -55,7 +55,23 @@ console.log("ORTALAMA:", toplam / notlar.length);
 //* fonksiyonu yaziniz. Eger aranilan isimde bir ogrenci yok ise
 //* fonksiyon "ogrenci bulunamadi" dondurulmelidir.
 //*--------------------------------------------------------
-
+const students = ["ahmet", "mehmet", "ismet", "ahmet", "can","mehmet", "cem", ];
+const findStudents =(arr,search) => {
+  let counter = 0;
+  for(let i in arr){
+    if(search===arr[i]){
+      counter++;
+    };
+    if(counter===0){
+      return `${search} can not be found`;
+    } else{
+      return `${search} found ${counter} times`;
+    };
+  };
+}
+const name =prompt("Please enter a name").toLocaleLowerCase();
+console.log(findStudents(students,name));
+// ?
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 // 
 // const findStudents = (arr, search) => {
