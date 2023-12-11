@@ -100,6 +100,7 @@ console.log(findStudents(students,name));
 //* kapsayacak sekilde guncellenmis halidir. Bu dongude dizi
 //* icersindeki veriye erisirken indisleme kullanmaya gerek yoktur.
 
+
 // const findStudentsOf = (arr, search) => {
   // let counter = 0;
   // for (let item of arr) {
