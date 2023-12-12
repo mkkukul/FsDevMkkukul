@@ -97,7 +97,7 @@ const products = [
   "samsungS20",
 ];
 //! Orjinal diziyi degistidik.
-//?For UpperCase
+//?For UpperCase hepsini büyük harf yaptık
 // products.map((p, i, arr) => (arr[i] = p.charAt(0).toUpperCase()));
 
 //?For Capitilize
