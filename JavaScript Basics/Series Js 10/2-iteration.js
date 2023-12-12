@@ -51,7 +51,9 @@ const katAlinmis =rakamlar.map((x) =>x*5);
 console.log(katAlinmis);
 
 let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
-const bigNames = names.map((name) => name.toUpperCase()); 
+const bigNames = names.map((name) => name.toUpperCase());
+console.log(bigNames,names);
+console.log(names.map((name)=> name.toUpperCase())); 
 
 // const bigNames = names.map((name) => name.toUpperCase());
 // console.log(bigNames, names);
