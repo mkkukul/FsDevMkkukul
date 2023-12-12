@@ -53,6 +53,7 @@ console.log(katAlinmis);
 let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
 const bigNames = names.map((name) => name.toUpperCase());
 console.log(bigNames,names);
+//! fonsiyonun içini görebiliriz
 console.log(names.map((name)=> name.toUpperCase())); 
 
 // const bigNames = names.map((name) => name.toUpperCase());
@@ -66,12 +67,16 @@ console.log(names.map((name)=> name.toUpperCase()));
 const euro = 18.23;
 const dolar = 18.19;
 const tlPrices = [100, 150, 100, 50, 80];
-
+// ! toPrecision sayı string yapar burada son 3 kısmı gösterir
 const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
 console.log(euroPrices);
 
 const dolarPrices = tlPrices.map((tl) => Number(tl / dolar).toFixed(2));
 console.log(dolarPrices);
+
+const koordinatlar = [-100, 150, -32,43,-20]
+negatifKoordinatlar = koordinatlar.filter((x)=>x<0);
+console.log(negatifKoordinatlar);
 
 //?-------------- ÖRNEK -------------------
 //? products dizisinin icerisindeki her urunu (Orjinal dizideki)
