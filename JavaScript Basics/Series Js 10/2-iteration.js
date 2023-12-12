@@ -22,6 +22,13 @@ console.log(prices.forEach((price) => (sum += price))); //! undefined
 //?-------------- ÖRNEK -------------------
 //? prices dizisindeki her bir ara toplam degerini
 //? konsola bastiriniz. Ayrica her bir fiyata %10 zam yapiniz.
+// let total = 0;
+// prices.forEach((price, index, arr) => {
+  // total += price;
+  // console.log(`${index +1}.iteration: ${total}`);
+  // arr[index] = Math.trunc(price*1.1);
+// });
+// console.log(prices);
 
 let total = 0;
 prices.forEach((price, index, arr) => {
