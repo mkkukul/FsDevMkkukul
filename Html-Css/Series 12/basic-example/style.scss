@@ -21,11 +21,12 @@ $myBorder: 2px solid brown;
 body {
   font-family: $fontFamily; // font yasılı
   background-color: $bgColor; // arka plan rengi
-  font-size: $fontSize;
-  color: $fontColor;
+  font-size: $fontSize; // yazı büyüklüğü
+  color: $fontColor; // yazı rengi
+
 }
 
-//*******  HEADER *********/
+//*******  HEADER *********/ //başlık//
 header {
   background-color: $navBgColor;
   display: flex;
@@ -38,7 +39,7 @@ header {
     border-radius: 10px;
   }
   ul {
-    list-style-type: none;
+    list-style-type: none; // liste noktalarını kaldırma
     li {
       display: inline-block;
       padding: 0.5rem;
