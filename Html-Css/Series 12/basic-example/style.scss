@@ -19,8 +19,8 @@ $myBorder: 2px solid brown;
 //* Variable Usage
 //********************************************/
 body {
-  font-family: $fontFamily;
-  background-color: $bgColor;
+  font-family: $fontFamily; // font yasılı
+  background-color: $bgColor; // arka plan rengi
   font-size: $fontSize;
   color: $fontColor;
 }
