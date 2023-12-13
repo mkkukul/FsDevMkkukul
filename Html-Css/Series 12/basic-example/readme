@@ -121,3 +121,121 @@ header {
 ```
 
 Bu açıklamalar, `header` ve `banner` elemanlarının stil özelliklerini ve içerdikleri alt elemanların stillerini anlatmaktadır. Bu stillemeler sayesinde HTML içerikleri belirli bir düzene oturtulmuş ve belirli bir tasarım diline uymuş olacaktır.
+Tabii ki, sırayla açıklayalım:
+
+### CARDS
+
+```scss
+// Mixin tanımlama
+@mixin myBox($backColor, $color) {
+  background-color: $backColor;
+  color: $color;
+  width: 25%;
+  height: 15rem;
+  border: $myBorder;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem;
+
+  // .card1
+  .card1 {
+    @include myBox(green, white); // myBox mixin'inin kullanımı
+  }
+
+  // .card2
+  .card2 {
+    @include myBox(brown, white); // myBox mixin'inin kullanımı
+  }
+
+  // .card3
+  .card3 {
+    @include myBox(yellow, black); // myBox mixin'inin kullanımı
+  }
+
+  // .card4
+  .card4 {
+    @include myBox(rgb(40, 33, 56), white); // myBox mixin'inin kullanımı
+  }
+}
+```
+
+- **@mixin myBox($backColor, $color):** `$backColor` ve `$color` parametreleri ile bir mixin oluşturur. Bu mixin, belirli stil özelliklerini içeren bir kutu tanımlar.
+
+- **.cards:** `.cards` sınıfı, flex konteyner olarak düzenlenir ve içindeki kartları düzenler.
+
+- **.card1, .card2, .card3, .card4:** Her biri, `myBox` mixin'ini kullanarak belirli renk ve boyutlarda bir kutu oluşturur.
+
+### ARTICLES
+
+```scss
+.articles {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+
+  // .article1
+  .article1 {
+    background-color: grey;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 10rem;
+  }
+
+  // .article2
+  .article2 {
+    @extend .article1; // .article1 ile aynı stil özelliklerini paylaşan .article2
+    background-color: hotpink;
+    border-color: green;
+  }
+}
+```
+
+- **.articles:** `.articles` sınıfı, içindeki makaleleri düzenlemek için kullanılır.
+
+- **.article1:** İlk makale, gri arka plan, belirli boyutlarda ve kenarlıklarla bir kutu içinde oluşturulur.
+
+- **.article2:** İkinci makale, `.article1` ile aynı stil özelliklerini paylaşır ancak arka plan ve kenarlık renkleri değişir.
+
+### FOOTER
+
+```scss
+footer {
+  $dark: 2;
+
+  p {
+    @if $dark==1 {
+      background-color: grey;
+    } @else if $dark==2 {
+      background-color: lightgreen;
+    } @else {
+      background-color: lightsalmon;
+    }
+  }
+
+  .social-icons {
+    display: flex;
+    height: 10rem;
+    $textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
+
+    @for $i from 1 through 5 {
+      .social#{$i} {
+        width: 20%;
+        background-color: lighten(rgba(27, 130, 219, 0.89), $i * 5);
+        font-size: $i * 1rem;
+        color: nth($textColor, $i);
+      }
+    }
+  }
+}
+```
+
+- **footer:** Sayfanın alt kısmını temsil eden `footer` elemanının stil tanımlamalarını içerir.
+
+- **p:** `$dark` değişkenine göre bir renk seçer. Eğer `$dark` 1 ise gri, 2 ise lightgreen, değilse lightsalmon renkini kullanır.
+
+- **.social-icons:** Sosyal medya ikonlarını içeren bir bölümü temsil eder. `for loop` ve `if-else` kullanarak sosyal ikonlara özel stiller ekler.
