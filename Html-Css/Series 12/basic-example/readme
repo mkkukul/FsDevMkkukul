@@ -1,0 +1,59 @@
+Tabii ki, yazdığınız CSS kodunu satır satır açıklayalım:
+
+```scss
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+```
+
+- `*`: Yıldız işareti, sayfadaki tüm HTML elementlerini seçer.
+- `box-sizing: border-box;`: Bu, elementin içeriğini, padding'ini ve sınırlarını toplam genişlik ve yükseklik hesaplamalarına dahil etmek için kullanılır. Yani, elementin boyutu sınırlarını aşmaz.
+
+```scss
+/********************************************/
+/* Variable Declaration */
+/********************************************/
+$bgColor: pink;
+$fontSize: 1.2rem; // Yazı Büyüklüğü 16px (1rem)
+$fontColor: white; // Yazı rengi
+$navBgColor: #30a7c3; // Navigasyon arkaplan rengi
+$fontFamily: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; // Yazı fontu
+$bannerBgColor: hotpink; // Banner arkaplan rengi
+$myBorder: 2px solid brown; // Özel bir sınır
+
+/********************************************/
+/* Variable Usage */
+/********************************************/
+body {
+  font-family: $fontFamily; // Sayfa içindeki metinlerin fontu
+  background-color: $bgColor; // Sayfa arkaplan rengi
+  font-size: $fontSize; // Sayfa içindeki metinlerin boyutu
+  color: $fontColor; // Sayfa içindeki metinlerin rengi
+}
+```
+
+- `$bgColor`: Sayfa arkaplan rengi için bir değişken tanımlanmış ve değeri `pink`.
+- `$fontSize`: Sayfa içindeki metinlerin boyutu için bir değişken tanımlanmış ve değeri `1.2rem` (16px'e eşdeğer).
+- `$fontColor`: Sayfa içindeki metinlerin rengi için bir değişken tanımlanmış ve değeri `white`.
+- `$navBgColor`: Navigasyon arkaplan rengi için bir değişken tanımlanmış ve değeri `#30a7c3`.
+- `$fontFamily`: Sayfa içindeki metinlerin fontu için bir değişken tanımlanmış ve değeri `"Segoe UI", Tahoma, Geneva, Verdana, sans-serif`.
+- `$bannerBgColor`: Banner (afiş) arkaplan rengi için bir değişken tanımlanmış ve değeri `hotpink`.
+- `$myBorder`: Özel bir sınır tanımlanmış ve değeri `2px solid brown`.
+
+```scss
+/********************************************/
+/* Variable Usage (Devamı) */
+/********************************************/
+body {
+  font-family: $fontFamily; // Sayfa içindeki metinlerin fontu
+  background-color: $bgColor; // Sayfa arkaplan rengi
+  font-size: $fontSize; // Sayfa içindeki metinlerin boyutu
+  color: $fontColor; // Sayfa içindeki metinlerin rengi
+}
+```
+
+- `font-family`, `background-color`, `font-size`, ve `color` özellikleri, önce tanımlanan değişkenlerin değerlerini kullanarak sayfa genelinde uygulanır. Bu, stil düzenini daha tutarlı ve bakımını daha kolay hale getirir.
+
+Bu kod, bir web sayfasının genel stilini tanımlamak için kullanılan bir dizi değişkeni ve bu değişkenleri kullanarak sayfanın temel özelliklerini belirleyen bir CSS kodudur. Bu şekilde, özelliklerin değerleri kolayca değiştirilebilir ve sayfa genelindeki tutarlılık sağlanabilir.
