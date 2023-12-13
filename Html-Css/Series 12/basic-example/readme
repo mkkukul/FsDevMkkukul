@@ -57,3 +57,67 @@ body {
 - `font-family`, `background-color`, `font-size`, ve `color` özellikleri, önce tanımlanan değişkenlerin değerlerini kullanarak sayfa genelinde uygulanır. Bu, stil düzenini daha tutarlı ve bakımını daha kolay hale getirir.
 
 Bu kod, bir web sayfasının genel stilini tanımlamak için kullanılan bir dizi değişkeni ve bu değişkenleri kullanarak sayfanın temel özelliklerini belirleyen bir CSS kodudur. Bu şekilde, özelliklerin değerleri kolayca değiştirilebilir ve sayfa genelindeki tutarlılık sağlanabilir.
+
+
+Tabii ki, aşağıda belirtilen kod parçacıklarını satır satır açıklayalım:
+
+```scss
+//******* HEADER *********/ 
+header {
+  background-color: $navBgColor; // Header'ın arka plan rengi değişken değeri
+  display: flex; // Header'ı flex konteyner olarak düzenle
+  justify-content: space-between; // Çocuk öğeleri arasında boşluk bırakarak sağa ve sola hizala
+  align-items: center; // Çocuk öğeleri dikeyde ortala
+  padding: 1rem; // Header'a bir kenarlık ekle
+  img {
+    width: 80px; // Resmin genişliği
+    border: $myBorder; // Resmin kenarlık stil ve rengi
+    border-radius: 10px; // Resmin kenar yuvarlaklığı
+  }
+  ul {
+    list-style-type: none; // Sırasız liste işaretini kaldır
+    li {
+      display: inline-block; // Liste öğelerini yan yana hizala
+      padding: 0.5rem; // Liste öğelerine iç içe boşluk ekle
+      &:hover {
+        text-decoration: underline; // Liste öğelerine mouse üzerine gelindiğinde alt çizgi ekle
+      }
+    }
+  }
+  a {
+    color: $fontColor; // Bağlantıların metin rengi
+    text-decoration: none; // Bağlantılardaki alt çizgileri kaldır
+  }
+}
+
+//******* BANNER *********/ 
+.banner {
+  display: flex; // Banner'ı flex konteyner olarak düzenle
+  justify-content: space-between; // Çocuk öğeleri arasında boşluk bırakarak sağa ve sola hizala
+  align-items: center; // Çocuk öğeleri dikeyde ortala
+  background-color: $bannerBgColor; // Banner'ın arka plan rengi değişken değeri
+  padding: 1rem; // Banner'a bir kenarlık ekle
+  line-height: 2rem; // Satır yüksekliği
+  aside {
+    button {
+      padding: 0.5rem; // Butona iç içe boşluk ekle
+      border: none; // Butonun kenarlığını kaldır
+      border-radius: 5px; // Butonun kenar yuvarlaklığı
+      background-color: $navBgColor; // Butonun arka plan rengi değişken değeri
+      margin-top: 1rem; // Butonu yukarıya doğru biraz uzaklaştır
+      margin-right: 0.5rem; // Butonu sağa doğru biraz uzaklaştır
+      &:hover {
+        background-color: pink; // Butona mouse üzerine gelindiğinde arka plan rengini değiştir
+        cursor: pointer; // Mouse'un üzerine geldiğinde el simgesi göster
+      }
+    }
+  }
+  img {
+    width: 30%; // Resmin genişliği
+    min-width: 250px; // Minimum genişlik
+    max-width: 400px; // Maksimum genişlik
+  }
+}
+```
+
+Bu açıklamalar, `header` ve `banner` elemanlarının stil özelliklerini ve içerdikleri alt elemanların stillerini anlatmaktadır. Bu stillemeler sayesinde HTML içerikleri belirli bir düzene oturtulmuş ve belirli bir tasarım diline uymuş olacaktır.
