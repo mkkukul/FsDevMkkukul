@@ -116,6 +116,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .project-bgImg-container .projects__bio-image {
   text-align: center;
   margin-bottom: 0.5rem;
