@@ -57,7 +57,6 @@ console.log("******* Objects *********");
 // //? Global alanda window objesini gosterir.
 // console.log(this);
 // window.alert("Merhaba");
-
 //* ---------------------------------------------------------
 //* 3- Object literal (En cok tercih edilen yontem)
 //* ---------------------------------------------------------
@@ -78,7 +77,6 @@ console.log("******* Objects *********");
 // console.log(worker.languages[2]);
 // 
 // worker["languages"].forEach((l) => console.log(l));
-// 
 // worker.dob = "1990";
 // worker.email = "can@gmail.com";
 // console.log(worker);
