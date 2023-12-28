@@ -234,8 +234,8 @@ console.log("******* Objects *********");
 //   { name: "Hazel", surname: "Nut", job: "developer", age: 20 },
 // ]; //* JSON
 
-console.log(team);
-console.log(team[2]);
+// console.log(team);
+// console.log(team[2]);
 
 //* Ornek1: team dizisindeki job'lari tek tek yazdiriniz.
 team.forEach((person) => console.log(person.job));
