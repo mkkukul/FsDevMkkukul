@@ -178,9 +178,9 @@ console.log("******* Objects *********");
 
 //? Objelerin key ve value'larini okumak icin built-in metotlar vardir.
 //? Bu mettotlar aslinda objelerin key ve/veya value'lari bir dizi olarak dondurur.
-console.log(Object.keys(people));
-console.log(Object.values(people));
-console.log(Object.entries(people));
+// console.log(Object.keys(people));
+// console.log(Object.values(people));
+// console.log(Object.entries(people));
 
 //! FOR - IN
 //* for (key in object) {
