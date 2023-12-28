@@ -170,8 +170,8 @@ console.log("******* Objects *********");
 //   },
 // };
 // 
-console.log(people); //? {person1: {…}, person2: {…}}
-console.log("Salary of P2:", people.person2.salary);
+// console.log(people); //? {person1: {…}, person2: {…}}
+// console.log("Salary of P2:", people.person2.salary);
 
 //? Javascript'de Objeler default olarak iterable degildir.
 //? Ama for in ve for of donguleri ile itere edilebilirler.
