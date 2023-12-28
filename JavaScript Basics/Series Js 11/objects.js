@@ -124,7 +124,6 @@ console.log("******* Objects *********");
   //   return `${this.name} is ${this.calculateAge()} years old`;
   // },
 // };
-
 //! NOT: arrow fonksiyonlari ozellikle callback fonksiyonu olarak
 //! kullanilmak ve bu fonksiyonlarda this keyword kullanim
 //! gereksinimini kaldirmak icin gelistirilmistir.
