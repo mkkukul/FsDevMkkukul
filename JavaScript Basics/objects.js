@@ -187,10 +187,10 @@ console.log("******* Objects *********");
 //*   // code block to be executed
 //* }
 
-for (let person in people) {
-  console.log(person);
-  console.log(people[person]);
-}
+// for (let person in people) {
+//   console.log(person);
+//   console.log(people[person]);
+// }
 
 //! FOR - OF
 //* for (x of iterable) {
