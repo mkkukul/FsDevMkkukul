@@ -125,7 +125,7 @@ console.log("******* Objects *********");
   //   console.log(this); //? window
   //   return `${this.name} is ${this.calculateAge()} years old`;
   // },
-};
+// };
 
 //! NOT: arrow fonksiyonlari ozellikle callback fonksiyonu olarak
 //! kullanilmak ve bu fonksiyonlarda this keyword kullanim
