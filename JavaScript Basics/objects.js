@@ -260,7 +260,7 @@ console.log("******* Objects *********");
 //   };
 // });
 
-console.log(teamFullName);
+// console.log(teamFullName);
 
 //* Ornek4: Yasi(age) 22 'den kucuk esit olan kisilerin adlarini (name) listeyiniz.
 
