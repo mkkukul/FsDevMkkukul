@@ -196,34 +196,34 @@ console.log("******* Objects *********");
 //* for (x of iterable) {
 //*   code block to be executed
 //* }
-console.log("****************");
-for (let key of Object.keys(people)) {
-  console.log(key);
-}
+// console.log("****************");
+// for (let key of Object.keys(people)) {
+//   console.log(key);
+// }
+// 
+// console.log("****************");
+// ? people objesindeki tum salary 'leri yazdir
+// for (let v of Object.values(people)) {
+//   console.log(v.salary);
+//   console.log(v["salary"]);
+// }
 
-console.log("****************");
 //? people objesindeki tum salary 'leri yazdir
-for (let v of Object.values(people)) {
-  console.log(v.salary);
-  // console.log(v["salary"]);
-}
-
-//? people objesindeki tum salary 'leri yazdir
-for (let [k, v] of Object.entries(people)) {
-  console.log(`${k} - ${v.salary}`);
-}
+// for (let [k, v] of Object.entries(people)) {
+//   console.log(`${k} - ${v.salary}`);
+// }
 
 //! ARRAY METOTLARI ILE
-console.log("********");
-Object.keys(people).forEach((p) => console.log(p));
-console.log("********");
-Object.values(people).forEach((p) => console.log(p.surname));
+// console.log("********");
+// Object.keys(people).forEach((p) => console.log(p));
+// console.log("********");
+// Object.values(people).forEach((p) => console.log(p.surname));
 
 //? job = developer olanlarin dob degelerini yazdiriniz.
-console.log("*** DOB ****");
-Object.values(people)
-  .filter((p) => p.job === "developer")
-  .forEach((p) => console.log(p.dob));
+// console.log("*** DOB ****");
+// Object.values(people)
+//   .filter((p) => p.job === "developer")
+//   .forEach((p) => console.log(p.dob));
 
 //********************************************************
 //* JSON => Javascript Object Notation
