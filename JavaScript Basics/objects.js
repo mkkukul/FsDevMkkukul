@@ -264,7 +264,7 @@ console.log("******* Objects *********");
 
 //* Ornek4: Yasi(age) 22 'den kucuk esit olan kisilerin adlarini (name) listeyiniz.
 
-team.filter((p) => p.age <= 22).forEach((p) => console.log(p.name));
+// team.filter((p) => p.age <= 22).forEach((p) => console.log(p.name));
 
 //* Ornek5: 22 yasindan kucuk ve esit olanlarin isimlerini diziye saklayiniz.
 
