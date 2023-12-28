@@ -253,12 +253,12 @@ console.log("******* Objects *********");
 // }));
 
 //?Alternativly
-const teamFullName = team.map((p) => {
-  return {
-    fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
-    age: p.age + 5,
-  };
-});
+// const teamFullName = team.map((p) => {
+//   return {
+    // fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
+    // age: p.age + 5,
+//   };
+// });
 
 console.log(teamFullName);
 
