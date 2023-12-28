@@ -238,10 +238,10 @@ console.log("******* Objects *********");
 // console.log(team[2]);
 
 //* Ornek1: team dizisindeki job'lari tek tek yazdiriniz.
-team.forEach((person) => console.log(person.job));
+// team.forEach((person) => console.log(person.job));
 
 //* Ornek2: age'leri bir artirarak yeni bir diziye saklayiniz.
-const ages = team.map((p) => p.age + 1);
+// const ages = team.map((p) => p.age + 1);
 
 //* Ornek3: name ve surname'leri birlestirip buyuk harfe ceviren ve
 //* bunu fullName key'i olarak saklayan, ayni zamanda age degerlerini 5
