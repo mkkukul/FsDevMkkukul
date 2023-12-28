@@ -269,7 +269,7 @@ console.log("******* Objects *********");
 //* Ornek5: 22 yasindan kucuk ve esit olanlarin isimlerini diziye saklayiniz.
 
 // const teamUnder22 = team.filter((x) => x.age <= 22).map((p) => p.name);
-console.log(teamUnder22);
+// console.log(teamUnder22);
 
 //* Ornek6: ortalama yasi hesaplayiniz.
 const avgAges =
