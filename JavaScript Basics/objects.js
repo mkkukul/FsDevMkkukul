@@ -228,11 +228,11 @@ console.log("******* Objects *********");
 //********************************************************
 //* JSON => Javascript Object Notation
 //********************************************************
-const team = [
-  { name: "Josh", surname: "Adams", job: "developer", age: 30 },
-  { name: "Mary", surname: "Bary", job: "tester", age: 22 },
-  { name: "Hazel", surname: "Nut", job: "developer", age: 20 },
-]; //* JSON
+// const team = [
+//   { name: "Josh", surname: "Adams", job: "developer", age: 30 },
+//   { name: "Mary", surname: "Bary", job: "tester", age: 22 },
+//   { name: "Hazel", surname: "Nut", job: "developer", age: 20 },
+// ]; //* JSON
 
 console.log(team);
 console.log(team[2]);
