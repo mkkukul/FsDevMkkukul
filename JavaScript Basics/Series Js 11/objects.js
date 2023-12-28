@@ -131,7 +131,6 @@ console.log("******* Objects *********");
 //! olarak kullanilirsa, this kelimesi global scope'u (window nesnesini)
 //! gösterir. Bunu engellemek için object fonksiyonlarini tanimlarken
 //! diger (func. expression veya declaration) yontemlerini kullanabilir.
-
 // console.log("Age:", personal.calculateAge());
 // console.log("SUMMARY:", personal.summary());
 
