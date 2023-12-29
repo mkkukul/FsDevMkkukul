@@ -7,7 +7,7 @@
 //? verilerimiz icin  Object'leri kullanabiliriz.
 
 //? Object'lerde Key-value (property-value) yapisi kullanilir.
-//? Herhangi bir veriyi erismek icin property (key) adi kullanilir. dikkatli olun
+//? Herhangi bir veriyi erismek icin property (key) adi kullanilir. dikkatli olun 
 
 console.log("******* Objects *********");
 
