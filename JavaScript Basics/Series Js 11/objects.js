@@ -16,8 +16,9 @@ console.log("******* Objects *********");
 //* 1- Object() class'ından new Operatörü ile
 //* ---------------------------------------------------------
 const arabalar = new Object();
-arabalar.marka = "BMW"
-arabalar.motor = "1.3"
+arabalar.marka = "BMW",
+arabalar.motor = "1.3";
+arabalar
 // const arabalar = new Object();
 // arabalar.marka = "BMW";
 // arabalar.motor = "1.3";
