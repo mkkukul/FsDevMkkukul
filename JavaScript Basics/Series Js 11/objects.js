@@ -18,7 +18,7 @@ console.log("******* Objects *********");
 const arabalar = new Object();
 arabalar.marka = "BMW",
 arabalar.motor = "1.3";
-arabalar
+arabalar.model 
 // const arabalar = new Object();
 // arabalar.marka = "BMW";
 // arabalar.motor = "1.3";
