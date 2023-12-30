@@ -47,6 +47,18 @@ console.log(arabalar);
 
 // console.log(arabalar.lpg); //? .notation
 // console.log("MODEL:", arabalar["model"]); //? Square bracket notation
+// Bu kod parçaları, bir JavaScript nesnesinin özelliklerine nasıl erişileceğini farklı yollarla göstermektedir.
+
+// 1. .notation (Noktalı Notasyonu) ile özelliklere erişim:
+// .notation kullanarak, nesnenin özelliklerine doğrudan nokta (.) ile erişebiliriz.
+// Örneğin, 'lpg' adındaki özelliğe bu şekilde erişebiliriz:
+// console.log(arabalar.lpg);
+
+// 2. Square bracket (Köşeli Parantez) kullanarak özelliklere erişim:
+// Köşeli parantez kullanarak, nesnenin özelliklerine dizi indeksi gibi erişebiliriz.
+// Bu yöntemde, özellik adını bir string olarak köşeli parantez içine yazarak erişim sağlanır.
+// Örneğin, 'model' adındaki özelliğe bu şekilde erişebiliriz:
+// console.log("MODEL:", arabalar["model"]);
 
 // //? Square bracket yonteminin en buyuk avantaji key degerini
 // //? degisken olarak kullanabilmemizdir.
