@@ -140,11 +140,26 @@ salaries
 //*                 REDUCE METHOD
 //* ======================================================
 
-// const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+// Bu bir JavaScript kodudur. Amacı, belirli bir maaş listesinin toplamını hesaplamaktır.
 
+// Maaşları bir dizi içinde tanımlıyoruz. Her bir eleman, bir kişinin maaşını temsil eder.
+const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+
+// reduce() fonksiyonu, bir dizi üzerinde döngü yaparak dizi elemanlarını bir araya getirir.
+// İlk parametre olarak bir fonksiyon alır. Bu fonksiyon, her bir dizi elemanı üzerinde çalışırken nasıl bir işlem yapılacağını tanımlar.
+// İkinci parametre olarak ise başlangıç değerini alır. Bu durumda başlangıç değeri 0'dır.
 const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
 
+// reduce() fonksiyonu tamamlandığında, toplam değeri döndürür. Bu değer, bütün maaşların toplamını temsil eder.
+
+// Son olarak, konsola toplam maaş değerini yazdırıyoruz.
 console.log("SUM:", sumOfSalaries);
+
+// const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+
+// const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
+
+// console.log("SUM:", sumOfSalaries);
 
 //? Ornek: Bir Firma, 9000 TL den az olan maaşlara %10 zam yapmak istiyor
 //? ve zam yapılan bu kişilere toplam kaç TL ödeneceğini bilmek istiyor.
