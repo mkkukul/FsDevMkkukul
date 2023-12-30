@@ -65,8 +65,8 @@ console.log(arabalar);
 // const key = "mark";
 // console.log(arabalar[key]);
 
-// arabalar.motor = "1.6";
-// console.log(arabalar);
+arabalar.motor = "1.6";
+console.log(arabalar);
 
 // //* ---------------------------------------------------------
 // //* 2- object constructor'i kullanarak (OOP ile ayrintilandirilacak)
