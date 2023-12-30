@@ -179,7 +179,8 @@ const worker = {
 
 // Nesne kopyalama yöntemlerini göstermek için örnekler:
 // 1. Shallow Copy (Yüzeysel Kopyalama)
-// const person = worker; // Bu, nesnenin referansını kopyalar, yani aynı nesneyi işaret eder.
+// const person = worker; 
+// Bu, nesnenin referansını kopyalar, yani aynı nesneyi işaret eder.
 // console.log("PERSON:", person);
 
 // Ancak bu yöntem, derinlemesine bir kopyalama yapmaz. Yani, orijinal nesnedeki değişiklikler kopyalanan nesneyi de etkiler.
@@ -239,6 +240,13 @@ const worker = {
 //* ======================================================
 //*              Object Metotlari
 //* ======================================================
+const personel = {
+  name: "Can",
+  surname: "Canan",
+  dob: "1990",
+  job: "developer",
+  drivingLicense: true,
+}
 // 
 // const personal = {
 //   name: "Can",
