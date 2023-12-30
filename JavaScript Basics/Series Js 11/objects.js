@@ -90,9 +90,11 @@ console.log("******* Objects *********");
 //! "new" anahtar kelimesi ile Personel fonksiyonundan yeni nesneler oluşturuluyor.
 // kisi1 adında bir nesne oluşturuluyor ve belirtilen parametrelerle dolduruluyor.
 // const kisi1 = new Personel(123456789, "Mustafa", 15000);
-
 // kisi2 adında bir nesne oluşturuluyor ve yine belirtilen parametrelerle dolduruluyor.
 // const kisi2 = new Personel(123216789, "Canan", 15000);
+// console.log(kisi1.ad);
+// console.log(kisi2.maas);
+// console.log(kisi2["id"]);
 
 // function Personel(id, ad,maas){
     // this.Id = id;
