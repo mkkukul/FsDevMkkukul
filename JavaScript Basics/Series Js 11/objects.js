@@ -74,12 +74,14 @@ console.log(arabalar);
 
 // //? Object Constructure kuurucu fonksiyon
 function Personel(id, ad,maas){
-    this.perId = id;
-    this.perAd = "Mustafa";
-    this.maas = 15000;
+    this.Id = id;
+    this.Ad = ad;
+    this.maas = maas;
+    console.log(this);
 }
 const kisi1 = new Personel(123456789,"Mustafa",15000);
-console.log(kisi1);
+const kisi2 = new Personel(123216789,"Canan",15000);
+// console.log(kisi1);
 // function Personel(id, ad, maas) {
 //   this.id = id;
 //   this.ad = ad;
