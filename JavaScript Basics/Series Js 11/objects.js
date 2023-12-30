@@ -246,7 +246,15 @@ const personel = {
   dob: "1990",
   job: "developer",
   drivingLicense: true,
-}
+  calculateAge: function(){
+    return new Date().getFullYear() - this.dob;
+  },
+  ozet:() => {
+    return `${this.name} is ${this.calculateAge()}yearsold`;
+  },
+};
+clg
+
 // 
 // const personal = {
 //   name: "Can",
