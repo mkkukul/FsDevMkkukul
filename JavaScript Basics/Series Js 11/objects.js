@@ -125,6 +125,19 @@ console.log("******* Objects *********");
 //* ---------------------------------------------------------
 //* 3- Object literal (En cok tercih edilen yontem)
 //* ---------------------------------------------------------
+const worker = {
+    name:"Can",
+    surname:"Canan",
+    age: 33,
+    job: "developer",
+    languages: [ "C++", "Java", "Javacript", "Pyhton", "Go"],
+    salary:140000,
+};
+console.log(worker);
+console.log("Lang:", worker.job);
+console.log("Lang:", worker["languages"]);
+
+
 // 
 // const worker = {
 //   name: "Can",
