@@ -18,23 +18,23 @@ console.log("******* Objects *********");
 // Bu bir JavaScript kodudur. Amaç, bir arabaya ait bilgileri içeren bir nesne oluşturmaktır.
 
 // Arabalar adında boş bir nesne oluşturuluyor.
-const arabalar = new Object();
+// const arabalar = new Object();
 
 // Oluşturulan arabalar nesnesinin özelliklerine (properties) değerler atanıyor.
 // 'marka' adında bir özellik ekleniyor ve değeri "BMW" olarak atanıyor.
-arabalar.marka = "BMW";
+// arabalar.marka = "BMW";
 
 // 'motor' adında bir özellik ekleniyor ve değeri "1.3" olarak atanıyor.
-arabalar.motor = "1.3";
+// arabalar.motor = "1.3";
 
 // 'model' adında bir özellik ekleniyor ve değeri 2022 olarak atanıyor.
-arabalar.model = 2022;
+// arabalar.model = 2022;
 
 // 'lpg' adında bir özellik ekleniyor ve değeri true olarak atanıyor.
-arabalar.lpg = true;
+// arabalar.lpg = true;
 
 // Oluşturulan ve özellikleri atanmış arabalar nesnesi, konsola yazdırılıyor.
-console.log(arabalar);
+// console.log(arabalar);
 
 // const arabalar = new Object();
 // arabalar.marka = "BMW";
@@ -49,12 +49,12 @@ console.log(arabalar);
 // console.log("MODEL:", arabalar["model"]); //? Square bracket notation
 // Bu kod parçaları, bir JavaScript nesnesinin özelliklerine nasıl erişileceğini farklı yollarla göstermektedir.
 
-// 1. .notation (Noktalı Notasyonu) ile özelliklere erişim:
+//! 1. .notation (Noktalı Notasyonu) ile özelliklere erişim:
 // .notation kullanarak, nesnenin özelliklerine doğrudan nokta (.) ile erişebiliriz.
 // Örneğin, 'lpg' adındaki özelliğe bu şekilde erişebiliriz:
 // console.log(arabalar.lpg);
 
-// 2. Square bracket (Köşeli Parantez) kullanarak özelliklere erişim:
+//! 2. Square bracket (Köşeli Parantez) kullanarak özelliklere erişim:
 // Köşeli parantez kullanarak, nesnenin özelliklerine dizi indeksi gibi erişebiliriz.
 // Bu yöntemde, özellik adını bir string olarak köşeli parantez içine yazarak erişim sağlanır.
 // Örneğin, 'model' adındaki özelliğe bu şekilde erişebiliriz:
