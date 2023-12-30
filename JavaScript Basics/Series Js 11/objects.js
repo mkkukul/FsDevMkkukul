@@ -65,14 +65,21 @@ console.log(arabalar);
 // const key = "mark";
 // console.log(arabalar[key]);
 
-arabalar.motor = "1.6";
-console.log(arabalar);
+// arabalar.motor = "1.6";
+// console.log(arabalar);
 
 // //* ---------------------------------------------------------
 // //* 2- object constructor'i kullanarak (OOP ile ayrintilandirilacak)
 // //* ---------------------------------------------------------
 
-// //? Object Constructure
+// //? Object Constructure kuurucu fonksiyon
+function Personel(id, ad,maas){
+    this.perId = id;
+    this.perAd = "Mustafa";
+    this.maas = 15000;
+}
+const kisi1 = new Personel(123456789,"Mustafa",15000);
+console.log(kisi1);
 // function Personel(id, ad, maas) {
 //   this.id = id;
 //   this.ad = ad;
