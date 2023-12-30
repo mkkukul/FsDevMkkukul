@@ -165,9 +165,28 @@ console.log("SUM:", sumOfSalaries);
 //? ve zam yapılan bu kişilere toplam kaç TL ödeneceğini bilmek istiyor.
 //? İlgili programı yazınız.
 
-const sumOfRaisedSalaries = salaries
-  .filter((sal) => sal <= 9000)
-  .map((sal) => Math.trunc(sal * 1.1))
-  .reduce((acc, salary) => acc + salary, 0);
+// Bu bir JavaScript kodudur. Amacı, 9000 ve altındaki maaşların %10 artırılarak toplamını hesaplamaktır.
 
+// Maaşları bir dizi içinde tanımlıyoruz. Her bir eleman, bir kişinin maaşını temsil eder.
+const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+
+// İlk olarak, maaşları 9000 ve altında olanları filtreleyerek alıyoruz.
+// filter() fonksiyonu, belirli bir koşulu sağlayan dizi elemanlarını seçer.
+const sumOfRaisedSalaries = salaries
+  .filter((sal) => sal <= 9000) // 9000 ve altındaki maaşları filtrele
+  // Daha sonra, filtrelenen maaşları %10 oranında artırıyoruz. 
+  // Math.trunc() fonksiyonu, ondalık kısmı olmayan tam bir sayıya dönüştürür.
+  .map((sal) => Math.trunc(sal * 1.1)) // Maaşları %10 artır
+  // Artırılan maaşların toplamını hesaplamak için reduce() fonksiyonunu kullanıyoruz.
+  .reduce((acc, salary) => acc + salary, 0); // Artırılmış maaşların toplamını hesapla
+
+// Son olarak, konsola artırılmış maaşların toplam değerini yazdırıyoruz.
 console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
+
+
+// const sumOfRaisedSalaries = salaries
+  // .filter((sal) => sal <= 9000)
+  // .map((sal) => Math.trunc(sal * 1.1))
+  // .reduce((acc, salary) => acc + salary, 0);
+// 
+// console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
