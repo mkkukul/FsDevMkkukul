@@ -15,11 +15,25 @@ console.log("******* Objects *********");
 //* ---------------------------------------------------------
 //* 1- Object() class'ından new Operatörü ile
 //* ---------------------------------------------------------
+// Bu bir JavaScript kodudur. Amaç, bir arabaya ait bilgileri içeren bir nesne oluşturmaktır.
+
+// Arabalar adında boş bir nesne oluşturuluyor.
 const arabalar = new Object();
-arabalar.marka = "BMW",
+
+// Oluşturulan arabalar nesnesinin özelliklerine (properties) değerler atanıyor.
+// 'marka' adında bir özellik ekleniyor ve değeri "BMW" olarak atanıyor.
+arabalar.marka = "BMW";
+
+// 'motor' adında bir özellik ekleniyor ve değeri "1.3" olarak atanıyor.
 arabalar.motor = "1.3";
+
+// 'model' adında bir özellik ekleniyor ve değeri 2022 olarak atanıyor.
 arabalar.model = 2022;
+
+// 'lpg' adında bir özellik ekleniyor ve değeri true olarak atanıyor.
 arabalar.lpg = true;
+
+// Oluşturulan ve özellikleri atanmış arabalar nesnesi, konsola yazdırılıyor.
 console.log(arabalar);
 
 // const arabalar = new Object();
