@@ -165,19 +165,35 @@ console.log("******* Objects *********");
   
 
 
+// JavaScript'te bir nesnenin nasıl kopyalanacağını ve bu kopyalamanın nasıl çalıştığını gösteren bir örnek.
 
-// const worker = {
-    // name:"Can",
-    // surname:"Canan",
-    // age: 33,
-    // job: "developer",
-    // languages: [ "C++", "Java", "Javacript", "Pyhton", "Go"],
-    // salary:140000,
-// };
-// console.log(worker);
-// console.log("Lang:", worker.job);
-// console.log("Lang:", worker["languages"]);
+// İlk olarak, bir worker nesnesi tanımlanıyor. Ancak bu kod yorum satırında olduğu için işlevsel değil.
+const worker = {
+  name: "Can",
+  surname: "Canan",
+  age: 33,
+  job: "developer",
+  languages: ["C++", "Java", "Javacript", "Pyhton", "Go"],
+  salary: "140000",
+};
 
+// Nesne kopyalama yöntemlerini göstermek için örnekler:
+// 1. Shallow Copy (Yüzeysel Kopyalama)
+// const person = worker; // Bu, nesnenin referansını kopyalar, yani aynı nesneyi işaret eder.
+// console.log("PERSON:", person);
+
+// Ancak bu yöntem, derinlemesine bir kopyalama yapmaz. Yani, orijinal nesnedeki değişiklikler kopyalanan nesneyi de etkiler.
+
+// 2. Deep Copy (Derin Kopyalama)
+// Derin kopyalama yapmak için JSON.stringify ve JSON.parse yöntemleri birlikte kullanılır.
+// let deepCopyOfWorker = JSON.parse(JSON.stringify(worker));
+// Bu yöntemle, orijinal nesneyle tamamen ayrı ve bağımsız bir kopya oluşturulur. Yani, birinde yapılan değişiklik diğerini etkilemez.
+
+// Örnek olarak derin kopyalanan nesne üzerinde bir değişiklik yapılıyor ve bu kopya konsola yazdırılıyor.
+// deepCopyOfWorker.dob = "2022";
+// console.log("DEEP:", deepCopyOfWorker);
+
+// Bu şekilde, JavaScript'te nesne kopyalamanın farklı yöntemlerini ve bu yöntemlerin nasıl çalıştığını gösteren bir kod parçası oluşturulmuş.
 
 // 
 // const worker = {
