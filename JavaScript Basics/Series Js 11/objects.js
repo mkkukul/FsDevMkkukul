@@ -75,24 +75,24 @@ console.log(arabalar);
 // //? Object Constructure kuurucu fonksiyon
 // Bu kod parçası, bir JavaScript fonksiyonu kullanarak ve "new" anahtar kelimesiyle birlikte nesne oluşturma örneğini göstermektedir.
 
-// Personel adında bir fonksiyon tanımlanıyor. Bu fonksiyon, belirli özelliklere sahip bir personel nesnesi oluşturur.
-function Personel(id, ad, maas) {
+//! Personel adında bir fonksiyon tanımlanıyor. Bu fonksiyon, belirli özelliklere sahip bir personel nesnesi oluşturur.
+// function Personel(id, ad, maas) {
     // Fonksiyon içerisinde "this" anahtar kelimesi, oluşturulacak olan nesneyi temsil eder.
     // Belirtilen parametreler (id, ad, maas) ile nesnenin özellikleri tanımlanır.
-    this.Id = id;     // Id özelliği atanıyor.
-    this.Ad = ad;     // Ad özelliği atanıyor.
-    this.maas = maas; // maas özelliği atanıyor.
+    // this.Id = id;     // Id özelliği atanıyor.
+    // this.Ad = ad;     // Ad özelliği atanıyor.
+    // this.maas = maas; // maas özelliği atanıyor.
     
     // Oluşturulan her personel nesnesini konsola yazdırmak için kullanılır.
-    console.log(this);
-}
+    // console.log(this);
+// }
 
-// "new" anahtar kelimesi ile Personel fonksiyonundan yeni nesneler oluşturuluyor.
+//! "new" anahtar kelimesi ile Personel fonksiyonundan yeni nesneler oluşturuluyor.
 // kisi1 adında bir nesne oluşturuluyor ve belirtilen parametrelerle dolduruluyor.
-const kisi1 = new Personel(123456789, "Mustafa", 15000);
+// const kisi1 = new Personel(123456789, "Mustafa", 15000);
 
 // kisi2 adında bir nesne oluşturuluyor ve yine belirtilen parametrelerle dolduruluyor.
-const kisi2 = new Personel(123216789, "Canan", 15000);
+// const kisi2 = new Personel(123216789, "Canan", 15000);
 
 // function Personel(id, ad,maas){
     // this.Id = id;
