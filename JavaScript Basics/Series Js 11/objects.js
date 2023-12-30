@@ -136,6 +136,9 @@ const worker = {
 console.log(worker);
 console.log("Lang:", worker.job);
 console.log("Lang:", worker["languages"]);
+console.log("Lang:",
+    worker["languages"].forEach((L))
+)
 
 
 // 
