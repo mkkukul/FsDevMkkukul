@@ -323,3 +323,6 @@ const teamFullName = team.map((p) => {
 
 // Oluşturulan 'teamFullName' dizisi konsola yazdırılır.
 console.log(teamFullName);
+//? 'team' dizisindeki kişiler filtrelenir. Yaşı 22 veya daha küçük olan kişiler bu filtreleme sonucunda elde edilir.
+// Bu kişilerin adları daha sonra bir liste olarak konsola yazdırılır.
+team.filter((p) => p.age <= 22).forEach((p) => console.log(p.name));
