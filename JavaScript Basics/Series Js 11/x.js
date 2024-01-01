@@ -269,3 +269,24 @@ Object.values(people)
   .forEach((p) => console.log(p.dob));   // Her bir kişinin dob özelliği konsola yazdırılır.
 
 // Bu çıktı, "developer" olarak belirtilen işteki kişilerin doğum tarihlerini konsola yazdıracaktır.
+
+//********************************************************
+//* JSON => Javascript Object Notation
+//********************************************************
+
+// 'team' adında bir dizi oluşturuldu. Bu dizi, farklı kişilere ait bilgileri JSON formatında içerir.
+// Her bir öğe (obje) içerisinde isim, soyisim, iş ve yaş gibi bilgiler bulunmaktadır.
+const team = [
+  { name: "Josh", surname: "Adams", job: "developer", age: 30 },
+  { name: "Mary", surname: "Bary", job: "tester", age: 22 },
+  { name: "Hazel", surname: "Nut", job: "developer", age: 20 },
+]; 
+//* JSON
+
+// 'console.log(team);' ifadesi, 'team' dizisindeki tüm öğeleri konsola yazdırır.
+// Bu, tüm takım üyelerinin bilgilerini gösterir.
+console.log(team);
+
+// 'console.log(team[2]);' ifadesi, 'team' dizisinin 2. indeksindeki öğeyi (objeyi) konsola yazdırır.
+// Bu, dizinin 2. indeksindeki (üçüncü sıradaki) kişi olan "Hazel Nut" bilgilerini gösterir.
+console.log(team[2]);
