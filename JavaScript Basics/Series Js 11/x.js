@@ -253,19 +253,19 @@ Object.values(people).forEach((p) => console.log(p.surname));
 // Bu çıktı, 'people' nesnesinin her bir değerinin 'surname' özelliğini konsola yazdıracaktır.
 
 
-//? ARRAY METOTLARI ILE
+//? job = developer olanlarin dob degelerini yazdiriniz.
 
-// 'Object.keys(people)' ifadesi, 'people' nesnesinin anahtarlarını bir dizi olarak döndürür.
-// 'forEach' metodu ile bu anahtarları dolaşıyoruz ve her bir anahtarı konsola yazdırıyoruz.
-console.log("********");
-Object.keys(people).forEach((p) => console.log(p));
+// 'Object.values(people)' ifadesi, 'people' nesnesinin tüm değerlerini bir dizi olarak döndürür.
+// 'filter' metodu ile bu değerler arasında bir filtreleme yapılır.
+// Filtreleme kriteri, kişinin 'job' özelliğinin "developer" olmasıdır.
+// Sonuç olarak, bu koşulu sağlayan kişilerin listesi alınır.
 
-// Bu çıktı, 'people' nesnesinin anahtarlarından oluşan bir diziyi konsola yazdıracaktır.
+console.log("*** DOB ****");
 
-console.log("********");
+// Sonuç olarak dönen kişilerin listesi, 'forEach' ile dolaşılır.
+// Her bir kişinin 'dob' özelliği konsola yazdırılır.
+Object.values(people)
+  .filter((p) => p.job === "developer")  // Filtreleme: job = "developer"
+  .forEach((p) => console.log(p.dob));   // Her bir kişinin dob özelliği konsola yazdırılır.
 
-// 'Object.values(people)' ifadesi, 'people' nesnesinin değerlerini bir dizi olarak döndürür.
-// 'forEach' metodu ile bu değerleri dolaşıyoruz ve her bir değerin 'surname' özelliğini konsola yazdırıyoruz.
-Object.values(people).forEach((p) => console.log(p.surname));
-
-// Bu çıktı, 'people' nesnesinin her bir değerinin 'surname' özelliğini konsola yazdıracaktır.
+// Bu çıktı, "developer" olarak belirtilen işteki kişilerin doğum tarihlerini konsola yazdıracaktır.
