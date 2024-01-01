@@ -310,3 +310,16 @@ const teamFullName = team.map((p) => ({
   age: p.age + 5,
 }));
 
+//? Alternatif bir yaklaşım kullanılarak, 'team' dizisindeki her bir öğe için yeni bir nesne oluşturulur.
+// 'teamFullName' adında bir dizi oluşturulmuştur.
+const teamFullName = team.map((p) => {
+  // Her bir kişinin adı ve soyadı büyük harfe çevrilir, ardından birleştirilip 'fullName' adında bir özellik olarak atanır.
+  // Aynı zamanda yaş değeri 5 artırılarak 'age' adında yeni bir özellik eklenir.
+  return {
+    fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
+    age: p.age + 5,
+  };
+});
+
+// Oluşturulan 'teamFullName' dizisi konsola yazdırılır.
+console.log(teamFullName);
