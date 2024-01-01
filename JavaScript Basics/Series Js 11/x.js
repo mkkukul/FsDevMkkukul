@@ -163,3 +163,23 @@ console.log(people); // Nesnenin tamamını gösterir
 
 // 'people' nesnesinin 'person2' özelliğinin 'salary' özelliğini konsola yazdırıyoruz.
 console.log("Salary of P2:", people.person2.salary); // 'person2' adlı kişinin maaşını gösterir
+
+//? JavaScript'te, nesneler (objects) doğrudan iterable (yineleyici) olarak kabul edilmezler. 
+//? Ancak, 'for...in' ve 'for...of' döngüleri ile üzerlerinde yineleme yapabiliriz.
+
+// Nesne üzerindeki key'leri (anahtarları) bir dizi olarak döndüren 'Object.keys()' metodunu kullanıyoruz.
+console.log(Object.keys(people)); 
+// Örnek çıktı: ["person1", "person2", "person3"] - 'people' nesnesinin anahtarlarından oluşan bir dizi döner.
+
+// Nesne üzerindeki value'ları (değerleri) bir dizi olarak döndüren 'Object.values()' metodunu kullanıyoruz.
+console.log(Object.values(people)); 
+// Örnek çıktı: [{name: "Can", surname: "Canan", ...}, {name: "John", surname: "Sweet", ...}, ...] 
+// - 'people' nesnesinin değerlerini içeren bir dizi döner.
+
+// Nesne üzerindeki her bir anahtar-değer çiftini bir dizi içinde döndüren 'Object.entries()' metodunu kullanıyoruz.
+console.log(Object.entries(people)); 
+// Örnek çıktı: 
+// [["person1", {name: "Can", surname: "Canan", ...}], 
+// ["person2", {name: "John", surname: "Sweet", ...}], 
+// ["person3", {name: "Steve", surname: "Job", ...}]]
+// - 'people' nesnesinin anahtar-değer çiftlerini içeren bir dizi döner.
