@@ -290,3 +290,23 @@ console.log(team);
 // 'console.log(team[2]);' ifadesi, 'team' dizisinin 2. indeksindeki öğeyi (objeyi) konsola yazdırır.
 // Bu, dizinin 2. indeksindeki (üçüncü sıradaki) kişi olan "Hazel Nut" bilgilerini gösterir.
 console.log(team[2]);
+
+//* Ornek1: team dizisindeki job'lari tek tek yazdiriniz.
+// 'team.forEach((person) => console.log(person.job));' ifadesi, 'team' dizisindeki her bir kişinin 'job' özelliğini konsola yazdırmak için kullanılır.
+team.forEach((person) => console.log(person.job));
+
+//* Ornek2: age'leri bir artirarak yeni bir diziye saklayiniz.
+// 'team.map((p) => p.age + 1);' ifadesi, 'team' dizisindeki her bir kişinin yaşını 1 artırarak yeni bir dizi oluşturur.
+const ages = team.map((p) => p.age + 1);
+
+//* Ornek3: name ve surname'leri birlestirip buyuk harfe ceviren ve
+//* bunu fullName key'i olarak saklayan, ayni zamanda age degerlerini 5
+//* arttirarak age key'ine saklayan ve olusan diziyi donduren kodu yazınız.
+
+// 'teamFullName' adında bir dizi oluşturulmuştur. Her bir öğe için, isim ve soyisim birleştirilip büyük harfe çevrilir.
+// Aynı zamanda yaş değeri 5 artırılarak 'age' adında yeni bir özellik eklenir.
+const teamFullName = team.map((p) => ({
+  fullName: p.name.toUpperCase() + " " + p.surname.toUpperCase(),
+  age: p.age + 5,
+}));
+
