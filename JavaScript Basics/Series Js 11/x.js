@@ -198,3 +198,28 @@ for (let person in people) {
 
 // Örneğin, 'person1', 'person2', 'person3' gibi anahtarları konsola yazdırırken, 
 // bu anahtarların karşılık gelen değerleri olan objeleri de ayrı ayrı konsola yazdırıyoruz.
+//! FOR - OF
+//* for (x of iterable) {
+//*   code block to be executed
+//* }
+
+console.log("****************");
+
+// 'Object.keys(people)' ifadesi, 'people' nesnesinin anahtarlarını (keys) bir dizi olarak döndürür.
+// Bu döngüde, 'for...of' ile bu anahtarları tek tek dolaşıyoruz ve her birini konsola yazdırıyoruz.
+for (let key of Object.keys(people)) {
+  console.log(key);
+}
+
+console.log("****************");
+
+// 'Object.values(people)' ifadesi, 'people' nesnesinin değerlerini (values) bir dizi olarak döndürür.
+// Bu döngüde, 'for...of' ile bu değerleri tek tek dolaşıyoruz ve her birinin 'salary' özelliğini konsola yazdırıyoruz.
+for (let v of Object.values(people)) {
+  // Her bir 'v' değerinin içerisindeki 'salary' özelliğini konsola yazdırıyoruz.
+  console.log(v.salary);
+  // Alternatif olarak aynı sonucu elde etmek için bu satırı da kullanabiliriz.
+  // console.log(v["salary"]);
+}
+
+// Bu döngüler, 'Object.keys()' ve 'Object.values()' metotları sayesinde nesnenin anahtarlarına ve değerlerine erişim sağlar.
