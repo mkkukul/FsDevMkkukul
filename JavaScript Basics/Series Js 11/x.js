@@ -223,3 +223,15 @@ for (let v of Object.values(people)) {
 }
 
 // Bu döngüler, 'Object.keys()' ve 'Object.values()' metotları sayesinde nesnenin anahtarlarına ve değerlerine erişim sağlar.
+//? people objesindeki tum salary 'leri yazdir
+
+// 'Object.entries(people)' ifadesi, 'people' nesnesinin anahtar-değer çiftlerini bir dizi olarak döndürür.
+// Her bir anahtar-değer çifti, bir dizi içerisinde iki eleman olarak döner: [anahtar, değer].
+// Bu döngüde, 'for...of' ile bu anahtar-değer çiftlerini tek tek dolaşıyoruz.
+for (let [k, v] of Object.entries(people)) {
+  // Her bir döngü iterasyonunda, anahtarı ve 'salary' özelliğini içeren değeri konsola yazdırıyoruz.
+  // Burada, template literal (şablon dizgesi) kullanarak hem anahtarı hem de salary değerini konsola yazdırıyoruz.
+  console.log(`${k} - ${v.salary}`);
+}
+
+// Bu döngü, 'Object.entries()' metodu sayesinde nesnenin her bir anahtarına ve bu anahtara ait değere erişim sağlar.
