@@ -251,3 +251,21 @@ console.log("********");
 Object.values(people).forEach((p) => console.log(p.surname));
 
 // Bu çıktı, 'people' nesnesinin her bir değerinin 'surname' özelliğini konsola yazdıracaktır.
+
+
+//? ARRAY METOTLARI ILE
+
+// 'Object.keys(people)' ifadesi, 'people' nesnesinin anahtarlarını bir dizi olarak döndürür.
+// 'forEach' metodu ile bu anahtarları dolaşıyoruz ve her bir anahtarı konsola yazdırıyoruz.
+console.log("********");
+Object.keys(people).forEach((p) => console.log(p));
+
+// Bu çıktı, 'people' nesnesinin anahtarlarından oluşan bir diziyi konsola yazdıracaktır.
+
+console.log("********");
+
+// 'Object.values(people)' ifadesi, 'people' nesnesinin değerlerini bir dizi olarak döndürür.
+// 'forEach' metodu ile bu değerleri dolaşıyoruz ve her bir değerin 'surname' özelliğini konsola yazdırıyoruz.
+Object.values(people).forEach((p) => console.log(p.surname));
+
+// Bu çıktı, 'people' nesnesinin her bir değerinin 'surname' özelliğini konsola yazdıracaktır.
