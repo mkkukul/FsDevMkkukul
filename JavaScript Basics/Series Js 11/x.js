@@ -183,3 +183,18 @@ console.log(Object.entries(people));
 // ["person2", {name: "John", surname: "Sweet", ...}], 
 // ["person3", {name: "Steve", surname: "Job", ...}]]
 // - 'people' nesnesinin anahtar-değer çiftlerini içeren bir dizi döner.
+//! FOR - IN
+//* for (key in object) {
+//*   // code block to be executed
+//* }
+
+// 'for...in' döngüsü ile 'people' nesnesinin her bir anahtarını (key) elde ediyoruz.
+for (let person in people) {
+  // Her bir anahtarı (key) konsola yazdırıyoruz.
+  console.log(person); 
+  // 'people' nesnesi üzerindeki bu anahtara (key) karşılık gelen değeri konsola yazdırıyoruz.
+  console.log(people[person]); 
+}
+
+// Örneğin, 'person1', 'person2', 'person3' gibi anahtarları konsola yazdırırken, 
+// bu anahtarların karşılık gelen değerleri olan objeleri de ayrı ayrı konsola yazdırıyoruz.
