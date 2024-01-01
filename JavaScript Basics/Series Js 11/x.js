@@ -333,3 +333,13 @@ const teamUnder22 = team.filter((x) => x.age <= 22).map((p) => p.name);
 
 //? Elde edilen yeni dizideki kişilerin isimleri 'teamUnder22' adlı değişkene atanır ve konsola yazdırılır.
 console.log(teamUnder22);
+
+//? 'team' dizisindeki kişilerin yaş ortalamasını hesaplamak için 'reduce' metodu kullanılır.
+// 'reduce' metodu, bir dizi üzerinde döngüye girer ve her bir eleman için belirtilen işlemi gerçekleştirir.
+// İlk parametre olarak toplam (sum) ve kişi (person) alınır. İkinci parametre olarak başlangıç değeri 0 verilir.
+// Her bir kişi için yaş değeri toplama eklenir.
+const avgAges =
+  team.reduce((sum, person) => (sum += person.age), 0) / team.length;
+
+//? Hesaplanan yaş ortalaması 'avgAges' değişkenine atanır ve konsola yazdırılır.
+console.log(avgAges);
