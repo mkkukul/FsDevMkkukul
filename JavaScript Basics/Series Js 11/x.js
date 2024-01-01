@@ -126,3 +126,40 @@ let deepCopyOfWorker = JSON.parse(JSON.stringify(worker));
 deepCopyOfWorker.dob = "2022";
 console.log("DEEP:", deepCopyOfWorker);
 
+// * ======================================================
+// *                  OBJECT ITERATION
+// * ======================================================
+
+// 'people' adında bir nesne oluşturuyoruz. Bu nesne, içerisinde farklı kişilere ait bilgileri barındıran iç içe nesneleri içerir.
+const people = {
+  person1: {
+    name: "Can",                      // İsim özelliği
+    surname: "Canan",                 // Soyisim özelliği
+    dob: "1990",                      // Doğum yılı özelliği
+    job: "developer",                 // Meslek özelliği
+    salary: "140000",                 // Maaş özelliği
+    drivingLicense: true              // Ehliyet bilgisi özelliği
+  },
+  person2: {
+    name: "John",                     // İsim özelliği
+    surname: "Sweet",                 // Soyisim özelliği
+    dob: "1990",                      // Doğum yılı özelliği
+    job: "tester",                    // Meslek özelliği
+    salary: "110000",                 // Maaş özelliği
+    drivingLicense: false             // Ehliyet bilgisi özelliği
+  },
+  person3: {
+    name: "Steve",                    // İsim özelliği
+    surname: "Job",                   // Soyisim özelliği
+    dob: "2000",                      // Doğum yılı özelliği
+    job: "developer",                 // Meslek özelliği
+    salary: "90000",                  // Maaş özelliği
+    drivingLicense: true              // Ehliyet bilgisi özelliği
+  }
+};
+
+// 'people' nesnesini konsola yazdırıyoruz.
+console.log(people); // Nesnenin tamamını gösterir
+
+// 'people' nesnesinin 'person2' özelliğinin 'salary' özelliğini konsola yazdırıyoruz.
+console.log("Salary of P2:", people.person2.salary); // 'person2' adlı kişinin maaşını gösterir
