@@ -39,3 +39,7 @@ worker["languages"].forEach((l)=> console.log(l))
 worker.dob = "1990";
 worker.email ="can@mail.com"
 console.log(worker)
+// worker["salary"] = worker["salary"]*1.1;
+worker["salary"]*= 1.1;
+console.log(worker["salary"])
+console.log(worker.salary)
