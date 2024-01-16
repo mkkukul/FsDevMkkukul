@@ -103,3 +103,7 @@ const people = {
 console.log(people.person1.name[1])
 console.log("Salary of P2",people.person2.salary)
 // console.log(people)
+for(let person in people){
+    console.log(person)
+    console.log(people[person])
+}
