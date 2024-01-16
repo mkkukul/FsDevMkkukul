@@ -51,3 +51,17 @@ let deepCobyOfWorker = JSON.parse(JSON.stringify(worker));
 // console.log(JSON.stringify(worker))
 deepCobyOfWorker.dob ="2022"
 console.log("DEEP:", deepCobyOfWorker)
+
+const personel = {
+    name :"Can",
+    surname :"Can",
+    dob :1990,
+    job :"developer",
+    salary :140000,
+    drivingLisence :true,
+    calculateAge: function() {
+        return new Date().getFullYear() - this.dob;
+    },
+};
+// new Date().getFullYear()
+console.log("DOB:",personel.calculateAge())
