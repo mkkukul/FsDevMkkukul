@@ -111,6 +111,6 @@ for(let person in people){
     console.log(person)
     console.log(people[person])
 }
-// for (let person of people) {
-    // console.log(person);
-// }
+for (let person of Object.keys(people)) {
+    console.log(person);
+}
