@@ -43,3 +43,11 @@ console.log(worker)
 worker["salary"]*= 1.1;
 console.log(worker["salary"])
 console.log(worker.salary)
+const person = worker;
+console.log("Person:", person)
+person.dob = "2000";
+// console.log()
+let deepCobyOfWorker = JSON.parse(JSON.stringify(worker));
+// console.log(JSON.stringify(worker))
+deepCobyOfWorker.dob ="2022"
+console.log("DEEP:", deepCobyOfWorker)
