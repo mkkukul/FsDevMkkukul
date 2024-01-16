@@ -62,6 +62,14 @@ const personel = {
     calculateAge: function() {
         return new Date().getFullYear() - this.dob;
     },
+    summary: function() {
+        return `${this.name} is ${this.calculateAge()} years old`;
+    }
+    // summary: () => {
+        // console.log(this)
+        // return `${this.name} is ${this.calculateAge()} years old`
+    // }
 };
 // new Date().getFullYear()
 console.log("DOB:",personel.calculateAge())
+console.log("SUMMARY:", personel.summary());
