@@ -18,6 +18,8 @@ function Personel(id,ad,maas){
     this.perId = id;
     this.perAd = ad;
     this.maas = 15000;
+    console.log(this)
 }
 const kisi1 = new Personel("1234567890", "Mustafa", 15000);
-console.log(kisi1)
+const kisi2 = new Personel("1234567800", "Canan", 12000);
+// console.log(kisi1)
