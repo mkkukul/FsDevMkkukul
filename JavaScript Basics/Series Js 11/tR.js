@@ -114,3 +114,6 @@ for(let person in people){
 for (let person of Object.keys(people)) {
     console.log(person);
 }
+for (let v of Object.values(people)) {
+    console.log(v.salary);
+}
