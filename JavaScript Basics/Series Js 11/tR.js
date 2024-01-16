@@ -76,7 +76,7 @@ console.log("SUMMARY:", personel.summary());
 
 const people = {
     person1: {
-        name: "Can",            
+        name: ["Can", "Mustafa"],            
         surname: "Canan",       
         dob: "1990",            
         job: "developer",       
@@ -101,3 +101,4 @@ const people = {
     },
 };
 console.log(people.person1["name"])
+console.log("Salary of P2",people.person2.salary)
