@@ -74,6 +74,7 @@ const personel = {
 console.log("DOB:",personel.calculateAge())
 console.log("SUMMARY:", personel.summary());
 
+
 const people = {
     person1: {
         name: ["Can", "Mustafa"],            
@@ -102,8 +103,14 @@ const people = {
 };
 console.log(people.person1.name[1])
 console.log("Salary of P2",people.person2.salary)
+console.log(Object.keys(people))
+console.log(Object.values(people))
+console.log(Object.entries(people))
 // console.log(people)
 for(let person in people){
     console.log(person)
     console.log(people[person])
 }
+// for (let person of people) {
+    // console.log(person);
+// }
