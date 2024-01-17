@@ -122,4 +122,7 @@ for (let [k,v] of Object.entries(people)) {
 }
 Object.keys(people).forEach((p => console.log(p)))
 Object.values(people).forEach((p) => console.log(p.surname))
-Object.values(people).forEach((p) => console.log(p.job))
+// Object.values(people).forEach((p) => console.log(p.job))
+Object.values(people)
+    .filter((p) => p.job === "developer")
+    .forEach((p) => console.log(p.dob))
