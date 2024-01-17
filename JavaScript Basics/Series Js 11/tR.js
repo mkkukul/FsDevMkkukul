@@ -126,3 +126,6 @@ Object.values(people).forEach((p) => console.log(p.surname))
 Object.values(people)
     .filter((p) => p.job === "developer")
     .forEach((p) => console.log(p.dob))
+
+
+    
