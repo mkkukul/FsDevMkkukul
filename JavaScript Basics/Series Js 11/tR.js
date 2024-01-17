@@ -117,3 +117,9 @@ for (let person of Object.keys(people)) {
 for (let v of Object.values(people)) {
     console.log(v.salary);
 }
+for (let [k,v] of Object.entries(people)) {
+    console.log(`${k} - ${v.salary}`);
+}
+Object.keys(people).forEach((p => console.log(p)))
+Object.values(people).forEach((p) => console.log(p.surname))
+Object.values(people).forEach((p) => console.log(p.job))
