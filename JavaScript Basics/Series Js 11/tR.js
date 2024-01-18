@@ -126,6 +126,23 @@ Object.values(people).forEach((p) => console.log(p.surname))
 Object.values(people)
     .filter((p) => p.job === "developer")
     .forEach((p) => console.log(p.dob))
-
-
     
+    //! **************JSON**************
+    
+    const team = [
+        { name: "Josh", surname: "Adams", job: "developer", age: 30 },
+        { name: "Mary", surname: "Bary", job: "tester", age: 22 },
+        { name: "Hazel", surname: "Nut", job: "developer", age: 20 },
+      ]; 
+      console.log(team)
+      console.log(team[2])
+
+      team.forEach((person)=> console.log(person.job))
+
+      const ages = team.map((p)=> p.age+1)
+      console.log(ages)
+
+      const teamFullName = team.map(p => ({
+       fullName: p.name.toLocaleUpperCase() + " " + p.surname.toLocaleUpperCase(),age: p.age+5, 
+      })  );
+      console.log(teamFullName)
