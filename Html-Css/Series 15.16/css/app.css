@@ -34,6 +34,7 @@
     width: 7rem;
     margin-bottom: 1rem;
   }
+  
   .carousel-indicators button {
     background-color: var(--red) !important;
     height: 0.4rem !important;
