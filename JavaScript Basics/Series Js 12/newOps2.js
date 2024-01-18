@@ -119,6 +119,9 @@
       
       console.log(ageSurname);
       console.log(pName, job);
+      
+      
       const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
       const automobiles = ["Truck", "Bus", "Car", "SUV"];
-      
+      // const allVehicles = [flyingVecihles, automobiles]
+      // console.log(allVehicles)
