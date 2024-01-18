@@ -121,7 +121,21 @@
       console.log(pName, job);
       
       
-      const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
-      const automobiles = ["Truck", "Bus", "Car", "SUV"];
-      // const allVehicles = [flyingVecihles, automobiles]
-      // console.log(allVehicles)
+     // Uçan taşıtları temsil eden bir dizi oluşturuluyor.
+  const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
+
+// Kara taşıtlarını temsil eden bir dizi oluşturuluyor.
+const automobiles = ["Truck", "Bus", "Car", "SUV"];
+
+// İki tip taşıtı içeren iç içe bir dizi oluşturuluyor.
+const allVehicles = [flyingVecihles, automobiles];
+console.log(allVehicles);
+
+// Spread operatörü kullanarak iki diziyi birleştirip tek bir düz diziyi temsil eden bir dizi oluşturuluyor.
+const allVehicles2 = [...flyingVecihles, ...automobiles];
+console.log(allVehicles2);
+let str = "Hello FS12"
+const charArray = [ ...str];
+console.log(charArray,str);
+charArray[0] ="X";
+console.log(charArray,str); 
