@@ -102,3 +102,21 @@
 
     const [p1, p2, , p4] = names;
     console.log(p1, p2, p4);
+
+    const autos = ["anadol", "reno", "bmw", "mercedes", "ferrari"];
+
+    const [anadol, reno, ...restAutos] = autos;
+    console.log(anadol, reno);
+    console.log(restAutos);
+    const personel = {
+        pName: "john",
+        surname: "smith",
+        job: "developer",
+        age: 30,
+      };
+      
+      const { pName, job, ...ageSurname } = personel;
+      
+      console.log(ageSurname);
+      console.log(pName, job);
+      
