@@ -75,6 +75,7 @@ console.log("DOB:",personel.calculateAge())
 console.log("SUMMARY:", personel.summary());
 
 
+
 const people = {
     person1: {
         name: ["Can", "Mustafa"],            
@@ -84,6 +85,7 @@ const people = {
         salary: "140000",       
         drivingLicense: true    
     },
+    
     person2: {
         name: "John",           
         surname: "Sweet",       
