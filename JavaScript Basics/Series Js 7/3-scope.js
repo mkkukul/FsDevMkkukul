@@ -13,6 +13,7 @@ const fonks1 = function () {
 fonks1();
 
 console.log(++sayi1); //! 23
+
 console.log(sayi1); //!23
 
 //? --------------------------------------
