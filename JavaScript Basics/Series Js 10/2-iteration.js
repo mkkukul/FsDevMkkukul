@@ -5,7 +5,7 @@
 
 console.log("****** ITERATION **********");
 
-//
+
 //?-------------- ÖRNEK -------------------
 //?  Dizideki herbir fiyati konsola bastiriniz.
 
