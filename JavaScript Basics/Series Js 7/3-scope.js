@@ -24,6 +24,7 @@ const fonks2 = () => {
   console.log(sayi2); //! 11
 };
 
+
 fonks2();
 console.log(sayi2); //!7
 
