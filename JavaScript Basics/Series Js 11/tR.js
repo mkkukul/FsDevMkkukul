@@ -35,6 +35,7 @@ const worker = {
 console.log(worker)
 console.log(worker.languages[0])
 console.log("Lang:", worker["languages"])
+
 worker["languages"].forEach((l)=> console.log(l))
 worker.dob = "1990";
 worker.email ="can@mail.com"
@@ -85,7 +86,7 @@ const people = {
         salary: "140000",       
         drivingLicense: true    
     },
-    
+
     person2: {
         name: "John",           
         surname: "Sweet",       
