@@ -120,12 +120,14 @@ for (let v of Object.values(people)) {
 for (let [k,v] of Object.entries(people)) {
     console.log(`${k} - ${v.salary}`);
 }
+
 Object.keys(people).forEach((p => console.log(p)))
 Object.values(people).forEach((p) => console.log(p.surname))
 // Object.values(people).forEach((p) => console.log(p.job))
 Object.values(people)
     .filter((p) => p.job === "developer")
     .forEach((p) => console.log(p.dob))
+    
     
     //! **************JSON**************
     
@@ -141,7 +143,7 @@ Object.values(people)
 
       const ages = team.map((p)=> p.age+1)
       console.log(ages)
-      
+
 
     //   const teamFullName = team.map(p => ({
     //   fullName: p.name.toLocaleUpperCase() + " " + p.surname.toLocaleUpperCase(),age: p.age+5, 
