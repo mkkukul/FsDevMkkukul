@@ -141,6 +141,7 @@ Object.values(people)
 
       const ages = team.map((p)=> p.age+1)
       console.log(ages)
+      
 
     //   const teamFullName = team.map(p => ({
     //   fullName: p.name.toLocaleUpperCase() + " " + p.surname.toLocaleUpperCase(),age: p.age+5, 
@@ -153,7 +154,8 @@ Object.values(people)
     })
     console.log(teamFullName)
 
-    team.filter((p) => p.age <= 22).forEach((p)=> console.log(p.name));
+    team.filter((p) => p.age <= 22).forEach((p)=> console.log(p.name)); 
+
     // console.log(teamUnder22)
     const teamUnder22 = team.filter((x) => x.age <=22).map((p) => p.name);
     console.log(teamUnder22)
