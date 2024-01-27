@@ -14,6 +14,7 @@ const worker = {
 console.log(worker);
 
 console.log("JOB:", worker.job);
+
 console.log("Lang:", worker["languages"]);
 
 console.log(worker.languages[2]);
