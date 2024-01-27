@@ -6,10 +6,10 @@
     };
     const name1 = car.name
     const model1 = car["model"]
-   console.log(name1)
-   console.log(model1)
-   const {name, model, engine, colors} = car;
-   console.log(name,model,engine,colors)
+    console.log(name1)
+    console.log(model1)
+    const {name, model, engine, colors} = car;
+    console.log(name,model,engine,colors)
 
    const cars = {
     car1: {
@@ -26,7 +26,7 @@
 
     const {car1,car2} = cars
     console.log(car1)
-    
+
     const { name: c1Name, model: c1Model } = car1;
     const { name: c2Name, model: c2Model } = car2;
 
