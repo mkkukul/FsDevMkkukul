@@ -187,7 +187,7 @@ const sumOfRaisedSalaries = salaries
 console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
 
 
-// const sumOfRaisedSalaries = salaries
+//? const sumOfRaisedSalaries = salaries
   // .filter((sal) => sal <= 9000)
   // .map((sal) => Math.trunc(sal * 1.1))
   // .reduce((acc, salary) => acc + salary, 0);
