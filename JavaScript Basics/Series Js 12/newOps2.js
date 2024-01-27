@@ -134,6 +134,7 @@ console.log(allVehicles);
 // Spread operatörü kullanarak iki diziyi birleştirip tek bir düz diziyi temsil eden bir dizi oluşturuluyor.
 const allVehicles2 = [...flyingVecihles, ...automobiles];
 console.log(allVehicles2);
+
 let str = "Hello FS12"
 const charArray = [ ...str];
 console.log(charArray,str);
