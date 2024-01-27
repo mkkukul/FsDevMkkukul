@@ -54,6 +54,7 @@ console.log(katAlinmis);
 let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
 const bigNames = names.map((name) => name.toUpperCase());
 console.log(bigNames,names);
+
 //! fonsiyonun içini görebiliriz
 console.log(names.map((name)=> name.toUpperCase())); 
 
