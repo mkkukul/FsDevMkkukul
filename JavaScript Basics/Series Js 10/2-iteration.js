@@ -158,11 +158,11 @@ const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
 // Son olarak, konsola toplam maaş değerini yazdırıyoruz.
 console.log("SUM:", sumOfSalaries);
 
-// const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+//! const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
 
-// const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
+//! const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
 
-// console.log("SUM:", sumOfSalaries);
+//! console.log("SUM:", sumOfSalaries);
 
 //? Ornek: Bir Firma, 9000 TL den az olan maaşlara %10 zam yapmak istiyor
 //? ve zam yapılan bu kişilere toplam kaç TL ödeneceğini bilmek istiyor.
