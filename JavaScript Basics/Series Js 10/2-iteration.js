@@ -173,8 +173,8 @@ console.log("SUM:", sumOfSalaries);
 // Maaşları bir dizi içinde tanımlıyoruz. Her bir eleman, bir kişinin maaşını temsil eder.
 // const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
 
-// İlk olarak, maaşları 9000 ve altında olanları filtreleyerek alıyoruz.
-// filter() fonksiyonu, belirli bir koşulu sağlayan dizi elemanlarını seçer.
+//? İlk olarak, maaşları 9000 ve altında olanları filtreleyerek alıyoruz.
+// ?filter() fonksiyonu, belirli bir koşulu sağlayan dizi elemanlarını seçer.
 const sumOfRaisedSalaries = salaries
   .filter((sal) => sal <= 9000) // 9000 ve altındaki maaşları filtrele
   // Daha sonra, filtrelenen maaşları %10 oranında artırıyoruz. 
