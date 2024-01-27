@@ -143,10 +143,10 @@ salaries
 //*                 REDUCE METHOD
 //* ======================================================
 
-// Bu bir JavaScript kodudur. Amacı, belirli bir maaş listesinin toplamını hesaplamaktır.
+//! Bu bir JavaScript kodudur. Amacı, belirli bir maaş listesinin toplamını hesaplamaktır.
 
-// Maaşları bir dizi içinde tanımlıyoruz. Her bir eleman, bir kişinin maaşını temsil eder.
-// const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
+// !Maaşları bir dizi içinde tanımlıyoruz. Her bir eleman, bir kişinin maaşını temsil eder.
+// !const salaries = [5500, 8000, 6500, 9000, 10000, 15000, 25000];
 
 // reduce() fonksiyonu, bir dizi üzerinde döngü yaparak dizi elemanlarını bir araya getirir.
 // İlk parametre olarak bir fonksiyon alır. Bu fonksiyon, her bir dizi elemanı üzerinde çalışırken nasıl bir işlem yapılacağını tanımlar.
