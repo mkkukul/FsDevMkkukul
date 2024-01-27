@@ -192,6 +192,6 @@ console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
   // .map((sal) => Math.trunc(sal * 1.1))
   // .reduce((acc, salary) => acc + salary, 0);
 // 
-// console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
+// ?console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
 const sumOfSalaries = salaries.reduce((acc, val) => acc + val,0 )
 console.log("SUM", sumOfRaisedSalaries)
