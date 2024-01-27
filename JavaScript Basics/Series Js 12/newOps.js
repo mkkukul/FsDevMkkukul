@@ -71,6 +71,7 @@ team.forEach((p) => {
   console.log("Age:", p.age);
 });
 
+
 //* DESTRUCTURING
 team.forEach((p) => {
   const { name, surname, job, age } = p;
@@ -122,6 +123,7 @@ console.log(p1, p2, p4);
 
 //! 1- Bir dizi veya object'deki bazi degerlerden geri kalanlarini
 //!    ayri dizi yada objelere kopyalanmasini saglayabilir.
+
 
 //* REST: (Arrays)
 const autos = ["anadol", "reno", "bmw", "mercedes", "ferrari"];
