@@ -23,8 +23,10 @@
       engine: 2.0,
     },
     };
+
     const {car1,car2} = cars
     console.log(car1)
+    
     const { name: c1Name, model: c1Model } = car1;
     const { name: c2Name, model: c2Model } = car2;
 
@@ -137,6 +139,7 @@ console.log(allVehicles2);
 
 let str = "Hello FS12"
 const charArray = [ ...str];
+
 console.log(charArray,str);
 charArray[0] ="X";
 console.log(charArray,str); 
