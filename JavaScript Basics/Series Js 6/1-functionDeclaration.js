@@ -13,12 +13,12 @@ console.log("**** FUNC DECLARATION ******");
 
 //! Fonksiyonun tanimlanmasi (declaration)
 
-yazdir();
-function yazdir(){
-    console.log("merhaba")
-}
-yazdir();
-yazdir();
+
+
+
+
+
+
 
 
 
