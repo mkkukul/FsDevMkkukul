@@ -25,12 +25,12 @@ console.log("SONUC", toplam);
 
 //? Ornek: 0-100 Arasinda 10 adet rasgele tamsayi sayi ureten kodu
 //? for dongusu ile yaziniz..
-// Math.random()
-// for(let i=1; i<=10; i++){
-    // const rasgele = Math.round(Math.random() * 100);
-    // console.log(rasgele)
-    // 
-// }
+
+
+
+
+
+
 //* Math.floor() =>en yakin alt tamsayiya yuvarlar kusarı siler 
 //* Math.ceil() =>en yakin ust tamsayiya yuvarlar
 //* Math.round() => degerine gore yuvarlar.
