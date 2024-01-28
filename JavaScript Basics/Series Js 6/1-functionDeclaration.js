@@ -36,6 +36,26 @@ yazdir(); // "merhaba"
 
 //* ORNEK2:
 //*************************************************/
+// Değişken tanımlama (şu an kullanılmıyor, yorum satırı içinde)
+// let x;
+
+// Boş bir console.log() çağrısı (şu an kullanılmıyor, yorum satırı içinde)
+// console.log();
+
+// Selamlama fonksiyonu tanımlama
+function selamla(ad, soyAd = "") {
+    // Fonksiyon içindeki ad ve soyAd değişkenleri
+    // şu an için kullanılmadığı için yorum satırına alındı.
+    // let ad = 'merhaba'
+
+    // Konsola selamlama mesajını yazdır
+    console.log(`Merhaba ${ad} ${soyAd}`);
+}
+
+// Fonksiyonu çağırma
+selamla("Can", "Yılmaz");  // "Merhaba Can Yılmaz"
+selamla("Canan", "Öztürk"); // "Merhaba Canan Öztürk"
+selamla("Ayşe"); // "Merhaba Ayşe"
 
 
 
@@ -52,16 +72,36 @@ yazdir(); // "merhaba"
 //* ORNEK3:
 //***************************************************/
 
-function yasHesapla(isim,dogumTarihi){
-    
-    // const sonuc = `${isim}in yasi ${2023 - dogumTarihi} dir.`;
-    // const sonuc = `${isim}in yasi ${new Date().getFullYear() - dogumTarihi} dir.`;
-    // return sonuc;
-    return `${isim} in yasi ${new Date().getFullYear() - dogumTarihi}dir.`;
+
+
+// Yaş hesaplamak için bir fonksiyon tanımla
+function yasHesapla(isim, dogumTarihi) {
+    // Birinci yöntem: Doğrudan yaş hesaplama
+    // const sonuc = `${isim}in yaşı ${2023 - dogumTarihi} dir.`;
+
+    // İkinci yöntem: Yılın güncel değerini alarak yaş hesaplama
+    // const sonuc = `${isim}in yaşı ${new Date().getFullYear() - dogumTarihi} dir.`;
+
+    // Sonucu direk return et (farklı yöntemleri yorum satırlarına alarak istediğin yöntemi seçebilirsin)
+    return `${isim}'in yaşı ${new Date().getFullYear() - dogumTarihi}dir.`;
 }
+
+// Fonksiyonu kullanarak yaş hesapla ve sonucu mesaj1'e atla
 const mesaj1 = yasHesapla("Elif Can", 1990);
+
+// Mesajı konsola yazdır
 console.log(mesaj1);
-console.log(yasHesapla("Veli Canan", 1980))
+
+// Doğrudan fonksiyonu çağırarak mesajı konsola yazdır
+console.log(yasHesapla("Veli Canan", 1980));
+
+
+
+
+
+
+
+
 
 //* ORNEK4:
 //*****************************************************/
