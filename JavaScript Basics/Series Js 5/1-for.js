@@ -5,14 +5,24 @@
 console.log("****** FOR *******");
 
 //? Ornek: 1 den n kadar sayiları toplayan kodu yaziniz.
-// const n= Number(prompt("Bir Sayı Giriniz"));
-// let toplam = 0
-// for(let i=1; i <= n;i++){
-    // toplam= toplam+i;
-    // toplam+=i;
-    // console.log(toplam,i);
-// }
-// console.log("SONUC", toplam)
+// Kullanıcıdan bir sayı al
+const n = Number(prompt("Bir Sayı Giriniz"));
+
+// Toplam değişkenini sıfırla
+let toplam = 0;
+
+// 1'den n'e kadar olan sayıları topla
+for (let i = 1; i <= n; i++) {
+    // Toplama i'yi ekle
+    toplam += i;
+
+    // Her adımda toplam ve i'yi konsola yazdır (opsiyonel, debug amaçlı)
+    console.log(toplam, i);
+}
+
+// Toplam sonucunu konsola yazdır
+console.log("SONUC", toplam);
+
 //? Ornek: 0-100 Arasinda 10 adet rasgele tamsayi sayi ureten kodu
 //? for dongusu ile yaziniz..
 // Math.random()
