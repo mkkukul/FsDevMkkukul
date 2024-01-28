@@ -49,6 +49,31 @@ for (let i = 1; i <= 10; i++) {
 //? ÖRNEK: Girilen bir sayinin Asal olup olmadigini yazdiran kodu
 //? for dongulerini kullanarak yaziniz.
 
+// Kullanıcıdan pozitif bir sayı al
+const sayi = Number(prompt("Pozitif Bir Sayı Giriniz"));
+
+// Asal sayı kontrolü için bir bayrak değişkeni tanımla
+let asal = true;
+
+// Girilen sayı 1'den küçük veya eşitse uyarı ver
+if (sayi <= 1) {
+    alert("Sayı 1'den büyük olmalıdır");
+} else {
+    // Girilen sayı 2'den başlayarak kendisinden bir önceki sayıya kadar olan sayılara bölünür
+    for (let i = 2; i < sayi; i++) {
+        // Eğer sayı i'ye tam bölünüyorsa, asal değildir ve döngüden çık
+        if (sayi % i === 0) {
+            asal = false;
+            break;
+        }
+    }
+
+    // Asal değişkenine göre sonuç belirle
+    const sonuc = asal === true ? "ASAL" : "ASAL DEĞİLDİR";
+
+    // Sonucu konsola yazdır
+    console.log(`${sayi} ${sonuc}`);
+}
 
 
 
