@@ -105,5 +105,20 @@ console.log(yasHesapla("Veli Canan", 1980));
 
 //* ORNEK4:
 //*****************************************************/
+// Tek mi çift mi kontrol eden fonksiyon
+function tekCift(sayi) {
+    // Ternary operatör kullanarak, sayının tek veya çift olma durumunu belirle
+    return sayi % 2 ? `${sayi} "TEKTIR"` : `${sayi} "CIFTTIR"`; 
+}
+
+// Fonksiyonu kullanarak örnekler
+console.log(tekCift(5)); // 5 "TEKTIR"
+console.log(tekCift(2)); // 2 "CIFTTIR"
+
+// Kullanıcıdan sayı al
+const sayi = +prompt("Bir Sayı Giriniz");
+
+// Alınan sayıyı fonksiyon kullanarak kontrol et ve sonucu yazdır
+console.log(tekCift(sayi));
 
 
