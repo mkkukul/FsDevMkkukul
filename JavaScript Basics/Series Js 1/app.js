@@ -19,15 +19,21 @@
 // let v2 = 88;
 // console.log(v2)
 
-const student= {
+// Bir öğrenci nesnesi oluştur
+const student = {
     name: 'Nedim',
-    age:34,
+    age: 34,
 };
 
-console.log(student);
+// İlk öğrenciyi konsola yazdır
+console.log(student); // { name: 'Nedim', age: 34 }
 
+// Diğer öğrenciye ilk öğrencinin referansını ata
 const otherStudent = student;
+
+// Diğer öğrencinin adını değiştir
 otherStudent.name = 'Dan Brown';
 
+// İlk öğrenciyi ve diğer öğrenciyi konsola yazdır
 console.log(student);
 console.log(otherStudent);
