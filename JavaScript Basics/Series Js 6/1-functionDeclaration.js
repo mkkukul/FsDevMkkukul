@@ -13,6 +13,15 @@ console.log("**** FUNC DECLARATION ******");
 
 //! Fonksiyonun tanimlanmasi (declaration)
 
+// Fonksiyon tanımlama
+function yazdir() {
+    console.log("merhaba");
+}
+
+// Fonksiyon çağırma
+yazdir(); // "merhaba"
+yazdir(); // "merhaba"
+yazdir(); // "merhaba"
 
 
 
