@@ -26,6 +26,16 @@ console.log("SONUC", toplam);
 //? Ornek: 0-100 Arasinda 10 adet rasgele tamsayi sayi ureten kodu
 //? for dongusu ile yaziniz..
 
+// 1 ile 100 arasında rastgele sayıları oluştur ve konsola yazdır
+for (let i = 1; i <= 10; i++) {
+  // Math.random() 0 ile 1 arasında rastgele bir sayı üretir
+  // Math.random() * 100 ile 0 ile 100 arasında bir sayı üretir
+  // Math.round() ile virgülden sonraki kısmı almadan en yakın tam sayıya yuvarlar
+  const rasgele = Math.round(Math.random() * 100);
+
+  // Oluşturulan rastgele sayıyı konsola yazdır
+  console.log(rasgele);
+}
 
 
 
@@ -39,17 +49,16 @@ console.log("SONUC", toplam);
 //? ÖRNEK: Girilen bir sayinin Asal olup olmadigini yazdiran kodu
 //? for dongulerini kullanarak yaziniz.
 
-const sayi = Number(prompt(" Pozitif Bir Sayi Giriniz"))
-let asal = true;
-if(sayi <= 1 ) {
-    alert("Sayi 1'den buyuk olmalidir");
-}else{
-    for(let i=2; i<sayi;i++){
-      if(sayi % i === 0){
-        asal=false;
-        break;
-      }  
-    }
-const sonuc = asal === true ? "ASAL": "ASAL DEGILDIR";
-console.log(`${sayi} ${sonuc}`)  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
