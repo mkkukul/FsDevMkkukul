@@ -122,17 +122,35 @@ console.log("YASINIZ (Declaration): " + yasHesapla3(tarih));
 //* hesaplayarak yazdiran fonksiyonu dongu ile kodlayiniz.
 //? FIBONACCI terimleri:  1, 1, 2, 3, 5, 8, 13, 21, ...
 
+let stringResult = "1,1";
 
+// Fibonacci dizisini hesapla
+const fibo = (n) => {
+  let fib1 = 1;
+  let fib2 = 1;
+  let toplam = 0;
 
-  
+  for (let i = 2; i < n; i++) {
+    toplam = fib1 + fib2;
+    fib1 = fib2;
+    fib2 = toplam;
+    stringResult += "," + fib2;
+  }
 
+  return fib2;
+};
 
+// Kullanıcıdan n sayısını al
+const n = +prompt("n terimini giriniz:");
 
-
-
-
-
-
+// n'nin 0'dan küçük veya eşit olup olmadığını kontrol et
+if (n <= 0) {
+  console.log("Lütfen 0'dan büyük bir sayı giriniz.");
+} else {
+  // Fibonacci dizisinin n terimini ve tüm diziyi konsola yazdır
+  console.log(`FIBO(${n}) = ${fibo(n)}`);
+  console.log("Fibonacci Dizisi:", stringResult);
+}
 
 
 
