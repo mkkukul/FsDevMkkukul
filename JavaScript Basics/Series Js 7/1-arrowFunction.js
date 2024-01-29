@@ -95,6 +95,24 @@ console.log("YASINIZ (Kısa): " + yasHesaplaKisa(tarih));
 
 // //! Func Expression yontemi ile tanimlama
 
+// Kullanıcıdan doğum tarihini al
+const tarih = Number(prompt("Doğum Tarihini giriniz:"));
+
+// Function Expression ile yaş hesapla
+const yasHesapla2 = function (tarih) {
+  const yas = new Date().getFullYear() - tarih;
+  return yas;
+};
+
+// Function Declaration ile yaş hesapla
+function yasHesapla3(tarih) {
+  const yas = new Date().getFullYear() - tarih;
+  return yas;
+}
+
+// Hesaplanan yaş bilgisini konsola yazdır
+console.log("YASINIZ (Expression): " + yasHesapla2(tarih));
+console.log("YASINIZ (Declaration): " + yasHesapla3(tarih));
 
 
 
