@@ -24,36 +24,23 @@
 
 // // console.log(`${r} , ${h} => Hacmi: ${hacimHesapla(r, h).toExponential()}`);
 // console.log(`${r} , ${h} => Hacmi: ${hacimHesapla(r, h).toFixed(2)}`);
+// Kullanıcıdan yarıçap ve yükseklik bilgisini al
+const r = Number(prompt("Yarıçap giriniz:"));
+const h = Number(prompt("Yükseklik giriniz:"));
+
+// Hacim hesaplamak için arrow fonksiyonunu kullan
+const hacimHesapla = (r, h) => Math.PI * r * r * h;
+
+// Hesaplanan hacmi konsola yazdır
+console.log(`${r}, ${h} => Hacmi: ${hacimHesapla(r, h).toExponential()}`);
+// veya
+// console.log(`${r}, ${h} => Hacmi: ${hacimHesapla(r, h).toFixed(2)}`);
 
 
 // //* ORNEK: Yas hesapla
 // //************************************************/
 
-// const tarih = Number(prompt("Dogum Tarihini giriniz"));
-// 
-// const yasHesapla = (tarih) => {
-  // const yas = new Date().getFullYear() - tarih;
-  // return yas;
-// };
-// 
-// console.log("YASINIZ:" + yasHesapla(tarih));
-// 
 
-// const tarih = Number(prompt("Dogum Tarihini giriniz"));
-// 
-// const yasHesapla = (tarih) => {
-  // const yas = new Date().getFullYear() - tarih;
-  // return yas;
-// };
-// 
-// console.log("YASINIZ:" + yasHesapla(tarih));
-// 
-// function yasHesapla3(tarih){
-  // const yas = newDate().getFullYear()-tarih;
-  // return yas;
-  // 
-// }
-// const tarih = Number(prompt("Dogum Tarihini giriniz:"));
 
 // //! Arrow Func yontemi ile tanimlama
 // const yasHesapla = (tarih) => {
