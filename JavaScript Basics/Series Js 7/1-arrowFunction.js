@@ -40,23 +40,40 @@ console.log(`${r}, ${h} => Hacmi: ${hacimHesapla(r, h).toExponential()}`);
 // //* ORNEK: Yas hesapla
 // //************************************************/
 
+// Kullanıcıdan doğum tarihini al
+const tarih = Number(prompt("Doğum Tarihini giriniz:"));
+
+// Arrow fonksiyonu kullanarak yaş hesapla
+const yasHesapla = (tarih) => {
+  const yas = new Date().getFullYear() - tarih;
+  return yas;
+};
+
+// Hesaplanan yaş bilgisini konsola yazdır
+console.log("YAŞINIZ: " + yasHesapla(tarih));
+
+// Alternatif bir fonksiyon tanımlama
+function yasHesapla3(tarih) {
+  const yas = new Date().getFullYear() - tarih;
+  return yas;
+}
+
+// Yeni bir doğum tarihi al ve yaş hesapla
+const tarih2 = Number(prompt("Doğum Tarihini giriniz:"));
+console.log("YAŞINIZ: " + yasHesapla3(tarih2));
 
 
 // //! Arrow Func yontemi ile tanimlama
-// const yasHesapla = (tarih) => {
-//   const yas = new Date().getFullYear() - tarih;
-//   return yas;
-// };
 
-// //* alternatif
-// const yasHesaplaKisa = (tarih) => new Date().getFullYear() - tarih;
 
-// // console.log("YASINIZ:" + yasHesapla(tarih));
-// console.log("YASINIZ:" + yasHesaplaKisa(tarih));
 
-// //?-----------------------------------------
 
-// // console.log("YASINIZ:" + yasHesapla2(tarih));
+
+
+
+
+
+
 // //!Funct expression ve arrow func yontemlerinde
 // //! Once fonks tanimlanmalidir sonra cagrilmalidir.
 // //! Aksi takdirde hata alrsiniz.
