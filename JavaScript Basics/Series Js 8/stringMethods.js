@@ -5,6 +5,22 @@
 
 console.log("*** STRING METHODS ***");
 
+//!1- Klasik yöntem (String Literals) ile string tanımlanırsa bu string bir primitive değişkendir.
+let str1 = "Clarusway";
+// Char => C, l, a,...
+
+const str2 = " Hello";
+const str3 = " Full Stack";
+
+console.log(str1, typeof str1); // "Clarusway" string'i ve türü olan "string"i console'da yazdırılır.
+
+//!2 - Non-primitive String tanımlama
+const str4 = new String("Non-Primitive"); // String nesnesi oluşturulur.
+console.log(typeof str4); // "object" olarak türü belirlenir, çünkü bir nesnedir.
+
+//?----------------------------------------
+
+console.log(str1.toLowerCase()); // "Clarusway" string'inin küçük harfe çevrilmiş hali console'da yazdırılır.
 
 
 
