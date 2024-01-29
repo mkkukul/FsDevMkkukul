@@ -33,6 +33,10 @@ console.log(str1.toLowerCase()); // "Clarusway" string'inin küçük harfe çevr
 
 //? Ek Açıklama için : https://javascript.info/primitives-methods
 
+const sayi = 5;
+const str5 = str1 + str2 + str3 + sayi; // String birleştirme işlemi (concatenation)
+
+console.log(str5, typeof str5);
 
 
 
