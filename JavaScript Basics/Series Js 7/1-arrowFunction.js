@@ -94,19 +94,10 @@ console.log("YASINIZ (Kısa): " + yasHesaplaKisa(tarih));
 // //! Aksi takdirde hata alrsiniz.
 
 // //! Func Expression yontemi ile tanimlama
-// const yasHesapla2 = function (tarih) {
-//   const yas = new Date().getFullYear() - tarih;
-//   return yas;
-// };
-// //?-----------------------------------------
 
-// console.log("YASINIZ:" + yasHesapla3(tarih));
 
-// //! Func Declaration yontemi ile tanimlama
-// function yasHesapla3(tarih) {
-//   const yas = new Date().getFullYear() - tarih;
-//   return yas;
-// }
+
+
 // //?-----------------------------------------
 
 //* ORNEK: Girilen n. terime kadar Fibonacci sayilarinin toplamini
