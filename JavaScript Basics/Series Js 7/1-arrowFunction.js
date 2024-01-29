@@ -65,6 +65,21 @@ console.log("YAŞINIZ: " + yasHesapla3(tarih2));
 
 // //! Arrow Func yontemi ile tanimlama
 
+// Kullanıcıdan doğum tarihini al
+const tarih = Number(prompt("Doğum Tarihini giriniz:"));
+
+// Arrow fonksiyonu kullanarak yaş hesapla (Uzun versiyon)
+const yasHesapla = (tarih) => {
+  const yas = new Date().getFullYear() - tarih;
+  return yas;
+};
+
+// Alternatif bir arrow fonksiyonu (Kısa versiyon)
+const yasHesaplaKisa = (tarih) => new Date().getFullYear() - tarih;
+
+// Hesaplanan yaş bilgisini konsola yazdır
+console.log("YASINIZ (Uzun): " + yasHesapla(tarih));
+console.log("YASINIZ (Kısa): " + yasHesaplaKisa(tarih));
 
 
 
