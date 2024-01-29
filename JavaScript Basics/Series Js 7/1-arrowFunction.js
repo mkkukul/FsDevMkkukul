@@ -153,29 +153,3 @@ if (n <= 0) {
 }
 
 
-
-// let stringResult = "1,1";
-// f(n) = f(n-1) + f(n-2)
-// const fibo = (n) => {
-  // let fib1 = 1;
-  // let fib2 = 1;
-  // let toplam = 0;
-// 
-  // for (let i = 2; i < n; i++) {
-    // toplam = fib1 + fib2;
-    // fib1 = fib2;
-    // fib2 = toplam;
-    // stringResult += "," + fib2;
-  // }
-// 
-  // return fib2;
-// };
-// 
-// const n = +prompt("n terimini giriniz:");
-// if (n <= 0) {
-  // console.log("Lutfen 0 dan buyuk bir sayi giriniz.");
-// } else {
-  // console.log(`FIBO(${n})= ${fibo(n)}`);
-  // console.log(stringResult);
-// }
-// 
