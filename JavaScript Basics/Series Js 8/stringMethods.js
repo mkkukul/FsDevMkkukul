@@ -25,15 +25,6 @@ console.log(str1.toLowerCase()); // "Clarusway" string'inin küçük harfe çevr
 
 
 
-
-
-
-
-
-
-
-
-
 //* Normalde primitive veri tiplerinin property veya metodu olmaz.
 //* Ancak,Javascript otomatik olarak primitive String'ler için object wrapper oluşturur.
 //* Bu sayede, String nesnelerine ait olan fonksiyonlar veya özellikleri
@@ -42,9 +33,9 @@ console.log(str1.toLowerCase()); // "Clarusway" string'inin küçük harfe çevr
 
 //? Ek Açıklama için : https://javascript.info/primitives-methods
 
-const sayi = 5;
-const str5 = str1 + str2 + str3 + sayi; // Concatination
-console.log(str5, typeof str5);
+
+
+
 
 //* ---------------------------------------------------
 //*  concat() - immutable
