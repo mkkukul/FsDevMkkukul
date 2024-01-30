@@ -242,12 +242,12 @@ console.log(word.lastIndexOf("BE")); // Çıktı: -1
 //* search()
 //* ----------------------------------------------------------
 
-const buyukHarf = /[A-Z]/;
-const nokta = /[.]/;
-const virgul = /[,]/;
-console.log(word.search(buyukHarf)); //? ilk buyuk harfin indeksi 0
-console.log(word.search(virgul)); //?  18
-console.log(word.search(nokta)); //? -1
+// const buyukHarf = /[A-Z]/;
+// const nokta = /[.]/;
+// const virgul = /[,]/;
+// console.log(word.search(buyukHarf)); //? ilk buyuk harfin indeksi 0
+// console.log(word.search(virgul)); //?  18
+// console.log(word.search(nokta)); //? -1
 
 //* ----------------------------------------------------------
 //* startsWidth() , endsWith() - case sensitive
