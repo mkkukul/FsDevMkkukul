@@ -85,12 +85,14 @@ console.log(yourName);
 //! ORNEK: iki string'i esit veya degil diye kiyaslayarak sonucu
 //! donduren fonksiyonu yaziniz.
 
-const esitMi = (str1, str2) => {
-  return str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
-    ? `${str1} ile ${str2} Esittir`
-    : `${str1} ile ${str2} Esit degildir`;
-};
 
+
+// const esitMi = (str1, str2) => {
+  // return str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
+    // ? `${str1} ile ${str2} Esittir`
+    // : `${str1} ile ${str2} Esit degildir`;
+// };
+// 
 // const esitMi = (str1, str2) =>
   // str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
     // ? `${str1} ile ${str2} Esittir`
