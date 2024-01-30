@@ -114,10 +114,23 @@ console.log(esitMi("Hello", "Hell")); // "Hello ile Hell Eşit Değildir"
 //* ----------------------------------------------------------
 //* localeCompare()
 //* ----------------------------------------------------------
-const a = "réservé"; // with accents, lowercase
-const b = "RESERVE"; // no accents, uppercase
-console.log(a.localeCompare(b, "en", { sensitivity: "base" }));
+const a = "réservé"; // aksanlarla, küçük harfler
+const b = "RESERVE"; // aksansız, büyük harfler
 
+// String karşılaştırması, harf duyarlılığı "base" (aksanları göz ardı eder) olarak ayarlanmış.
+const compareResult = a.localeCompare(b, "en", { sensitivity: "base" });
+
+// Sonucu console'da yazdır
+console.log(compareResult);
+// Negatif değer: a önce gelir.
+// Pozitif değer: b önce gelir.
+// 0: a ve b eşittir.
+// Yani, bu kodun çıktısı, a stringinin b'den önce gelmesi durumunda negatif, b stringinin a'dan önce gelmesi durumunda pozitif olacaktır. Eğer iki string eşitse, çıktı 0 olacaktır.
+
+// const a = "réservé"; // with accents, lowercase
+// const b = "RESERVE"; // no accents, uppercase
+// console.log(a.localeCompare(b, "en", { sensitivity: "base" }));
+// 
 //? 'BASE: a ≠ b, a = á, a = A'
 //? 'ACCENT: a ≠ b, a ≠ á, a = A'
 //? 'CASE: a ≠ b, a = á, a ≠ A'
