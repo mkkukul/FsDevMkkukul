@@ -212,6 +212,25 @@ console.log(word.includes("to be", 13)); // Çıktı: true
 //* indexOf() , lastIndexOf() - case sensitive
 //* ----------------------------------------------------------
 
+const word = "To be or not to be, that is the question";
+
+// İlk olarak "or" alt string'inin başlangıç indeksini bulur
+const toBe = word.indexOf("or");
+console.log(toBe); // Çıktı: 6
+
+// İlk olarak "be" alt string'inin başlangıç indeksini bulur
+console.log(word.indexOf("be")); // Çıktı: 3
+
+// Son olarak "be" alt string'inin başlangıç indeksini bulur
+console.log(word.lastIndexOf("be")); // Çıktı: 16
+
+// Büyük-küçük harf duyarlıdır, bu nedenle "BE" alt string'i bulunamaz ve -1 döner
+console.log(word.lastIndexOf("BE")); // Çıktı: -1
+// indexOf("or"): "or" alt string'inin ilk başlangıç indeksini bulur.
+// indexOf("be"): "be" alt string'inin ilk başlangıç indeksini bulur.
+// lastIndexOf("be"): "be" alt string'inin son başlangıç indeksini bulur.
+// lastIndexOf("BE"): "BE" alt string'i büyük harfle yazılmış olduğu için bulunamaz ve -1 döner.
+
 
 // const toBe = word.indexOf("or");
 // console.log(toBe); //? 6
