@@ -269,13 +269,16 @@ console.log(word.search(nokta)); // Çıktı: -1
 //* ----------------------------------------------------------
 //* startsWidth() , endsWith() - case sensitive
 //* ----------------------------------------------------------
-let word2 = "Sen gulunce guller acar gul pembe!";
-console.log(new String(word2));
-console.log(word2.startsWith("Sen")); //? true
-console.log(word2.startsWith("gulunce")); //? false
-console.log(word2.startsWith("gulunce", 4)); //? true
-console.log(word2.endsWith("!")); //? true
-console.log(word2.endsWith("acar", 23)); //? true
+
+
+
+// let word2 = "Sen gulunce guller acar gul pembe!";
+// console.log(new String(word2));
+// console.log(word2.startsWith("Sen")); //? true
+// console.log(word2.startsWith("gulunce")); //? false
+// console.log(word2.startsWith("gulunce", 4)); //? true
+// console.log(word2.endsWith("!")); //? true
+// console.log(word2.endsWith("acar", 23)); //? true
 
 //* ----------------------------------------------------------
 //*  replace(searchFor, replaceWith) --immutable
