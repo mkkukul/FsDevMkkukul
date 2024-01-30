@@ -179,6 +179,25 @@ console.log(str6.charAt(str6.length - 1)); // Çıktı: h
 //* ----------------------------------------------------------
 //* includes() - case sentive
 //* ----------------------------------------------------------
+
+const word = "To be or not to be, that is the question";
+
+// Bir string, belirli bir alt string'i içerip içermediğini kontrol eder
+console.log(word.includes("to be")); // Çıktı: true
+
+// Büyük-küçük harf duyarlıdır
+console.log(word.includes("That")); // Çıktı: false
+
+// Boş bir alt string, her zaman true döner
+console.log(word.includes("")); // Çıktı: true
+
+// Belirli bir indeksten sonra kontrol eder
+console.log(word.includes("to be", 14)); // Çıktı: false
+
+// Belirli bir indeksten sonra kontrol eder
+console.log(word.includes("to be", 13)); // Çıktı: true
+
+
 // const word = "To be or not to be, that is the question";
 // 
 // console.log(word.includes("to be")); //? true
