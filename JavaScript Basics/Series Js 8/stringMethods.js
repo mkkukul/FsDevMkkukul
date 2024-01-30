@@ -270,6 +270,26 @@ console.log(word.search(nokta)); // Çıktı: -1
 //* startsWidth() , endsWith() - case sensitive
 //* ----------------------------------------------------------
 
+let word2 = "Sen gulunce guller acar gul pembe!";
+
+// Yeni bir String nesnesi oluşturur (fakat bu kullanım genellikle gereksizdir)
+console.log(new String(word2));
+
+// String "Sen" ile başlıyor mu?
+console.log(word2.startsWith("Sen")); // Çıktı: true
+
+// String "gulunce" ile başlıyor mu?
+console.log(word2.startsWith("gulunce")); // Çıktı: false
+
+// 4. indeksten itibaren String "gulunce" ile başlıyor mu?
+console.log(word2.startsWith("gulunce", 4)); // Çıktı: true
+
+// String "!" ile bitiyor mu?
+console.log(word2.endsWith("!")); // Çıktı: true
+
+// 23. indeksten itibaren String "acar" ile bitiyor mu?
+console.log(word2.endsWith("acar", 23)); // Çıktı: true
+
 
 
 // let word2 = "Sen gulunce guller acar gul pembe!";
