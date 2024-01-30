@@ -322,7 +322,23 @@ console.log(oku);
 //*  replaceAll() --immutable
 //* ----------------------------------------------------------
 
+let degistir = "daglar daglar yol ver gecem..";
 
+// "daglar" kelimesini "Dağlar" ile değiştir
+degistir = degistir.replaceAll("daglar", "Dağlar");
+console.log(degistir); // Çıktı: "Dağlar Dağlar yol ver gecem.."
+
+// Regex kullanarak "no" kelimesini "Hayir" ile değiştir (büyük-küçük harf duyarsız)
+let degistir2 =
+  "No woman, no cry" +
+  " No woman, no cry, eh, yeah" +
+  " Little darling, don't shed no tears" +
+  " No woman, no cry, eh";
+
+console.log(degistir2.replaceAll(/no/gi, "Hayir"));
+// Çıktı: "Hayir woman, Hayir cry Hayir woman, Hayir cry, eh, yeah Little darling, don't shed Hayir tears Hayir woman, Hayir cry, eh"
+// replaceAll("daglar", "Dağlar"): "daglar" kelimesini "Dağlar" ile değiştirir.
+// replaceAll(/no/gi, "Hayir"): "no" kelimesini büyük/küçük harf duyarsız olarak "Hayir" ile değiştirir.
 
 // let degistir = "daglar daglar yol ver gecem..";
 // degistir = degistir.replaceAll("daglar", "Dağlar");
