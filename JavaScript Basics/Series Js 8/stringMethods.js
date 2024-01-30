@@ -179,14 +179,14 @@ console.log(str6.charAt(str6.length - 1)); // Çıktı: h
 //* ----------------------------------------------------------
 //* includes() - case sentive
 //* ----------------------------------------------------------
-const word = "To be or not to be, that is the question";
-
-console.log(word.includes("to be")); //? true
-console.log(word.includes("That")); //? false
-console.log(word.includes("")); //? true
-console.log(word.includes("to be", 14)); //? false
-console.log(word.includes("to be", 13)); //? true
-
+// const word = "To be or not to be, that is the question";
+// 
+// console.log(word.includes("to be")); //? true
+// console.log(word.includes("That")); //? false
+// console.log(word.includes("")); //? true
+// console.log(word.includes("to be", 14)); //? false
+// console.log(word.includes("to be", 13)); //? true
+// 
 //! NOT: case insentive kullanmak icin str baslangicta kucuk veya
 //! buyuk harfe cevirilerek arama yapilabilir.
 //* ----------------------------------------------------------
