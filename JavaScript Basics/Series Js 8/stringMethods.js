@@ -212,11 +212,12 @@ console.log(word.includes("to be", 13)); // Çıktı: true
 //* indexOf() , lastIndexOf() - case sensitive
 //* ----------------------------------------------------------
 
-const toBe = word.indexOf("or");
-console.log(toBe); //? 6
-console.log(word.indexOf("be")); //? 3
-console.log(word.lastIndexOf("be")); //? 16
-console.log(word.lastIndexOf("BE")); //? -1
+
+// const toBe = word.indexOf("or");
+// console.log(toBe); //? 6
+// console.log(word.indexOf("be")); //? 3
+// console.log(word.lastIndexOf("be")); //? 16
+// console.log(word.lastIndexOf("BE")); //? -1
 
 //* ----------------------------------------------------------
 //* search()
