@@ -242,6 +242,23 @@ console.log(word.lastIndexOf("BE")); // Çıktı: -1
 //* search()
 //* ----------------------------------------------------------
 
+const buyukHarf = /[A-Z]/;
+const nokta = /[.]/;
+const virgul = /[,]/;
+
+// İlk büyük harfin indeksini bulur (0'dan başlar)
+console.log(word.search(buyukHarf)); // Çıktı: 0
+
+// Virgülün indeksini bulur (ilk bulduğu indeksi döner)
+console.log(word.search(virgul)); // Çıktı: 18
+
+// Noktanın indeksini bulur, ancak bulamazsa -1 döner
+console.log(word.search(nokta)); // Çıktı: -1
+
+//? search(buyukHarf): İlk büyük harfin indeksini bulur. Dönen indeks 0'dan başlar.
+//? search(virgul): Virgülün indeksini bulur. İlk bulduğu indeksi döner (18).
+//? search(nokta): Noktanın indeksini bulur, ancak bulamazsa -1 döner.
+
 // const buyukHarf = /[A-Z]/;
 // const nokta = /[.]/;
 // const virgul = /[,]/;
