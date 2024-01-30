@@ -45,12 +45,11 @@ console.log(str5, typeof str5);
 //*  concat() - immutable
 //* ---------------------------------------------------
 
-console.log(str1.concat(str2)); //* Orjinal degerler bozulmaz
-console.log(str1, str2);
 
-//? Assigning ile degiskenin degeri degistirilebilir.
-str1 = str1.concat(str3, " Path");
-console.log(str1);
+
+
+
+
 
 //* ----------------------------------------------------------
 //* toUpperCase(), toLowerCase() --immutable
