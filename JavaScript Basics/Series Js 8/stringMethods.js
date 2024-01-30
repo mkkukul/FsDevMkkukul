@@ -85,6 +85,16 @@ console.log(yourName);
 //! ORNEK: iki string'i esit veya degil diye kiyaslayarak sonucu
 //! donduren fonksiyonu yaziniz.
 
+// İki string'i karşılaştıran fonksiyon. Büyük/küçük harf duyarsızdır.
+const esitMi = (str1, str2) => {
+  return str1.toLocaleUpperCase() === str2.toLocaleUpperCase()
+    ? `${str1} ile ${str2} Eşittir`
+    : `${str1} ile ${str2} Eşit Değildir`;
+};
+
+// Fonksiyonun kullanımı örnekleri
+console.log(esitMi("MerHaba", "MERHABA")); // "MerHaba ile MERHABA Eşittir"
+console.log(esitMi("Hello", "Hell")); // "Hello ile Hell Eşit Değildir"
 
 
 // const esitMi = (str1, str2) => {
