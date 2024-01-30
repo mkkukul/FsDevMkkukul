@@ -62,15 +62,14 @@ console.log(str1);
 //* toUpperCase(), toLowerCase() --immutable
 //* ----------------------------------------------------------
 
-const myName = "Noah Adams";
-console.log(myName.toUpperCase());
-console.log(myName.toLowerCase());
 
-let yourName = "ismet";
-// yourName = yourName.toUpperCase();
-// yourName = yourName.toLocaleUpperCase('tr');
-yourName = yourName.toLocaleUpperCase();
-console.log(yourName);
+
+
+
+
+
+
+
 
 //! ORNEK: iki string'i esit veya degil diye kiyaslayarak sonucu
 //! donduren fonksiyonu yaziniz.
