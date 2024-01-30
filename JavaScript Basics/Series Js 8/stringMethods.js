@@ -62,13 +62,24 @@ console.log(str1);
 //* toUpperCase(), toLowerCase() --immutable
 //* ----------------------------------------------------------
 
+// const myName = "Noah Adams";
+// console.log(myName.toUpperCase());
+// console.log(myName.toLowerCase());
+// 
+// let yourName = "ismet";
+// yourName = yourName.toUpperCase();
+// yourName = yourName.toLocaleUpperCase('tr');
+// yourName = yourName.toLocaleUpperCase();
+// console.log(yourName);
+// myName değişkenindeki string'i tamamen büyük harfe dönüştürür.
+console.log(myName.toUpperCase());
 
+// myName değişkenindeki string'i tamamen küçük harfe dönüştürür.
+console.log(myName.toLowerCase());
 
-
-
-
-
-
+// yourName değişkenindeki string'i tamamen büyük harfe dönüştürür. (Alternatif yollar da kullanılabilir)
+yourName = yourName.toLocaleUpperCase();
+console.log(yourName);
 
 
 //! ORNEK: iki string'i esit veya degil diye kiyaslayarak sonucu
