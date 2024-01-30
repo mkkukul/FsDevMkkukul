@@ -160,10 +160,21 @@ console.log(str6.charAt(14)); // Çıktı: h
 
 //! lenght bir property (objenin degiskenidir) dir ve string'in
 //! karakter sayisini tutar.
-console.log(str6.length); //* 27
+
+const str6 = "Full Stack Path and DS path";
+
+// String'in uzunluğunu alır
+console.log(str6.length); // Çıktı: 27
+
+// String'in son karakterini alır
+// String indeksleri 0'dan başladığı için, son karakterin indeksi "uzunluk - 1" olacaktır.
+console.log(str6.charAt(str6.length - 1)); // Çıktı: h
+
+
+// console.log(str6.length); //* 27
 
 //* String son harfini ogrenmek istersek
-console.log(str6.charAt(str6.length - 1)); //* 0 -26 => 27 eleman
+// console.log(str6.charAt(str6.length - 1)); //* 0 -26 => 27 eleman
 
 //* ----------------------------------------------------------
 //* includes() - case sentive
