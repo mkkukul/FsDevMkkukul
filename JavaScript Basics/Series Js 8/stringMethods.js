@@ -321,18 +321,21 @@ console.log(oku);
 //* ----------------------------------------------------------
 //*  replaceAll() --immutable
 //* ----------------------------------------------------------
-let degistir = "daglar daglar yol ver gecem..";
-degistir = degistir.replaceAll("daglar", "Dağlar");
-console.log(degistir);
 
-//?Regex de kullanilabilir.
-let degistir2 =
-  "No woman, no cry" +
-  " No woman, no cry, eh, yeah" +
-  " Little darling, don't shed no tears" +
-  " No woman, no cry, eh";
 
-console.log(degistir2.replaceAll(/no/gi, "Hayir"));
+
+// let degistir = "daglar daglar yol ver gecem..";
+// degistir = degistir.replaceAll("daglar", "Dağlar");
+// console.log(degistir);
+// 
+// ?Regex de kullanilabilir.
+// let degistir2 =
+  // "No woman, no cry" +
+  // " No woman, no cry, eh, yeah" +
+  // " Little darling, don't shed no tears" +
+  // " No woman, no cry, eh";
+// 
+// console.log(degistir2.replaceAll(/no/gi, "Hayir"));
 
 //* ----------------------------------------------------------
 //*  slice(beginIndex[, endIndex])
