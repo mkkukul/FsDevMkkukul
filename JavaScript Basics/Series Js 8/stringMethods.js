@@ -139,10 +139,24 @@ console.log(compareResult);
 //* charAt()
 //* ----------------------------------------------------------
 const str6 = "Full Stack Path and DS path";
-console.log(str6.charAt(5)); //* S
-console.log(str6.charAt(4)); //* " "
-console.log(str6.charAt()); //* F (ilk indistekini dondurur)
-console.log(str6.charAt(14)); //* h
+
+// 5. indeksteki karakteri alır (dizilerde indeks 0'dan başlar)
+console.log(str6.charAt(5)); // Çıktı: S
+
+// 4. indeksteki karakteri alır
+console.log(str6.charAt(4)); // Çıktı: " " (boşluk karakteri)
+
+// Parametre verilmediği durumda, 0. indeksteki karakteri alır
+console.log(str6.charAt()); // Çıktı: F (ilk karakter)
+
+// 14. indeksteki karakteri alır
+console.log(str6.charAt(14)); // Çıktı: h
+
+// const str6 = "Full Stack Path and DS path";
+// console.log(str6.charAt(5)); //* S
+// console.log(str6.charAt(4)); //* " "
+// console.log(str6.charAt()); //* F (ilk indistekini dondurur)
+// console.log(str6.charAt(14)); //* h
 
 //! lenght bir property (objenin degiskenidir) dir ve string'in
 //! karakter sayisini tutar.
