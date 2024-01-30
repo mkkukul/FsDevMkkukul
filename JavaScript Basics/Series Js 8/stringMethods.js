@@ -45,6 +45,13 @@ console.log(str5, typeof str5);
 //*  concat() - immutable
 //* ---------------------------------------------------
 
+// str1 ve str2 string'lerini birleştirip, yeni bir string elde etmek için concat() kullanılır.
+console.log(str1.concat(str2)); //* Orijinal değerler bozulmaz
+console.log(str1, str2);
+
+// Yeni bir değer oluşturup atama yapılır. concat() ile birleştirilen str1, str3 ve " Path" ile güncellenir.
+str1 = str1.concat(str3, " Path");
+console.log(str1);
 
 
 
