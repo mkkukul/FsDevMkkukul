@@ -290,7 +290,11 @@ console.log(word2.endsWith("!")); // Çıktı: true
 // 23. indeksten itibaren String "acar" ile bitiyor mu?
 console.log(word2.endsWith("acar", 23)); // Çıktı: true
 
-
+//* startsWith("Sen"): String "Sen" ile başlıyor mu? Çıktı: true
+//* startsWith("gulunce"): String "gulunce" ile başlıyor mu? Çıktı: false
+//* startsWith("gulunce", 4): 4. indeksten itibaren String "gulunce" ile başlıyor mu? Çıktı: true
+//* endsWith("!"): String "!" ile bitiyor mu? Çıktı: true
+//* endsWith("acar", 23): 23. indeksten itibaren String "acar" ile bitiyor mu? Çıktı: true
 
 // let word2 = "Sen gulunce guller acar gul pembe!";
 // console.log(new String(word2));
