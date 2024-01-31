@@ -424,6 +424,13 @@ console.log(chars); // Çıktı: [ 'G', 'e', 'l', ' ', 'g', 'u', 'n', 'd', 'u', 
 //* trim();
 //* ----------------------------------------------------------
 
+const ramazan = "    Hoş geldin ya şehri Ramazan     ";
+console.log(ramazan); // İlk hali: "    Hoş geldin ya şehri Ramazan     "
+console.log(ramazan.length); // İlk hali uzunluğu: 36
+
+const trimmedRamazan = ramazan.trim();
+console.log(trimmedRamazan); // Boşlukları temizlenmiş hali: "Hoş geldin ya şehri Ramazan"
+console.log(trimmedRamazan.length); // Temizlenmiş hali uzunluğu: 27
 
 
 // const ramazan = "    Hoş geldin ya şehri Ramazan     ";
