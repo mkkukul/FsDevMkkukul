@@ -423,11 +423,11 @@ console.log(chars); // Çıktı: [ 'G', 'e', 'l', ' ', 'g', 'u', 'n', 'd', 'u', 
 //* ----------------------------------------------------------
 //* trim();
 //* ----------------------------------------------------------
-const ramazan = "    Hoş geldin ya şehri Ramazan     ";
-console.log(ramazan);
-console.log(ramazan.length); // 36
-console.log(ramazan.trim());
-console.log(ramazan.trim().length); //27
+// const ramazan = "    Hoş geldin ya şehri Ramazan     ";
+// console.log(ramazan);
+// console.log(ramazan.length); // 36
+// console.log(ramazan.trim());
+// console.log(ramazan.trim().length); //27
 
 //! ODEV1: tarkan string'indeki kelimelerin sayisini donduren
 //! bir fonksiyon yaziniz.
