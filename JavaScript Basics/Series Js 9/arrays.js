@@ -59,6 +59,12 @@ console.log(numbers); // [3, 2, 1]
 // 
 
 //! 10 elemanlik bos bir Array oluşturdu
+
+const numbers1 = new Array(10);
+console.log(numbers1); // [ <10 empty items> ]
+
+// Burada numbers1 dizisi 10 elemana sahiptir, ancak her bir elemanı undefined'dir. Bu durum, genellikle bir dizi oluşturulurken uzunluğu belirlemek, ancak içeriği daha sonra doldurmak istendiğinde kullanılır.
+
 // const numbers1 = new Array(10);
 // console.log(numbers1);
 // 
