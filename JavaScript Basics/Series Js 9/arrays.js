@@ -97,6 +97,7 @@ isimler[1] = "saffet"; // `isimler` dizisinin ikinci elemanını "saffet" ile de
 console.log(isimler); // Güncellenmiş `isimler` dizisini konsola yazdırır.
 
 
+
 // console.log(diller[1]);
 // const go = diller[3];
 // console.log(go);
