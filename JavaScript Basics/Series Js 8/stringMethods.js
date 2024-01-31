@@ -411,7 +411,7 @@ console.log(splited, typeof splited); // Çıktı: [ 'Gel', 'gunduzle', 'gece', 
 // Her bir karakteri ayırarak bir dizi oluşturur
 const chars = tarkan.split("");
 console.log(chars); // Çıktı: [ 'G', 'e', 'l', ' ', 'g', 'u', 'n', 'd', 'u', 'z', 'l', 'e', ' ', 'g', 'e', 'c', 'e', ' ', 'o', 'l', 'a', 'l', 'i', 'm' ] array
-
+split(separator): separator parametresine göre string'i ayırarak bir dizi oluşturur. Bu örnekte boşluklara göre veya karakterlere göre ayırma kullanılmıştır.
 
 // const tarkan = "Gel gunduzle gece olalim";
 // const splited = tarkan.split(" ");
