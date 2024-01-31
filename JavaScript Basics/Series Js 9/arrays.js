@@ -70,6 +70,11 @@ console.log(numbers1); // [ <10 empty items> ]
 // 
 // ! 3.Yöntem (Array.of())
 
+const veriler = Array.of(1, 2, 3);
+console.log(veriler); // [1, 2, 3]
+
+const veri = Array.of("Deneme");
+console.log(veri); // ["Deneme"]
 
 
 // const veriler = Array.of(1, 2, 3)
