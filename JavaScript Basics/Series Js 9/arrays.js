@@ -69,12 +69,15 @@ console.log(numbers1); // [ <10 empty items> ]
 // console.log(numbers1);
 // 
 // ! 3.Yöntem (Array.of())
-const veriler = Array.of(1, 2, 3)
-console.log(veriler);
 
-const veri = Array.of("Deneme");
-console.log(veri);
 
+
+// const veriler = Array.of(1, 2, 3)
+// console.log(veriler);
+// 
+// const veri = Array.of("Deneme");
+// console.log(veri);
+// 
 //* Diziden Veri Okuma-Yazma (indisleme)
 //* ---------------------------------------------------------
 //!  Diziden veri okuma
