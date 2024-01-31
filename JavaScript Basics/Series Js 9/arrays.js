@@ -7,16 +7,34 @@ console.log("***** ARRAYS ******");
 //* Dizi Tanimlama
 //* ---------------------------------------------------------
 
-const isimler =["ahmet", "ismet", "can", "canan", "Mathew" ];
-// !isimleri yazdırır
+const isimler = ["ahmet", "ismet", "can", "canan", "Mathew"];
 
-console.log(isimler);
+// İsimleri yazdırır
+console.log(isimler); // ["ahmet", "ismet", "can", "canan", "Mathew"]
+
+// Dizinin veri türünü yazdırır (Array)
 console.log(typeof isimler);
-//! kaç tane olduğunu
-console.log(isimler.length);
+
+// Dizide kaç eleman olduğunu yazdırır
+console.log(isimler.length); // 5
+
+// Boş bir dizi oluşturulur
 const bosDizi = [];
+
+// Boş diziyi yazdırır (içinde hiçbir eleman olmadığı için [])
 console.log(bosDizi);
 
+
+// const isimler =["ahmet", "ismet", "can", "canan", "Mathew" ];
+// !isimleri yazdırır
+// 
+// console.log(isimler);
+// console.log(typeof isimler);
+// ! kaç tane olduğunu
+// console.log(isimler.length);
+// const bosDizi = [];
+// console.log(bosDizi);
+// 
 // ! 1.Yöntem (Array Literal) - Tercih edilen yöntem
 
 
