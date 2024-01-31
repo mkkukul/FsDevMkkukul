@@ -76,6 +76,7 @@ console.log(veriler); // [1, 2, 3]
 const veri = Array.of("Deneme");
 console.log(veri); // ["Deneme"]
 
+// Bu örnekte, Array.of(1, 2, 3) ifadesiyle [1, 2, 3] dizisi oluşturulmuş ve Array.of("Deneme") ifadesiyle de ["Deneme"] dizisi oluşturulmuştur.
 
 // const veriler = Array.of(1, 2, 3)
 // console.log(veriler);
