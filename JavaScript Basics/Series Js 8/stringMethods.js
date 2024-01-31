@@ -358,18 +358,45 @@ console.log(degistir2.replaceAll(/no/gi, "Hayir"));
 //*  substring(beginIndex[, endIndex])
 //*  substr (depreceated)
 //* ----------------------------------------------------------
+
 const veysel = "Uzun ince bir yoldayim yuruyorum gunduz gece..";
 
+// slice kullanımı
 const sliced = veysel.slice(33);
-console.log(sliced, typeof sliced); //? gunduz gece..
+console.log(sliced, typeof sliced); // Çıktı: "gunduz gece.." string
 
-console.log(veysel.slice(17, 30)); //? dayim yuruyor.
-console.log(veysel.slice(-10)); //? duz gece..
-console.log(veysel.slice(-23, -19)); //? yuru
+console.log(veysel.slice(17, 30)); // Çıktı: "dayim yuruyor."
+console.log(veysel.slice(-10)); // Çıktı: "duz gece.."
+console.log(veysel.slice(-23, -19)); // Çıktı: "yuru"
 
-console.log(veysel.substring(17, 30)); //? dayim yuruyor
-//! negatif indeks substring ile kullanilamaz.
-console.log(veysel.substring(-10)); //? Uzun ince bir yoldayim yuruyorum gunduz gece..
+// substring kullanımı
+console.log(veysel.substring(17, 30)); // Çıktı: "dayim yuruyor"
+// Negatif indeks substring ile kullanılamaz.
+console.log(veysel.substring(-10)); // Çıktı: "Uzun ince bir yoldayim yuruyorum gunduz gece.."
+
+// slice(startIndex): startIndex'den itibaren string'in sonuna kadar olan kısmı alır.
+// slice(startIndex, endIndex): startIndex'den endIndex'e kadar olan kısmı alır.
+// slice(-startIndex): string'in sonundan startIndex kadar olan kısmı alır.
+// slice(-startIndex, -endIndex): string'in sondan startIndex kadar olan ve sondan endIndex kadar olan kısmı alır.
+// substring(startIndex, endIndex): startIndex ile endIndex arasındaki kısmı alır. Negatif indeks kullanılamaz.
+
+
+
+
+
+
+// const veysel = "Uzun ince bir yoldayim yuruyorum gunduz gece..";
+// 
+// const sliced = veysel.slice(33);
+// console.log(sliced, typeof sliced); //? gunduz gece..
+// 
+// console.log(veysel.slice(17, 30)); //? dayim yuruyor.
+// console.log(veysel.slice(-10)); //? duz gece..
+// console.log(veysel.slice(-23, -19)); //? yuru
+// 
+// console.log(veysel.substring(17, 30)); //? dayim yuruyor
+// ! negatif indeks substring ile kullanilamaz.
+// console.log(veysel.substring(-10)); //? Uzun ince bir yoldayim yuruyorum gunduz gece..
 
 //* ----------------------------------------------------------
 //* split([sep [, limit] ])
