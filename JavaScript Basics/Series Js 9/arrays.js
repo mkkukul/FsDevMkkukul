@@ -40,12 +40,22 @@ console.log(bosDizi);
 
 
 // ! 2.Yöntem (Object Constructor)
-const diller = ["C++", "Javasciprt", "Assembly", "Go", "Ruby"];
-console.log(diller);
 
+// 1. Dizi oluşturma yöntemi: Dizi literali
+const diller = ["C++", "Javascript", "Assembly", "Go", "Ruby"];
+console.log(diller); // ["C++", "Javascript", "Assembly", "Go", "Ruby"]
+
+// 2. Dizi oluşturma yöntemi: Array constructor'ı kullanma
 const numbers = new Array(3, 2, 1);
-console.log(numbers);
+console.log(numbers); // [3, 2, 1]
 
+
+// const diller = ["C++", "Javasciprt", "Assembly", "Go", "Ruby"];
+// console.log(diller);
+// 
+// const numbers = new Array(3, 2, 1);
+// console.log(numbers);
+// 
 
 //! 10 elemanlik bos bir Array oluşturdu
 const numbers1 = new Array(10);
