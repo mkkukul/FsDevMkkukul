@@ -401,6 +401,7 @@ console.log(veysel.substring(-10)); // Çıktı: "Uzun ince bir yoldayim yuruyor
 //* ----------------------------------------------------------
 //* split([sep [, limit] ])
 //* ----------------------------------------------------------
+
 // const tarkan = "Gel gunduzle gece olalim";
 // const splited = tarkan.split(" ");
 // console.log(splited, typeof splited); //! Bosluklara göre ayirarak Array'e cevirdi.
