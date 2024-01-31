@@ -438,6 +438,7 @@ console.log(trimmedRamazan.length); // Temizlenmiş hali uzunluğu: 27
 // console.log(ramazan.length); // 36
 // console.log(ramazan.trim());
 // console.log(ramazan.trim().length); //27
+//! Bu örnek, trim fonksiyonunun nasıl kullanılacağını ve boşlukların nasıl kaldırılacağını göstermektedir.
 
 //! ODEV1: tarkan string'indeki kelimelerin sayisini donduren
 //! bir fonksiyon yaziniz.
