@@ -423,6 +423,9 @@ console.log(chars); // Çıktı: [ 'G', 'e', 'l', ' ', 'g', 'u', 'n', 'd', 'u', 
 //* ----------------------------------------------------------
 //* trim();
 //* ----------------------------------------------------------
+
+
+
 // const ramazan = "    Hoş geldin ya şehri Ramazan     ";
 // console.log(ramazan);
 // console.log(ramazan.length); // 36
