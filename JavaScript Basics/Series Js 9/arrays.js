@@ -211,7 +211,7 @@ console.log(arabalar, n);
 
 //* unshift dizinin 0. indeksine eleman ekler ve dizinin son eleman sayisini dondurur.
 
-// const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
+const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
 // Önceki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
 
 const n1 = arabalar.unshift("Audi");
