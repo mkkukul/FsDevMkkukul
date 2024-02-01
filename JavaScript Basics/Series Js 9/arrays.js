@@ -172,6 +172,16 @@ console.log(yaslar);
 
 //** pop() son elemanı siler ve sildigi elemani dondurur.
 
+const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
+// Önceki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
+
+const silinen = arabalar.pop();
+// pop() metodu, dizinin sonundaki elemanı çıkarır ve çıkarılan elemanı döndürür.
+// Şu anki durum: ["BMW", "MERCEDES", "Fiat"]
+// Silinen eleman: "Anadol"
+
+console.log(arabalar, silinen);
+// Konsola yazdırılanlar: ["BMW", "MERCEDES", "Fiat"] "Anadol"
 
 
 // const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
