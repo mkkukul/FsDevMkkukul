@@ -115,6 +115,9 @@ console.log(isimler); // Güncellenmiş `isimler` dizisini konsola yazdırır.
 
 //? numbers dizisinin son elementinin degerini bir arttirin
 
+console.log(numbers); // Diziyi konsola yazdırır. Örneğin, [3, 2, 1]
+numbers[numbers.length - 1]++; // Dizinin son elemanını bir artırır. Bu örnekte, [3, 2, 2] olacaktır.
+console.log(numbers); // Güncellenmiş diziyi konsola yazdırır.
 
 
 // console.log(numbers);
@@ -122,12 +125,15 @@ console.log(isimler); // Güncellenmiş `isimler` dizisini konsola yazdırır.
 // console.log(numbers);
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 55 yasini konsola yazdiriniz.
-const yaslar = [22, 44, 55];
-const kisiler = ["Ahmet", "Can", 2022, 2022 - 1990, true, yaslar];
-console.log(kisiler);
-const yas55 = kisiler[5][2];
+
+
+
+// const yaslar = [22, 44, 55];
+// const kisiler = ["Ahmet", "Can", 2022, 2022 - 1990, true, yaslar];
+// console.log(kisiler);
 // const yas55 = kisiler[5][2];
-console.log(yas55);
+// const yas55 = kisiler[5][2];
+// console.log(yas55);
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 44 yasini bir eksiltiniz.
 
