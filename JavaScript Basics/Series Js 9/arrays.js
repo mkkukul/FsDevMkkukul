@@ -171,11 +171,11 @@ console.log(yaslar);
 
 
 //** pop() son elemanı siler ve sildigi elemani dondurur.
-const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
+// const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
 // arabalar.pop();
-const silinen =arabalar.pop();
-console.log(arabalar,silinen);
-
+// const silinen =arabalar.pop();
+// console.log(arabalar,silinen);
+// 
 
 //* push() dizinin sonuna eleman ekler ve dizinin son eleman sayisini dondurur.
 
