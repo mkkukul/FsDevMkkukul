@@ -114,9 +114,12 @@ console.log(isimler); // Güncellenmiş `isimler` dizisini konsola yazdırır.
 // isimler = ["Ali", "Veli"];
 
 //? numbers dizisinin son elementinin degerini bir arttirin
-console.log(numbers);
-numbers[numbers.length -1]++;
-console.log(numbers);
+
+
+
+// console.log(numbers);
+// numbers[numbers.length -1]++;
+// console.log(numbers);
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 55 yasini konsola yazdiriniz.
 const yaslar = [22, 44, 55];
