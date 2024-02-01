@@ -192,8 +192,6 @@ console.log(arabalar, silinen);
 
 //* push() dizinin sonuna eleman ekler ve dizinin son eleman sayisini dondurur.
 
-
-
 // const n = arabalar.push("Citroen");
 // console.log(arabalar,n);
 
