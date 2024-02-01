@@ -246,6 +246,9 @@ console.log(arabalar, Audi);
 // 
 
 //* splice()
+
+
+
 arabalar.splice(1,0,"Passat");
 console.log(arabalar);
 //? 1.parametre: eklenecek indis numarasi
