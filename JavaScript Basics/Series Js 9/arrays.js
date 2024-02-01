@@ -210,8 +210,21 @@ console.log(arabalar, n);
 
 
 //* unshift dizinin 0. indeksine eleman ekler ve dizinin son eleman sayisini dondurur.
-const  n1 = arabalar.unshift("Audi");
-console.log(arabalar,n1);
+
+// const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
+// Önceki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
+
+const n1 = arabalar.unshift("Audi");
+// unshift() metodu, dizinin başına yeni bir eleman ekler ve dizinin yeni uzunluğunu döndürür.
+// Şu anki durum: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"]
+// Yeni uzunluk: 5
+
+console.log(arabalar, n1);
+// Konsola yazdırılanlar: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"] 5
+
+
+// const  n1 = arabalar.unshift("Audi");
+// console.log(arabalar,n1);
 
 
 //* dizinin 0. indeks elemanini siler ve silenen elemani dondurur
