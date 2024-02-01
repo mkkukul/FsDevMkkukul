@@ -126,6 +126,17 @@ console.log(numbers); // Güncellenmiş diziyi konsola yazdırır.
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 55 yasini konsola yazdiriniz.
 
+const yaslar = [22, 44, 55];
+const kisiler = ["Ahmet", "Can", 2022, 2022 - 1990, true, yaslar];
+
+console.log(kisiler);
+// Örneğin, ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]] gibi bir çıktı alınacaktır.
+
+const yas55 = kisiler[5][2];
+// Dizinin 5. elemanı bir dizi olduğu için, bu diziden 2. elemanı seçer.
+// Bu örnekte, yas55 değeri 55 olacaktır.
+
+console.log(yas55); // 55
 
 
 // const yaslar = [22, 44, 55];
