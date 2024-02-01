@@ -228,6 +228,9 @@ console.log(arabalar, n1);
 
 
 //* dizinin 0. indeks elemanini siler ve silenen elemani dondurur
+
+
+
 // const Audi = arabalar.shift();
 // console.log(arabalar,Audi);
 // 
