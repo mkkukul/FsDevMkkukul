@@ -229,6 +229,16 @@ console.log(arabalar, n1);
 
 //* dizinin 0. indeks elemanini siler ve silenen elemani dondurur
 
+// const arabalar = ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"];
+// Önceki durum: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"]
+
+const Audi = arabalar.shift();
+// shift() metodu, dizinin başındaki elemanı çıkarır ve bu elemanı döndürür.
+// Şu anki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
+// Çıkarılan eleman: "Audi"
+
+console.log(arabalar, Audi);
+// Konsola yazdırılanlar: ["BMW", "MERCEDES", "Fiat", "Anadol"] "Audi"
 
 
 // const Audi = arabalar.shift();
