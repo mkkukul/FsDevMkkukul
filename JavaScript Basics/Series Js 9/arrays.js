@@ -171,6 +171,9 @@ console.log(yaslar);
 
 
 //** pop() son elemanı siler ve sildigi elemani dondurur.
+
+
+
 // const arabalar = ["BMW", "MERCEDES", "Fiat", "Anadol"];
 // arabalar.pop();
 // const silinen =arabalar.pop();
