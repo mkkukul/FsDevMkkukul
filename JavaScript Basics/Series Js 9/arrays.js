@@ -249,8 +249,8 @@ console.log(arabalar, Audi);
 
 
 
-arabalar.splice(1,0,"Passat");
-console.log(arabalar);
+// arabalar.splice(1,0,"Passat");
+// console.log(arabalar);
 //? 1.parametre: eklenecek indis numarasi
 //? 2.parametre: 0 ise araya ekleme, 1 ise uzerine yazma
 //? 3.parametre: yeni eklenecek veri
