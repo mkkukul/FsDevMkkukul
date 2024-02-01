@@ -148,6 +148,8 @@ console.log(yas55); // 55
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 44 yasini bir eksiltiniz.
 
+
+
 // kisiler[5][1]--;
 // console.log(kisiler);
 // !
