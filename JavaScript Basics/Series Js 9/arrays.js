@@ -445,12 +445,12 @@ console.log(sayilar1);
 
 //* slice() Dizi içindeki belirli bir bölümü kesip, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
-const arabalar1 = ["BMW", "Mercedes", "Fiat", "Anadol"];
-const yeniArabalar = arabalar1.slice(2);
-console.log(yeniArabalar, arabalar1);
-
-const yeniArabalar1 = arabalar1.slice(1, 3);
-console.log(yeniArabalar1);
+// const arabalar1 = ["BMW", "Mercedes", "Fiat", "Anadol"];
+// const yeniArabalar = arabalar1.slice(2);
+// console.log(yeniArabalar, arabalar1);
+// 
+// const yeniArabalar1 = arabalar1.slice(1, 3);
+// console.log(yeniArabalar1);
 
 //* concat() İki veya daha fazla diziyi birleştirir, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
