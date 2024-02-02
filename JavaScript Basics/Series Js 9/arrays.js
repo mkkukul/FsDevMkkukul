@@ -271,8 +271,8 @@ console.log(arabalar);
 
 
 //* Dizinin tamamini ters siraya cevirir.
-arabalar.reverse();
-console.log(arabalar);
+// arabalar.reverse();
+// console.log(arabalar);
 
 
 //* sort() Diziyi alfabetik olarak siralar. hizlama sayiları sıralamak için kullanılmaz
