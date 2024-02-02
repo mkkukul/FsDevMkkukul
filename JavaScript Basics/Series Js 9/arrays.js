@@ -296,7 +296,7 @@ console.log(sayilar);
  sayilar.sort((a,b) => a-b);
  console.log(sayilar);
 
- 
+
 // isimler.sort()
 // console.log(isimler)
 // const sayilar = [2, 3, 4, 11, 22, 5, 6, 7]
@@ -316,14 +316,14 @@ console.log(sayilar);
 
 
 //* fill()
-const array1 = [1, 2, 3, 4];
-array1.fill(0);
-console.log(array1);
-
-array1.fill(1, 2, 4);
-console.log(array1);
-array1.fill(-1, 1); //* 1. eleman ve sonrasini -1 yap
-console.log(array1);
+// const array1 = [1, 2, 3, 4];
+// array1.fill(0);
+// console.log(array1);
+// 
+// array1.fill(1, 2, 4);
+// console.log(array1);
+// array1.fill(-1, 1); //* 1. eleman ve sonrasini -1 yap
+// console.log(array1);
 //? ===========================================================
 //?  DIZI ERISIM METOTLARI
 //? ===========================================================
