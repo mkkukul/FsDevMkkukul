@@ -372,6 +372,23 @@ console.log(sayilar1.includes("5"));
 //*-----------------------------------------------------------
 //* ilk eslesen indeksi dondurur.
 
+const sayilar1 = [1, 2, 3, 4, 5, 2];
+
+console.log(sayilar1.indexOf(2));
+// Konsola yazdırılan: 1
+// 2 değerinin ilk bulunduğu indeks 1'dir.
+
+console.log(sayilar1.lastIndexOf(2));
+// Konsola yazdırılan: 5
+// 2 değerinin son bulunduğu indeks 5'tir.
+
+console.log(sayilar1.lastIndexOf(4));
+// Konsola yazdırılan: 3
+// 4 değerinin son bulunduğu indeks 3'tür.
+
+console.log(sayilar1.lastIndexOf(6));
+// Konsola yazdırılan: -1
+// 6 değeri dizide bulunmadığı için -1 döner.
 
 
 // console.log(sayilar1.indexOf
