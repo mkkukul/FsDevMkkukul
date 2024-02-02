@@ -408,6 +408,19 @@ console.log(sayilar1.lastIndexOf(6));
 //*-----------------------------------------------------------
 //? join, dizinin elamanlari birlestirip string hale cevirir. değiştirmez orginali bozmaz
 
+const sayilar1 = [1, 2, 3, 4, 5];
+
+console.log(sayilar1.join(" "));
+// Konsola yazdırılan: "1 2 3 4 5"
+// Dizideki elemanlar arasına boşluk karakteri ekleyerek birleştirir.
+
+console.log(sayilar1.join());
+// Konsola yazdırılan: "1,2,3,4,5"
+// Varsayılan olarak, elemanlar arasına virgül ekleyerek birleştirir.
+
+console.log(sayilar1);
+// Konsola yazdırılan: [1, 2, 3, 4, 5]
+// Dizi orijinal haliyle değişmez.
 
 
 // console.log(sayilar1.join(" "));
@@ -419,7 +432,7 @@ console.log(sayilar1.lastIndexOf(6));
 //*-----------------------------------------------------------
 //? toString fonksiyonu sadece dizinin elemanlarinin aralarina
 //? (virgul) koyarak birlestirir ve string yapar.
-console.log(sayilar1.toString());
+// console.log(sayilar1.toString());
 
 //* slice() Dizi içindeki belirli bir bölümü kesip, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
