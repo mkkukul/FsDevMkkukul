@@ -407,11 +407,11 @@ console.log(sayilar1.lastIndexOf(6));
 //* join()
 //*-----------------------------------------------------------
 //? join, dizinin elamanlari birlestirip string hale cevirir. değiştirmez orginali bozmaz
-console.log(sayilar1.join(" "));
-console.log(sayilar1.join()); 
-// 3 5...
-console.log(sayilar1);
-
+// console.log(sayilar1.join(" "));
+// console.log(sayilar1.join()); 
+3 5...
+// console.log(sayilar1);
+// 
 //* toString()
 //*-----------------------------------------------------------
 //? toString fonksiyonu sadece dizinin elemanlarinin aralarina
