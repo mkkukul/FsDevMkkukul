@@ -296,6 +296,7 @@ console.log(sayilar);
  sayilar.sort((a,b) => a-b);
  console.log(sayilar);
 
+ 
 // isimler.sort()
 // console.log(isimler)
 // const sayilar = [2, 3, 4, 11, 22, 5, 6, 7]
