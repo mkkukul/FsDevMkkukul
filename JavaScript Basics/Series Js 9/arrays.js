@@ -371,12 +371,12 @@ console.log(sayilar1.includes("5"));
 //* indexOf(), lastIndexOf();
 //*-----------------------------------------------------------
 //* ilk eslesen indeksi dondurur.
-console.log(sayilar1.indexOf
-  (2)); //? 2
-  console.log(sayilar1.lastIndexOf
-  (2)); //? 5
-  console.log(sayilar1.lastIndexOf
-  (4)); //? -1
+// console.log(sayilar1.indexOf
+  // (2)); //? 2
+  // console.log(sayilar1.lastIndexOf
+  // (2)); //? 5
+  // console.log(sayilar1.lastIndexOf
+  // (4)); //? -1
 
 //! Odev: prompt ile konsoldan bir sayi istenmeli (string veya number
 //! olarak) eger bu girilen sayi, dizi icerisinde bulunuyorsa indisi
