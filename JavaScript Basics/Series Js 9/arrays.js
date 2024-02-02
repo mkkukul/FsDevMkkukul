@@ -445,6 +445,23 @@ console.log(sayilar1);
 
 //* slice() Dizi içindeki belirli bir bölümü kesip, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
+
+const arabalar1 = ["BMW", "Mercedes", "Fiat", "Anadol"];
+
+// 2. indisten başlayarak sona kadar olan elemanları içeren yeni bir dizi oluşturur.
+const yeniArabalar = arabalar1.slice(2);
+console.log(yeniArabalar, arabalar1);
+// Konsola yazdırılan:
+// ["Fiat", "Anadol"] ["BMW", "Mercedes", "Fiat", "Anadol"]
+
+// 1. indisten başlayarak 3. indise kadar olan elemanları içeren yeni bir dizi oluşturur.
+const yeniArabalar1 = arabalar1.slice(1, 3);
+console.log(yeniArabalar1);
+// Konsola yazdırılan:
+// ["Mercedes", "Fiat"]
+
+
+
 // const arabalar1 = ["BMW", "Mercedes", "Fiat", "Anadol"];
 // const yeniArabalar = arabalar1.slice(2);
 // console.log(yeniArabalar, arabalar1);
