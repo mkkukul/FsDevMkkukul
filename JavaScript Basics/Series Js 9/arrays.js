@@ -433,7 +433,13 @@ console.log(sayilar1);
 //? toString fonksiyonu sadece dizinin elemanlarinin aralarina
 //? (virgul) koyarak birlestirir ve string yapar.
 
+console.log(sayilar1.toString());
+// Konsola yazdırılan: "1,2,3,4,5"
+// Varsayılan olarak, elemanlar arasına virgül ekleyerek birleştirir.
 
+console.log(sayilar1);
+// Konsola yazdırılan: [1, 2, 3, 4, 5]
+// Dizi orijinal haliyle değişmez.
 
 // console.log(sayilar1.toString());
 
