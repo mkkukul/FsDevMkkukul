@@ -317,6 +317,26 @@ console.log(sayilar);
 
 //* fill()
 
+const array1 = [1, 2, 3, 4];
+// Önceki durum: [1, 2, 3, 4]
+
+array1.fill(0);
+// Diziyi sıfırlar ile doldurur.
+
+console.log(array1);
+// Konsola yazdırılanlar: [0, 0, 0, 0]
+
+array1.fill(1, 2, 4);
+// İndeks 2'den başlayarak (dahil) indeks 4'e kadar (hariç) olan elemanları 1 ile doldurur.
+
+console.log(array1);
+// Konsola yazdırılanlar: [0, 0, 1, 1]
+
+array1.fill(-1, 1);
+// İndeks 1'den başlayarak sona kadar olan elemanları -1 ile doldurur.
+
+console.log(array1);
+// Konsola yazdırılanlar: [0, -1, -1, -1]
 
 
 // const array1 = [1, 2, 3, 4];
