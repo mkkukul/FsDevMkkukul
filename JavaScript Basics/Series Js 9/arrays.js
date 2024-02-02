@@ -371,6 +371,9 @@ console.log(sayilar1.includes("5"));
 //* indexOf(), lastIndexOf();
 //*-----------------------------------------------------------
 //* ilk eslesen indeksi dondurur.
+
+
+
 // console.log(sayilar1.indexOf
   // (2)); //? 2
   // console.log(sayilar1.lastIndexOf
