@@ -271,6 +271,9 @@ console.log(arabalar);
 
 
 //* Dizinin tamamini ters siraya cevirir.
+
+
+
 // arabalar.reverse();
 // console.log(arabalar);
 
