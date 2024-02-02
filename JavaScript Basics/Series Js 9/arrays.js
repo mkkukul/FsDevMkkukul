@@ -316,6 +316,9 @@ console.log(sayilar);
 
 
 //* fill()
+
+
+
 // const array1 = [1, 2, 3, 4];
 // array1.fill(0);
 // console.log(array1);
