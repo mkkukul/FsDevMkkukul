@@ -354,8 +354,19 @@ const sayilar1 = [3, 5, 2, "2", "uc", 2, "3", "bes", "5"];
 
 //* includes()
 //*-----------------------------------------------------------
+
+// const sayilar1 = [1, 2, 3, 4, 5];
+
 console.log(sayilar1.includes(5));
+// Konsola yazdırılan: true
+// Dizi içinde 5 değeri bulunduğu için true döner.
+
 console.log(sayilar1.includes("5"));
+// Konsola yazdırılan: false
+// Dizi içinde "5" değeri string olarak bulunmaz, bu nedenle false döner.
+
+// console.log(sayilar1.includes(5));
+// console.log(sayilar1.includes("5"));
 
 //* indexOf(), lastIndexOf();
 //*-----------------------------------------------------------
