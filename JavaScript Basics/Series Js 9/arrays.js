@@ -432,6 +432,9 @@ console.log(sayilar1);
 //*-----------------------------------------------------------
 //? toString fonksiyonu sadece dizinin elemanlarinin aralarina
 //? (virgul) koyarak birlestirir ve string yapar.
+
+
+
 // console.log(sayilar1.toString());
 
 //* slice() Dizi içindeki belirli bir bölümü kesip, yeni bir dizi oluşturur.
