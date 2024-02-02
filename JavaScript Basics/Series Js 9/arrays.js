@@ -272,6 +272,14 @@ console.log(arabalar);
 
 //* Dizinin tamamini ters siraya cevirir.
 
+// const arabalar = ["BMW", "Passat", "MERCEDES", "Fiat", "Anadol"];
+// Önceki durum: ["BMW", "Passat", "MERCEDES", "Fiat", "Anadol"]
+
+arabalar.reverse();
+// reverse metodu, bir dizinin elemanlarını tersine çevirir.
+
+console.log(arabalar);
+// Konsola yazdırılanlar: ["Anadol", "Fiat", "MERCEDES", "Passat", "BMW"]
 
 
 // arabalar.reverse();
