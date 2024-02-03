@@ -471,15 +471,15 @@ console.log(yeniArabalar1);
 
 //* concat() İki veya daha fazla diziyi birleştirir, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
-const yazilar = ["Bugun", "hava", "cok", "guzel"];
-const numbersArr = [1, 2, 5, 7];
-const combinedArr = yazilar.concat(
-  true,
-  numbersArr,
-  ["aslinda", "cok", "sicak"],
-  [["x", "y"]]
-);
-console.log(combinedArr);
+// const yazilar = ["Bugun", "hava", "cok", "guzel"];
+// const numbersArr = [1, 2, 5, 7];
+// const combinedArr = yazilar.concat(
+  // true,
+  // numbersArr,
+  // ["aslinda", "cok", "sicak"],
+  // [["x", "y"]]
+// );
+// console.log(combinedArr);
 
 //* every() fonksiyonu, bir dizideki tüm öğelerin belirli bir koşulu sağlayıp sağlamadığını kontrol eden ve sonucu true veya false olarak döndüren bir dizi metodudur.
 //*-----------------------------------------------------------
