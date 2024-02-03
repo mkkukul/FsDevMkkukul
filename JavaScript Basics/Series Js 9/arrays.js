@@ -503,12 +503,12 @@ console.log(combinedArr);
 //? Tum diziyi itere eder ve aldigi callback fonksiyonuna gore
 //? test gerceklestirir.Tum elemanlar icin test basarili ise
 //? true aksi takdirde false deger dondurur.
-
-const yasArray = [18, 22, 78, 34, 78, 79, 15];
-const check = yasArray.every((yas) => yas >= 18);
-check
-  ? console.log("Dizideki herkesin yasi 18'den buyuktur")
-  : console.log("Dizide 18 yas alti var");
+// 
+// const yasArray = [18, 22, 78, 34, 78, 79, 15];
+// const check = yasArray.every((yas) => yas >= 18);
+// check
+  // ? console.log("Dizideki herkesin yasi 18'den buyuktur")
+  // : console.log("Dizide 18 yas alti var");
 
 //* some()
 //*-----------------------------------------------------------
