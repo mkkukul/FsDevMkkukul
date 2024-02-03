@@ -472,6 +472,20 @@ console.log(yeniArabalar1);
 //* concat() İki veya daha fazla diziyi birleştirir, yeni bir dizi oluşturur.
 //*-----------------------------------------------------------
 
+const yazilar = ["Bugun", "hava", "cok", "guzel"];
+const numbersArr = [1, 2, 5, 7];
+
+// İki dizi ve diğer veri tiplerini birleştirme
+const combinedArr = yazilar.concat(
+  true,
+  numbersArr,
+  ["aslinda", "cok", "sicak"],
+  [["x", "y"]]
+);
+
+console.log(combinedArr);
+// Konsola yazdırılan:
+// ["Bugun", "hava", "cok", "guzel", true, 1, 2, 5, 7, "aslinda", "cok", "sicak", ["x", "y"]]
 
 
 // const yazilar = ["Bugun", "hava", "cok", "guzel"];
