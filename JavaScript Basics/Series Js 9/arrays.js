@@ -576,6 +576,14 @@ console.log(yasIlk30, yasSon30);
 
 //?Ornek: Yasi 30 dan buyuk olan ilk elemanin indexini yazdirin
 
+// Dizi tanımı
+const yasArray = [18, 22, 78, 34, 78, 79, 15];
+
+// findIndex metoduyla dizideki ilk 30 veya daha büyük yaşlı kişinin indeksini bulma
+const foundIndex = yasArray.findIndex((yas) => yas >= 30);
+
+// Bulunan indeksi ekrana yazdırma
+console.log(foundIndex);
 
 
 
