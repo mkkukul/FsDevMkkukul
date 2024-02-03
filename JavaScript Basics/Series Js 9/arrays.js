@@ -530,6 +530,14 @@ check
 //? takdirde false deger dondurur.
 
 
+// Dizi tanımı
+const yasArray = [18, 22, 78, 34, 78, 79, 15];
+
+// some metoduyla dizideki herhangi bir elemanın 80 veya daha büyük olup olmadığını kontrol etme
+const buyuk80 = yasArray.some((y) => y >= 80);
+
+// Kontrol sonucunu ekrana yazdırma
+console.log(buyuk80); // false
 
 
 // const buyuk80 = yasArray.some((y) => y >= 80);
