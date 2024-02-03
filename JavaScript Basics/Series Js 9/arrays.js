@@ -551,6 +551,17 @@ console.log(buyuk80); // false
 
 //?Ornek: Yasi 30 dan buyuk olan ilk elemani yazdirin
 
+// Dizi tanımı
+const yasArray = [18, 22, 78, 34, 78, 79, 15];
+
+// find metoduyla dizideki ilk 30 veya daha büyük yaşlı kişiyi bulma
+const yasIlk30 = yasArray.find((yas) => yas >= 30);
+
+// findLast (kendi olmayan özel bir fonksiyon) kullanılarak dizideki son 30 veya daha büyük yaşlı kişiyi bulma
+const yasSon30 = yasArray.findLast((yas) => yas >= 30);
+
+// Bulunan yaşları ekrana yazdırma
+console.log(yasIlk30, yasSon30);
 
 
 // const yasIlk30 = yasArray.find((yas) => yas >= 30);
