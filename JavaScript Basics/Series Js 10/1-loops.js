@@ -6,6 +6,34 @@ console.log("******* LOOPS IN ARRAYS ******");
 
 //?-------------- ÖRNEK -------------------
 
+// Bir dizi tanımlama
+const dizi = [-5, 15, 22, -4, 45, 78];
+
+// Boş diziler tanımlama (negatif ve pozitif sayıları ayırmak için)
+const negatifler = [];
+const pozitifler = [];
+
+// dizelereAyir adlı bir fonksiyon tanımlama, bu fonksiyon negatif ve pozitif sayıları ayrıştırır
+const dizelereAyir = (n) => {
+  for (let i = 0; i < n.length; i++) {
+    // Her elemanı kontrol et
+    if (n[i] < 0) {
+      // Eğer eleman negatifse, negatifler dizisine ekle
+      negatifler.push(n[i]);
+    } else {
+      // Eğer eleman pozitifse, pozitifler dizisine ekle
+      pozitifler.push(n[i]);
+    }
+  }
+};
+
+// dizelereAyir fonksiyonunu kullanarak diziyi negatif ve pozitif sayılara ayırma
+dizelereAyir(dizi);
+
+// Sonuçları ekrana yazdırma
+console.log(negatifler); // Negatif sayıları içeren dizi
+console.log(pozitifler); // Pozitif sayıları içeren dizi
+console.log(dizi); // Orijinal dizi
 
 
 
