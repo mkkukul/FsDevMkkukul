@@ -504,6 +504,16 @@ console.log(combinedArr);
 //? test gerceklestirir.Tum elemanlar icin test basarili ise
 //? true aksi takdirde false deger dondurur.
 
+// Dizi tanımı
+const yasArray = [18, 22, 78, 34, 78, 79, 15];
+
+// every metoduyla dizideki her elemanın 18 veya daha büyük olup olmadığını kontrol etme
+const check = yasArray.every((yas) => yas >= 18);
+
+// Ternary ifadesiyle kontrol sonucuna göre mesaj yazdırma
+check
+  ? console.log("Dizideki herkesin yaşı 18'den büyüktür")
+  : console.log("Dizide 18 yaş altı var");
 
 
 // 
