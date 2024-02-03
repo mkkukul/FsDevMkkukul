@@ -529,6 +529,9 @@ check
 //? En az bir eleman icin bile test basarili ise true aksi
 //? takdirde false deger dondurur.
 
+
+
+
 // const buyuk80 = yasArray.some((y) => y >= 80);
 // console.log(buyuk80); //? false
 
