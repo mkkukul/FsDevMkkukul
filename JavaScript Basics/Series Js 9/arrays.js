@@ -550,6 +550,9 @@ console.log(buyuk80); // false
 //? Eger hic bir eleman kosulu saglamazsa undefined dondurur.
 
 //?Ornek: Yasi 30 dan buyuk olan ilk elemani yazdirin
+
+
+
 // const yasIlk30 = yasArray.find((yas) => yas >= 30);
 // const yasSon30 = yasArray.findLast((yas) => yas >= 30);
 // console.log(yasIlk30, yasSon30);
