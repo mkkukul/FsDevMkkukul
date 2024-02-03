@@ -578,5 +578,6 @@ console.log(yasIlk30, yasSon30);
 
 
 
+
 // const foundIndex = yasArray.findIndex((yas) => yas >= 30);
 // console.log(foundIndex);
