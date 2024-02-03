@@ -5,6 +5,9 @@
 console.log("******* LOOPS IN ARRAYS ******");
 
 //?-------------- ÖRNEK -------------------
+
+
+
 // const dizi = [-5, 15, 22, -4, 45, 78];
 // const negatifler = [];
 // const pozitifler = [];
