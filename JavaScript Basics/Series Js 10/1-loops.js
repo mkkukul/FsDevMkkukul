@@ -144,6 +144,8 @@ console.log(findStudents(students, name));
 // const name =prompt("Please enter a name").toLocaleLowerCase();
 // console.log(findStudents(students,name));
 // ! 2 Yöntem
+
+
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 // 
 // const findStudents = (arr, search) => {
