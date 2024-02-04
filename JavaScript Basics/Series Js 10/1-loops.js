@@ -57,6 +57,9 @@ console.log(dizi); // Orijinal dizi
 // 
 //?-------------- ÖRNEK -------------------
 //? Dizideki notlarin ortalamasini hesaplayiniz.
+
+
+
  
 // const notlar = [55, 77, 23, 89, 100];
 // let toplam = 0;
