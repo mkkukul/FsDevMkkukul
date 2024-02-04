@@ -49,6 +49,22 @@ console.log(prices.forEach((price) => (sum += price))); // undefined
 //? prices dizisindeki her bir ara toplam degerini
 //? konsola bastiriniz. Ayrica her bir fiyata %10 zam yapiniz.
 
+// Dizi içindeki her bir fiyatı toplayan ve her elemanı güncelleyen forEach kullanımı
+const prices = [100, 250, 50, 89];
+
+// Toplamı tutacak değişken
+let total = 0;
+
+// forEach metoduyla dizi içinde gezin, her bir elemanı toplam değişkenine ekle,
+// ve her elemanı güncelle (fiyatı %10 arttır)
+prices.forEach((price, index, arr) => {
+  total += price;
+  console.log(`${index + 1}.iteration: ${total}`);
+  arr[index] = Math.trunc(price * 1.1);
+});
+
+// Güncellenmiş fiyatları ekrana yazdır
+console.log(prices);
 
 
 // let total = 0;
