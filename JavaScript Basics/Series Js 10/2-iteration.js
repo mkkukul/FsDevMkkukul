@@ -9,8 +9,8 @@ console.log("****** ITERATION **********");
 //?-------------- ÖRNEK -------------------
 //?  Dizideki herbir fiyati konsola bastiriniz.
 
-const prices = [100, 250, 50, 89];
-prices.forEach((p) => console.log(p));
+// const prices = [100, 250, 50, 89];
+// prices.forEach((p) => console.log(p));
 
 //? ORNEK: prices dizisindekilerin toplamini konsola yazdiriniz */
 let sum = 0;
