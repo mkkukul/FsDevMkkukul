@@ -9,6 +9,11 @@ console.log("****** ITERATION **********");
 //?-------------- ÖRNEK -------------------
 //?  Dizideki herbir fiyati konsola bastiriniz.
 
+// Dizi içindeki her bir fiyatı ekrana yazdıran forEach kullanımı
+const prices = [100, 250, 50, 89];
+
+// forEach metoduyla dizi içinde gezin ve her bir elemanı ekrana yazdır
+prices.forEach((price) => console.log(price));
 
 
 // const prices = [100, 250, 50, 89];
