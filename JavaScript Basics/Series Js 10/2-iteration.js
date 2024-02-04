@@ -22,6 +22,7 @@ prices.forEach((price) => console.log(price));
 //? ORNEK: prices dizisindekilerin toplamini konsola yazdiriniz */
 
 
+
 // let sum = 0;
 // prices.forEach((price) => (sum += price));
 // console.log("SUM:", sum);
