@@ -105,6 +105,36 @@ console.log("ORTALAMA:", toplam / notlar.length);
 //*--------------------------------------------------------
 // ! 1 Yöntem
 
+// Verilen öğrenci dizisi
+const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
+
+// Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
+const findStudents = (arr, search) => {
+  // Başlangıçta sayacı sıfıra ayarla
+  let counter = 0;
+
+  // Dizi üzerinde döngü
+  for (let i = 0; i < arr.length; i++) {
+    // Aranan isim ile dizideki isim karşılaştırılırken küçük harfe çevriliyor
+    if (search === arr[i].toLowerCase()) {
+      // Eğer isim bulunursa sayacı artır
+      counter++;
+    }
+  }
+
+  // Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
+  if (counter === 0) {
+    return `${search} can not be found`;
+  } else {
+    return `${search} found ${counter} times`;
+  }
+};
+
+// Kullanıcıdan isim al
+const name = prompt("Please enter a name").toLowerCase();
+
+// Fonksiyonu çağır ve sonucu ekrana yazdır
+console.log(findStudents(students, name));
 
 
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can","mehmet", "cem", ];
