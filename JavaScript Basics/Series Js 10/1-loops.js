@@ -146,6 +146,7 @@ console.log(findStudents(students, name));
 // ! 2 Yöntem
 
 
+
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 // 
 // const findStudents = (arr, search) => {
