@@ -21,6 +21,21 @@ prices.forEach((price) => console.log(price));
 
 //? ORNEK: prices dizisindekilerin toplamini konsola yazdiriniz */
 
+// Dizi içindeki her bir fiyatı toplayan forEach kullanımı
+const prices = [100, 250, 50, 89];
+
+// Toplamı tutacak değişken
+let sum = 0;
+
+// forEach metoduyla dizi içinde gezin ve her bir elemanı toplam değişkenine ekle
+prices.forEach((price) => (sum += price));
+
+// Toplamı ekrana yazdır
+console.log("SUM:", sum);
+
+// NOT: forEach metodu void metodudur ve herhangi bir değer döndürmez. 
+// Dolayısıyla, forEach metodunun sonucunu ekrana yazdırdığımızda undefined elde ederiz.
+console.log(prices.forEach((price) => (sum += price))); // undefined
 
 
 // let sum = 0;
