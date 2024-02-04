@@ -216,6 +216,34 @@ console.log(findStudents(students, name));
 //* kapsayacak sekilde guncellenmis halidir. Bu dongude dizi
 //* icersindeki veriye erisirken indisleme kullanmaya gerek yoktur.
 
+// Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
+const findStudentsOf = (arr, search) => {
+  // Başlangıçta sayacı sıfıra ayarla
+  let counter = 0;
+
+  // Dizi üzerinde döngü
+  for (let item of arr) {
+    // Ternary operatörü kullanarak
+    // search === item ? counter++ : null;
+
+    // Short-circuit yöntemi ile ifadeyi daha kısa hale getirme
+    // search === item && counter++;
+
+    // Eğer bulunursa counter'ı artır, bulunmasa da counter'ı artır
+    search === item || counter++;
+  }
+
+  // Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
+  return !counter
+    ? `${search} can not be found`
+    : `${search} found ${counter} times`;
+};
+
+// Kullanıcıdan isim al
+const studentName = prompt("Please enter a name").toLowerCase();
+
+// Fonksiyonu çağır ve sonucu ekrana yazdır
+console.log(findStudentsOf(students, studentName));
 
 
 // const findStudentsOf = (arr, search) => {
