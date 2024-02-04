@@ -50,6 +50,7 @@ console.log(prices.forEach((price) => (sum += price))); // undefined
 //? konsola bastiriniz. Ayrica her bir fiyata %10 zam yapiniz.
 
 
+
 // let total = 0;
 // prices.forEach((price, index, arr) => {
   // total += price;
