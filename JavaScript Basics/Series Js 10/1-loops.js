@@ -105,6 +105,8 @@ console.log("ORTALAMA:", toplam / notlar.length);
 //*--------------------------------------------------------
 // ! 1 Yöntem
 
+
+
 // const students = ["ahmet", "mehmet", "ismet", "ahmet", "can","mehmet", "cem", ];
 // const findStudents =(arr,search) => {
   // let counter = 0;
