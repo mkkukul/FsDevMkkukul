@@ -217,6 +217,7 @@ console.log(findStudents(students, name));
 //* icersindeki veriye erisirken indisleme kullanmaya gerek yoktur.
 
 
+
 // const findStudentsOf = (arr, search) => {
   // let counter = 0;
   // for (let item of arr) {
