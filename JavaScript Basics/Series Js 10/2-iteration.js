@@ -176,6 +176,8 @@ console.log("Negative Coordinates:", negativeCoordinates);
 //? products dizisinin icerisindeki her urunu (Orjinal dizideki)
 //? buyuk harf olarak degistirelim.
 
+
+
 // const products = [
   // "Iphone12",
   // "samsungS20",
