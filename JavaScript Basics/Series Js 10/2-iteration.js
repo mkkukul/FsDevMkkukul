@@ -217,9 +217,11 @@ const products = [
 // products.map((p, i, arr) => (arr[i] = p.charAt(0).toUpperCase()));
 
 //?For Capitilize
-products.map((p, i, arr) => (arr[i] = p[0].toUpperCase() + p.slice(1)));
-console.log(products);
 
+
+// products.map((p, i, arr) => (arr[i] = p[0].toUpperCase() + p.slice(1)));
+// console.log(products);
+// 
 //* ======================================================
 //*                CHAINING (PIPELINE)
 //* ======================================================
