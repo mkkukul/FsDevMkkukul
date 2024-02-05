@@ -139,6 +139,27 @@ const tlPrices = [100, 150, 100, 50, 80];
 
 // ! toPrecision sayı string yapar burada son 3 kısmı gösterir
 
+// TL cinsinden fiyatlar
+const tlPrices = [100, 150, 100, 50, 80];
+
+// Döviz kurları
+const euro = 18.23;
+const dolar = 18.19;
+
+// TL fiyatlarını Euro cinsine dönüştürüp, 3 basamaklı hale getirerek euroPrices dizisine kaydetme
+const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
+console.log("Euro Prices:", euroPrices);
+
+// TL fiyatlarını Dolar cinsine dönüştürüp, 2 basamaklı hale getirerek dollarPrices dizisine kaydetme
+const dollarPrices = tlPrices.map((tl) => Number(tl / dolar).toFixed(2));
+console.log("Dollar Prices:", dollarPrices);
+
+// Koordinatlar
+const coordinates = [-100, 150, -32, 43, -20];
+
+// Negatif koordinatları filtreleyerek negativeCoordinates dizisine kaydetme
+const negativeCoordinates = coordinates.filter((x) => x < 0);
+console.log("Negative Coordinates:", negativeCoordinates);
 
 
 // const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
