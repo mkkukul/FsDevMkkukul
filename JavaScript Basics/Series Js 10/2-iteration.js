@@ -116,6 +116,9 @@ console.log(bigNames, names);
 // console.log(bigNames,names);
 // 
 //! fonsiyonun içini görebiliriz
+
+
+
 // console.log(names.map((name)=> name.toUpperCase())); 
 
 // const bigNames = names.map((name) => name.toUpperCase());
