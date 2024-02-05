@@ -138,6 +138,7 @@ const dolar = 18.19;
 const tlPrices = [100, 150, 100, 50, 80];
 
 // ! toPrecision sayı string yapar burada son 3 kısmı gösterir
+
 const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
 console.log(euroPrices);
 
