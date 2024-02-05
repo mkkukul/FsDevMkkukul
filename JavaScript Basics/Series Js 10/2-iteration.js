@@ -117,6 +117,8 @@ console.log(bigNames, names);
 // 
 //! fonsiyonun içini görebiliriz
 
+// Dizi içindeki her bir ismi büyük harfe çevirip ekrana yazdıran map kullanımı
+console.log(names.map((name) => name.toUpperCase()));
 
 
 // console.log(names.map((name)=> name.toUpperCase())); 
