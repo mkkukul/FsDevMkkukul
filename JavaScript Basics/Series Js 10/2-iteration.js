@@ -192,6 +192,28 @@ const products = [
 ];
 //! Orjinal diziyi degistidik.
 //?For UpperCase hepsini büyük harf yaptık
+// products adında bir dizi tanımlandı
+// const products = [
+  // "Iphone12",
+  // "samsungS20",
+  // "lenovo",
+  // "macbook pro",
+  // "mac air",
+  // "Galaxy tablet",
+  // "macbook",
+  // "Iphone12",
+  // "mac air",
+  // "lenovo",
+  // "macbook pro",
+  // "samsungS20",
+// ];
+
+// Dizi elemanları üzerinde işlem yapmak için map fonksiyonu kullanıldı
+// products.map((p, i, arr) => {
+  // Her elemanın sadece ilk harfi büyük harfe çevrildi ve orijinal dizinin aynı indeksine atanarak değiştirildi.
+  // arr[i] = p.charAt(0).toUpperCase();
+// });
+
 // products.map((p, i, arr) => (arr[i] = p.charAt(0).toUpperCase()));
 
 //?For Capitilize
