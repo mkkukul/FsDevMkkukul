@@ -218,6 +218,18 @@ const products = [
 
 //?For Capitilize
 
+// products dizisinin her elemanı üzerinde map fonksiyonu kullanılıyor
+products.map((p, i, arr) => {
+  // Her elemanın ilk harfi büyük harfe çevriliyor
+  // p[0].toUpperCase(): Elemanın ilk harfini büyük harfe çevirme işlemi
+  // p.slice(1): Elemanın ilk harfi hariç geri kalan kısmı alır
+  // Bu iki ifade birleştirilerek elemanın tamamı büyük harfle yazılır
+  // Sonuç, orijinal dizinin aynı indeksine atanarak değiştirilir
+  arr[i] = p[0].toUpperCase() + p.slice(1);
+});
+
+// Değiştirilmiş diziyi console'da yazdırma
+console.log(products);
 
 // products.map((p, i, arr) => (arr[i] = p[0].toUpperCase() + p.slice(1)));
 // console.log(products);
