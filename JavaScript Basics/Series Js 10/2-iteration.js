@@ -91,14 +91,14 @@ console.log(prices);
 
 //?-------------- ÖRNEK -------------------
 //? Bir dizideki tüm isimleri BÜYÜK harfe dönüştüren uygulamayı yazınız.
-const rakamlar = [3,7,17,8,9,3,0];
-const katAlinmis =rakamlar.map((x) =>x*5);
-console.log(katAlinmis);
-
-let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
-const bigNames = names.map((name) => name.toUpperCase());
-console.log(bigNames,names);
-
+// const rakamlar = [3,7,17,8,9,3,0];
+// const katAlinmis =rakamlar.map((x) =>x*5);
+// console.log(katAlinmis);
+// 
+// let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
+// const bigNames = names.map((name) => name.toUpperCase());
+// console.log(bigNames,names);
+// 
 //! fonsiyonun içini görebiliriz
 console.log(names.map((name)=> name.toUpperCase())); 
 
