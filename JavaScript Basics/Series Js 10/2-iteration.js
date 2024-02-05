@@ -91,6 +91,9 @@ console.log(prices);
 
 //?-------------- ÖRNEK -------------------
 //? Bir dizideki tüm isimleri BÜYÜK harfe dönüştüren uygulamayı yazınız.
+
+
+
 // const rakamlar = [3,7,17,8,9,3,0];
 // const katAlinmis =rakamlar.map((x) =>x*5);
 // console.log(katAlinmis);
