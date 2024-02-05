@@ -139,16 +139,18 @@ const tlPrices = [100, 150, 100, 50, 80];
 
 // ! toPrecision sayı string yapar burada son 3 kısmı gösterir
 
-const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
-console.log(euroPrices);
 
-const dolarPrices = tlPrices.map((tl) => Number(tl / dolar).toFixed(2));
-console.log(dolarPrices);
 
-const koordinatlar = [-100, 150, -32,43,-20]
-negatifKoordinatlar = koordinatlar.filter((x)=>x<0);
-console.log(negatifKoordinatlar);
-
+// const euroPrices = tlPrices.map((tl) => Number(tl / euro).toPrecision(3));
+// console.log(euroPrices);
+// 
+// const dolarPrices = tlPrices.map((tl) => Number(tl / dolar).toFixed(2));
+// console.log(dolarPrices);
+// 
+// const koordinatlar = [-100, 150, -32,43,-20]
+// negatifKoordinatlar = koordinatlar.filter((x)=>x<0);
+// console.log(negatifKoordinatlar);
+// 
 //?-------------- ÖRNEK -------------------
 //? products dizisinin icerisindeki her urunu (Orjinal dizideki)
 //? buyuk harf olarak degistirelim.
