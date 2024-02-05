@@ -176,20 +176,20 @@ console.log("Negative Coordinates:", negativeCoordinates);
 //? products dizisinin icerisindeki her urunu (Orjinal dizideki)
 //? buyuk harf olarak degistirelim.
 
-const products = [
-  "Iphone12",
-  "samsungS20",
-  "lenovo",
-  "macbook pro",
-  "mac air",
-  "Galaxy tablet",
-  "macbook",
-  "Iphone12",
-  "mac air",
-  "lenovo",
-  "macbook pro",
-  "samsungS20",
-];
+// const products = [
+  // "Iphone12",
+  // "samsungS20",
+  // "lenovo",
+  // "macbook pro",
+  // "mac air",
+  // "Galaxy tablet",
+  // "macbook",
+  // "Iphone12",
+  // "mac air",
+  // "lenovo",
+  // "macbook pro",
+  // "samsungS20",
+// ];
 //! Orjinal diziyi degistidik.
 //?For UpperCase hepsini büyük harf yaptık
 // products.map((p, i, arr) => (arr[i] = p.charAt(0).toUpperCase()));
