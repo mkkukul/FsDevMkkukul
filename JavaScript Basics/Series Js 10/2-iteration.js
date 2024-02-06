@@ -302,6 +302,8 @@ salaries
 // İlk parametre olarak bir fonksiyon alır. Bu fonksiyon, her bir dizi elemanı üzerinde çalışırken nasıl bir işlem yapılacağını tanımlar.
 // İkinci parametre olarak ise başlangıç değerini alır. Bu durumda başlangıç değeri 0'dır.
 
+// Maaşların toplamını reduce metoduyla hesaplama
+const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
 
 
 // const sumOfSalaries = salaries.reduce((acc, val, i) => acc + val, 0);
