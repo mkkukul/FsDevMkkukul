@@ -73,9 +73,9 @@ console.log(c1Name, c2Name);
 
 //!  Daha sonra, const { car1, car2 } = cars; satırıyla cars nesnesinin car1 ve car2 özellikleri ayrıştırılarak yeni değişkenlere atanıyor. Bu sayede, her bir araba bilgisine ayrı ayrı erişim sağlanıyor.
  
-// Sonraki adımda, const { name: c1Name, model: c1Model } = car1; ve const { name: c2Name, model: c2Model } = car2; satırlarıyla her arabanın isim ve model özellikleri ayrıştırılarak c1Name, c1Model, c2Name ve c2Model gibi değişkenlere atanıyor. Böylelikle, bu değişkenler üzerinden arabaların isimleri ve modellerine erişim sağlanabiliyor.
-// 
-// Son olarak, bu değişkenler kullanılarak arabaların isimleri console'a yazdırılıyor.
+//! Sonraki adımda, const { name: c1Name, model: c1Model } = car1; ve const { name: c2Name, model: c2Model } = car2; satırlarıyla her arabanın isim ve model özellikleri ayrıştırılarak c1Name, c1Model, c2Name ve c2Model gibi değişkenlere atanıyor. Böylelikle, bu değişkenler üzerinden arabaların isimleri ve modellerine erişim sağlanabiliyor.
+ 
+//! Son olarak, bu değişkenler kullanılarak arabaların isimleri console'a yazdırılıyor.
 
 // const cars = {
   // car1: {
@@ -97,7 +97,7 @@ console.log(c1Name, c2Name);
 // const { name: c2Name, model: c2Model } = car2;
 // 
 // console.log(c1Name, c2Name);
-
+//********************************************** */
 //* Example
 const team = [
   {
