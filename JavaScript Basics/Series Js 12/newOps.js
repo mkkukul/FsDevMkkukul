@@ -69,7 +69,13 @@ const { name: c2Name, model: c2Model } = car2;
 // Arabaların isimleri console'a yazdırılıyor
 console.log(c1Name, c2Name);
 
+//! Bu kod parçası bir araba bilgisini içeren nesnelerin bir koleksiyonunu temsil ediyor. cars adında bir nesne tanımlanıyor ve içine car1 ve car2 adında iki alt nesne yerleştiriliyor. Her alt nesne, bir araba modelinin özelliklerini içerir: isim, model yılı ve motor bilgisi gibi.
 
+//!  Daha sonra, const { car1, car2 } = cars; satırıyla cars nesnesinin car1 ve car2 özellikleri ayrıştırılarak yeni değişkenlere atanıyor. Bu sayede, her bir araba bilgisine ayrı ayrı erişim sağlanıyor.
+ 
+// Sonraki adımda, const { name: c1Name, model: c1Model } = car1; ve const { name: c2Name, model: c2Model } = car2; satırlarıyla her arabanın isim ve model özellikleri ayrıştırılarak c1Name, c1Model, c2Name ve c2Model gibi değişkenlere atanıyor. Böylelikle, bu değişkenler üzerinden arabaların isimleri ve modellerine erişim sağlanabiliyor.
+// 
+// Son olarak, bu değişkenler kullanılarak arabaların isimleri console'a yazdırılıyor.
 
 // const cars = {
   // car1: {
