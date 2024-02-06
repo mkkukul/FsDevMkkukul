@@ -43,6 +43,7 @@ const person = worker; // Sığ kopyalama
 console.log("PERSON:", person);
 
 
+
 // const worker = {
 //   name: "Can",
 //   surname: "Canan",
