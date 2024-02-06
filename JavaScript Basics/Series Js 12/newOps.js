@@ -43,26 +43,29 @@ console.log(carName, model, engine, colors);
 // console.log(carName, model, engine, colors);
 // 
 //* EXAMPLE: NESTED
-const cars = {
-  car1: {
-    name: "BMW",
-    model: 1990,
-    engine: 1.6,
-  },
-  car2: {
-    name: "Mercedes",
-    model: 2022,
-    engine: 2.0,
-  },
-};
 
-const { car1, car2 } = cars;
-console.log(car1);
 
-const { name: c1Name, model: c1Model } = car1;
-const { name: c2Name, model: c2Model } = car2;
 
-console.log(c1Name, c2Name);
+// const cars = {
+  // car1: {
+    // name: "BMW",
+    // model: 1990,
+    // engine: 1.6,
+  // },
+  // car2: {
+    // name: "Mercedes",
+    // model: 2022,
+    // engine: 2.0,
+  // },
+// };
+// 
+// const { car1, car2 } = cars;
+// console.log(car1);
+// 
+// const { name: c1Name, model: c1Model } = car1;
+// const { name: c2Name, model: c2Model } = car2;
+// 
+// console.log(c1Name, c2Name);
 
 //* Example
 const team = [
