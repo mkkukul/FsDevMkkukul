@@ -265,6 +265,8 @@ console.log("6000 ile 10000 arasındaki maaşlar:", range);
 //? Maasi 9000'den az olanlara %10 zam yaparak bu degerleri
 //? yeni diziye saklayalim.
 
+
+
 // const lessThan9000Increase = salaries
   // .filter((s) => s < 9000)
   // .map((s) => Math.trunc(s * 1.1));
