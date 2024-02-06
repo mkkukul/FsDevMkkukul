@@ -2,23 +2,23 @@
 //*  DESTRUCTURING (OBJECT)
 //* ======================================================
 console.log("****** NEW OPERATORS *******");
-
-const car = {
-  name: "BMW",
-  model: 1990,
-  engine: 1.6,
-  colors: ["blue", "purple"],
-};
-
-//* 1.YONTEM (Classical)
-const name1 = car.name;
-const model1 = car["model"];
-
-//* 2.YONTEM: DESTRUCTURING
-
-const { name: carName, colors, model, engine } = car;
-console.log(carName, model, engine, colors);
-
+// 
+// const car = {
+  // name: "BMW",
+  // model: 1990,
+  // engine: 1.6,
+  // colors: ["blue", "purple"],
+// };
+// 
+// * 1.YONTEM (Classical)
+// const name1 = car.name;
+// const model1 = car["model"];
+// 
+// * 2.YONTEM: DESTRUCTURING
+// 
+// const { name: carName, colors, model, engine } = car;
+// console.log(carName, model, engine, colors);
+// 
 //* EXAMPLE: NESTED
 const cars = {
   car1: {
