@@ -349,6 +349,9 @@ console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
 // !
 // ?console.log("Sum Of Raised Salaries:", sumOfRaisedSalaries);
 
+// Maaşların toplamını reduce metoduyla hesaplama
+const sumOfSalaries = salaries.reduce((acc, val) => acc + val, 0);
+console.log("SUM", sumOfSalaries);
 
 
 // const sumOfSalaries = salaries.reduce((acc, val) => acc + val,0 )
