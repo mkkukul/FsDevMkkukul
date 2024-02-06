@@ -44,6 +44,31 @@ console.log(carName, model, engine, colors);
 // 
 //* EXAMPLE: NESTED
 
+// Araba bilgilerini içeren bir nesne oluşturuldu
+const cars = {
+  car1: {
+    name: "BMW",
+    model: 1990,
+    engine: 1.6,
+  },
+  car2: {
+    name: "Mercedes",
+    model: 2022,
+    engine: 2.0,
+  },
+};
+
+// cars nesnesinden car1 ve car2 özelliklerini ayrıştırarak yeni değişkenlere atama
+const { car1, car2 } = cars;
+console.log(car1);
+
+// Her bir araba için isim ve model özellikleri ayrıştırılarak yeni değişkenlere atanıyor
+const { name: c1Name, model: c1Model } = car1;
+const { name: c2Name, model: c2Model } = car2;
+
+// Arabaların isimleri console'a yazdırılıyor
+console.log(c1Name, c2Name);
+
 
 
 // const cars = {
