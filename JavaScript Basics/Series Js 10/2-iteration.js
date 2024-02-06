@@ -265,6 +265,18 @@ console.log("6000 ile 10000 arasındaki maaşlar:", range);
 //? Maasi 9000'den az olanlara %10 zam yaparak bu degerleri
 //? yeni diziye saklayalim.
 
+// Maaşı 9000'den düşük olanları filtreleyip %10 artırma
+const lessThan9000Increase = salaries
+  .filter((s) => s < 9000) // 9000'den düşük maaşları filtrele
+  .map((s) => Math.trunc(s * 1.1)); // Her birini %10 artır ve tam sayıya yuvarla
+
+console.log("9000'den düşük maaşları %10 artırılmış hali:", lessThan9000Increase);
+
+// 9000'den düşük maaşları %10 artırılmış hali, her bir elemanı ayrı satırda yazdırma
+salaries
+  .filter((s) => s < 9000) // 9000'den düşük maaşları filtrele
+  .map((s) => Math.trunc(s * 1.1)) // Her birini %10 artır ve tam sayıya yuvarla
+  .forEach((s) => console.log(s)); // Her bir elemanı console'da yazdır
 
 
 // const lessThan9000Increase = salaries
