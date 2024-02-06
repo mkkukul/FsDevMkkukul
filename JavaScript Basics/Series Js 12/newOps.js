@@ -21,10 +21,10 @@ const { name: carName, colors, model, engine } = car;
 console.log(carName, model, engine, colors);
 
 //! Bu kod parçasında, bir araba nesnesi tanımlanır ve bu nesneye iki farklı yöntemle erişim sağlanır:
-// 
+ 
 //! Klasik Yöntem: Özelliklere erişim noktasında nokta notasyonu (car.name) veya köşeli parantez notasyonu (car["model"]) kullanılır. Bu yöntem daha gelenekseldir.
-// 
-//  Yapı Parçalama (Destructuring): Nesne özellikleri, {} içerisinde kullanılarak aynı isimle veya farklı bir isimle yeni değişkenlere atanabilir. const { name: carName, colors, model, engine } = car; satırında, name özelliği carName değişkenine atanırken, colors, model ve engine özellikleri doğrudan aynı isimle yeni değişkenlere atanır. Bu yöntem daha modern ve kısa bir yazım şeklidir.
+
+//!  Yapı Parçalama (Destructuring): Nesne özellikleri, {} içerisinde kullanılarak aynı isimle veya farklı bir isimle yeni değişkenlere atanabilir. const { name: carName, colors, model, engine } = car; satırında, name özelliği carName değişkenine atanırken, colors, model ve engine özellikleri doğrudan aynı isimle yeni değişkenlere atanır. Bu yöntem daha modern ve kısa bir yazım şeklidir.
 // 
 
 
