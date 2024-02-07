@@ -264,6 +264,8 @@ console.log(p1, p2, p4); //* İlk, ikinci ve dördüncü öğeler ekrana yazdır
 
 
 //* REST: (Arrays)
+
+
 // const autos = ["anadol", "reno", "bmw", "mercedes", "ferrari"];
 // 
 // const [anadol, reno, ...restAutos] = autos;
