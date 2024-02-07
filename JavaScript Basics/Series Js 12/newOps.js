@@ -215,6 +215,14 @@ console.log("Product Price:", price); // Ürün fiyatı konsola yazdırılıyor
 // 
 //? Fonksyionlarin obje parametreleri dogrudan dest. yapilabilir.
 
+// calculate adında bir fonksiyon tanımlanıyor.
+const calculate = ({ id, price }) => {
+  // price değeri 1.1 ile çarpılarak artırılıyor ve sonuç konsola yazdırılıyor.
+  console.log(price * 1.1);
+};
+
+// calculate fonksiyonu çağrılırken, id ve price değerlerini içeren bir obje geçiriliyor.
+calculate({ id: 1, price: 3000 });
 
 
 // const calculate = ({ id, price }) => {
