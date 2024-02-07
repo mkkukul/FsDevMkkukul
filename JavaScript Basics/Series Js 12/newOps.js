@@ -238,6 +238,13 @@ const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"];
 
 //*Classical
 
+const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"];
+
+const mehmet = names[1]; //* İndeksleme yapılarak "Mehmet" adlı öğe alınıyor
+
+//* Dizinin belirli öğeleri farklı değişkenlere atanıyor
+const [p1, p2, , p4] = names;
+console.log(p1, p2, p4); //* İlk, ikinci ve dördüncü öğeler ekrana yazdırılıyor
 
 
 // const mehmet = names[1]; //* indexing
