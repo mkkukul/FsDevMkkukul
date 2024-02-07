@@ -239,6 +239,7 @@ const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"];
 //*Classical
 
 
+
 // const mehmet = names[1]; //* indexing
 // 
 // const [p1, p2, , p4] = names;
