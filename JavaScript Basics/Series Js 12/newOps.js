@@ -99,26 +99,28 @@ console.log(c1Name, c2Name);
 // console.log(c1Name, c2Name);
 //********************************************** */
 //* Example
-const team = [
-  {
-    name: "Josh",
-    surname: "Barry",
-    job: "developer",
-    age: 30,
-  },
-  {
-    name: "Josh",
-    surname: "Barry",
-    job: "tester",
-    age: 45,
-  },
-  {
-    name: "Hazel",
-    surname: "Nut",
-    job: "team lead",
-    age: 40,
-  },
-];
+
+
+// const team = [
+  // {
+    // name: "Josh",
+    // surname: "Barry",
+    // job: "developer",
+    // age: 30,
+  // },
+  // {
+    // name: "Josh",
+    // surname: "Barry",
+    // job: "tester",
+    // age: 45,
+  // },
+  // {
+    // name: "Hazel",
+    // surname: "Nut",
+    // job: "team lead",
+    // age: 40,
+  // },
+// ];
 //* Classical
 team.forEach((p) => {
   console.log("****************");
