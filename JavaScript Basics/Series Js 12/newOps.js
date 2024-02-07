@@ -100,6 +100,27 @@ console.log(c1Name, c2Name);
 //********************************************** */
 //* Example
 
+// Ekip üyelerini içeren bir dizi oluşturuluyor
+const team = [
+  {
+    name: "Josh", // İsim: Josh
+    surname: "Barry", // Soyisim: Barry
+    job: "developer", // İş: developer
+    age: 30, // Yaş: 30
+  },
+  {
+    name: "Josh", // İsim: Josh
+    surname: "Barry", // Soyisim: Barry
+    job: "tester", // İş: tester
+    age: 45, // Yaş: 45
+  },
+  {
+    name: "Hazel", // İsim: Hazel
+    surname: "Nut", // Soyisim: Nut
+    job: "team lead", // İş: team lead
+    age: 40, // Yaş: 40
+  },
+];
 
 
 // const team = [
