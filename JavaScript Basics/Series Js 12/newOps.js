@@ -214,6 +214,9 @@ console.log("Product Price:", price); // Ürün fiyatı konsola yazdırılıyor
 // console.log("Product Price:", price);
 // 
 //? Fonksyionlarin obje parametreleri dogrudan dest. yapilabilir.
+
+
+
 // const calculate = ({ id, price }) => {
   // console.log(price * 1.1);
 // };
