@@ -237,11 +237,13 @@ calculate({ id: 1, price: 3000 });
 const names = ["Ahmet", "Mehmet", "İsmet", "Saffet"];
 
 //*Classical
-const mehmet = names[1]; //* indexing
 
-const [p1, p2, , p4] = names;
-console.log(p1, p2, p4);
 
+// const mehmet = names[1]; //* indexing
+// 
+// const [p1, p2, , p4] = names;
+// console.log(p1, p2, p4);
+// 
 //*======================================================
 //*  REST (...)
 //* ======================================================
