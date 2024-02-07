@@ -185,19 +185,19 @@ team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach dön
 // });
 
 //* functionund dondurdugu obje dogrudan dest. yapilabilir
-const getInfo = () => {
-  return {
-    id: 1,
-    productName: "Iphone",
-    price: 30000,
-  };
-};
-
-console.log(getInfo());
-const { productName, price } = getInfo();
-console.log("Product Name:", productName);
-console.log("Product Price:", price);
-
+// const getInfo = () => {
+  // return {
+    // id: 1,
+    // productName: "Iphone",
+    // price: 30000,
+  // };
+// };
+// 
+// console.log(getInfo());
+// const { productName, price } = getInfo();
+// console.log("Product Name:", productName);
+// console.log("Product Price:", price);
+// 
 //? Fonksyionlarin obje parametreleri dogrudan dest. yapilabilir.
 const calculate = ({ id, price }) => {
   console.log(price * 1.1);
