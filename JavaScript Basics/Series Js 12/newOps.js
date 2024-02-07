@@ -165,6 +165,14 @@ team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach dön
 
 //* DESTRUCTURING
 
+team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach döngüsü başlatılıyor
+  const { name, surname, job, age } = p; // Her bir ekip üyesinin özellikleri, destructuring kullanılarak ayrı değişkenlere atanıyor
+  console.log("****************"); // Her bir ekip üyesinin bilgileri arasına ayırmak için bir ayırıcı çizgi yazdırılıyor
+  console.log("Name:", name); // Her bir ekip üyesinin adı ekrana yazdırılıyor
+  console.log("Surname:", surname); // Her bir ekip üyesinin soyadı ekrana yazdırılıyor
+  console.log("Job:", job); // Her bir ekip üyesinin işi ekrana yazdırılıyor
+  console.log("Age:", age); // Her bir ekip üyesinin yaşı ekrana yazdırılıyor
+});
 
 
 // team.forEach((p) => {
