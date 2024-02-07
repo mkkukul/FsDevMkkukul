@@ -185,6 +185,9 @@ team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach dön
 // });
 
 //* functionund dondurdugu obje dogrudan dest. yapilabilir
+
+
+
 // const getInfo = () => {
   // return {
     // id: 1,
