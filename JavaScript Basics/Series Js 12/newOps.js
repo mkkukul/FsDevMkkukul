@@ -145,6 +145,13 @@ const team = [
 // ];
 //* Classical
 
+team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach döngüsü başlatılıyor
+  console.log("****************"); // Her bir ekip üyesinin bilgileri arasına ayırmak için bir ayırıcı çizgi yazdırılıyor
+  console.log("Name:", p.name); // Her bir ekip üyesinin adı (`name` özelliği) ekrana yazdırılıyor
+  console.log("Surname:", p.surname); // Her bir ekip üyesinin soyadı (`surname` özelliği) ekrana yazdırılıyor
+  console.log("Job:", p["job"]); // Her bir ekip üyesinin işi (`job` özelliği) ekrana yazdırılıyor
+  console.log("Age:", p.age); // Her bir ekip üyesinin yaşı (`age` özelliği) ekrana yazdırılıyor
+});
 
 
 // team.forEach((p) => {
