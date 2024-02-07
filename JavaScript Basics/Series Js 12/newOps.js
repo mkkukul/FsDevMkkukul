@@ -186,6 +186,18 @@ team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach dön
 
 //* functionund dondurdugu obje dogrudan dest. yapilabilir
 
+const getInfo = () => { // `getInfo` adında bir okuma ifadesi (arrow function) tanımlanıyor
+  return { // Fonksiyon, bir nesne döndürüyor
+    id: 1, // Ürünün kimlik numarası
+    productName: "Iphone", // Ürünün adı
+    price: 30000, // Ürünün fiyatı
+  };
+};
+
+console.log(getInfo()); // `getInfo` fonksiyonu çağrılarak, döndürülen nesne konsola yazdırılıyor
+const { productName, price } = getInfo(); // Fonksiyondan dönen nesnenin özellikleri, destructuring kullanılarak ayrı değişkenlere atanıyor
+console.log("Product Name:", productName); // Ürün adı konsola yazdırılıyor
+console.log("Product Price:", price); // Ürün fiyatı konsola yazdırılıyor
 
 
 // const getInfo = () => {
