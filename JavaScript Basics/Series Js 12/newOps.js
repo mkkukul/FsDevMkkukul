@@ -164,14 +164,14 @@ team.forEach((p) => { // `team` dizisinin her bir öğesi için bir forEach dön
 // 
 
 //* DESTRUCTURING
-team.forEach((p) => {
-  const { name, surname, job, age } = p;
-  console.log("****************");
-  console.log("Name:", name);
-  console.log("Surname:", surname);
-  console.log("Job:", job);
-  console.log("Age:", age);
-});
+// team.forEach((p) => {
+  // const { name, surname, job, age } = p;
+  // console.log("****************");
+  // console.log("Name:", name);
+  // console.log("Surname:", surname);
+  // console.log("Job:", job);
+  // console.log("Age:", age);
+// });
 
 //* functionund dondurdugu obje dogrudan dest. yapilabilir
 const getInfo = () => {
