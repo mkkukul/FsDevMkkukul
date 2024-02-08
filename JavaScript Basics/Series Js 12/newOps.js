@@ -463,6 +463,18 @@ console.log(Math.max(...nums));
 
 //* Array Copy
 
+const myNumbers = [1, 2, 3];
+// -1, myNumbers dizisinin tüm elemanları, ve 7'yi içeren yeni bir dizi oluşturulur
+const herNumbers = [-1, ...myNumbers, 7];
+// herNumbers dizisinin kopyası oluşturulur
+const hisNumbers = [...herNumbers];
+// hisNumbers dizisine 101 sayısı eklenir
+hisNumbers.push(101);
+
+console.log("MY:", myNumbers, "HIS:", hisNumbers);
+
+console.log(herNumbers);
+
 
 
 // const myNumbers = [1, 2, 3];
