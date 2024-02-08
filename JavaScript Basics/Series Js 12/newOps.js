@@ -286,17 +286,17 @@ console.log(restAutos); //* Kalan öğeler restAutos değişkenine atanıyor ve 
 // console.log(restAutos);
 // 
 //* REST (Objects)
-const personel = {
-  pName: "john",
-  surname: "smith",
-  job: "developer",
-  age: 30,
-};
-
-const { pName, job, ...ageSurname } = personel;
-
-console.log(ageSurname);
-console.log(pName, job);
+// const personel = {
+  // pName: "john",
+  // surname: "smith",
+  // job: "developer",
+  // age: 30,
+// };
+// 
+// const { pName, job, ...ageSurname } = personel;
+// 
+// console.log(ageSurname);
+// console.log(pName, job);
 
 //! 2- Bir fonksiyonun argumanlarini diziye cevirmek icin kullanilabilir.
 
