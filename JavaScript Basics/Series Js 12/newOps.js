@@ -318,6 +318,46 @@ console.log(pName, job); //* pName ve job özellikleri yazdırılıyor
 
 const sum = (x, y) => x + y;
 
+// Bu kod örneğinde rest parametreleri ve spread operatörü kullanılmıştır.
+
+// İlk olarak sum fonksiyonu çağrılıyor.
+console.log(sum(1, 2, 3, 4, 5, 6));
+
+// sum fonksiyonunun tanımı:
+function sum() {
+  // arguments objesi üzerinden toplama işlemi yapılıyor.
+  let total = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    total += arguments[i];
+  }
+  return total;
+}
+
+// Spread operatörü kullanılarak parametrelerin tümü bu fonksiyona geçirilir.
+// İşlev aynı şekilde çalışır ve sonuç döndürür.
+
+// Daha sonra sumAll fonksiyonu çağrılıyor.
+console.log("SUM OF NUMBERS:", sumAll(1, 2, 3, 4, 5, 6));
+
+// sumAll fonksiyonunun tanımı:
+const sumAll = (...numbers) => {
+  // Parametreler bir rest parametresi içinde toplanır.
+  console.log(numbers); // numbers dizisi, 1, 2, 3, 4, 5, 6 değerlerini içerir
+  // Rest parametresi kullanılarak dizi üzerinde reduce metoduyla toplama işlemi gerçekleştirilir.
+  return numbers.reduce((s, n) => (s += n), 0);
+};
+
+// Son olarak showName fonksiyonu çağrılıyor.
+showName("Noah", "Adams", "Developer", "Instr", "Professor", "Dad");
+
+// showName fonksiyonunun tanımı:
+const showName = (name, surname, ...titles) => {
+  // Rest parametresi titles, fonksiyona geçirilen argümanların bir dizisini tutar.
+  console.log(titles); // ["Developer", "Instr", "Professor", "Dad"]
+  // titles dizisi join metodu ile birleştirilerek summary adlı değişkene atanır.
+  const summary = `${name} ${surname} is a ${titles.join(" and ")}`;
+  console.log(summary); // Örnek çıktı: "Noah Adams is a Developer and Instr and Professor and Dad"
+};
 
 
 //? hata vermez fakat sadece 2 argumani toplar
