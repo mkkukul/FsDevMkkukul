@@ -388,6 +388,25 @@ const showName = (name, surname, ...titles) => {
 
 //* array concatination
 
+// flyingVecihles ve automobiles dizileri tanımlanır.
+const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
+const automobiles = ["Truck", "Bus", "Car", "SUV"];
+
+// İki diziyi birleştirerek allVehicles dizisi oluşturulur.
+// İlk yöntemde iki dizinin referansları, allVehicles içinde birleştirilir.
+// İkinci yöntemde ise spread operatörü kullanılarak dizilerin elemanları doğrudan birleştirilir.
+const allVehicles = [flyingVecihles, automobiles]; // İki dizinin referansları birleştirilir.
+const allVehicles = [...flyingVecihles, ...automobiles]; // Dizilerin elemanları doğrudan birleştirilir.
+
+console.log(allVehicles);
+
+// citrus ve fruits dizileri tanımlanır.
+const citrus = ["orange", "lime", "lemon"];
+const fruits = ["apple", ...citrus, "banana", "chery", "pear"];
+
+// Spread operatörü kullanılarak citrus dizisinin elemanları fruits dizisine eklenir.
+console.log(fruits);
+
 
 // const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
 //! const automobiles = ["Truck", "Bus", "Car", "SUV"];
