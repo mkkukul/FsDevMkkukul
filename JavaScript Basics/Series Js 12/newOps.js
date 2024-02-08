@@ -445,9 +445,9 @@ console.log(charArray, str);
 // console.log(charArray, str);
 
 //* Max() - Dizileri fonksiyonlara acik bir sekilde parametre vermek icin
-console.log(Math.max(1, 3, 5, 2, 10));
-const nums = [1, 3, 5, 2, 10];
-console.log(Math.max(...nums))
+// console.log(Math.max(1, 3, 5, 2, 10));
+// const nums = [1, 3, 5, 2, 10];
+// console.log(Math.max(...nums))
 
 
 //* Array Copy
