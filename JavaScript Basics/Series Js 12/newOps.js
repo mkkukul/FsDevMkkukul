@@ -265,6 +265,12 @@ console.log(p1, p2, p4); //* İlk, ikinci ve dördüncü öğeler ekrana yazdır
 
 //* REST: (Arrays)
 
+const autos = ["anadol", "reno", "bmw", "mercedes", "ferrari"];
+
+//* Diziden belirli öğeler ayrı değişkenlere atanıyor
+const [anadol, reno, ...restAutos] = autos;
+console.log(anadol, reno); //* İlk iki öğe ekrana yazdırılıyor
+console.log(restAutos); //* Kalan öğeler restAutos değişkenine atanıyor ve ekrana yazdırılıyor
 
 
 // const autos = ["anadol", "reno", "bmw", "mercedes", "ferrari"];
