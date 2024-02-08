@@ -286,6 +286,9 @@ console.log(restAutos); //* Kalan öğeler restAutos değişkenine atanıyor ve 
 // console.log(restAutos);
 // 
 //* REST (Objects)
+
+
+
 // const personel = {
   // pName: "john",
   // surname: "smith",
