@@ -419,6 +419,9 @@ console.log(fruits);
 // console.log(fruits);
 // 
 //* String spread
+
+
+
 // let str = "Hello FS12";
 // const charArray = [...str];
 // console.log(charArray, str);
