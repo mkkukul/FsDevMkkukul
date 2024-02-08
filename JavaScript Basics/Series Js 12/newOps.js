@@ -462,14 +462,14 @@ console.log(Math.max(...nums));
 
 
 //* Array Copy
-const myNumbers = [1, 2, 3];
-const herNumbers = [-1, ...myNumbers, 7];
-const hisNumbers = [...herNumbers];
-hisNumbers.push(101);
-console.log("MY:", myNumbers, "HIS:", hisNumbers);
-
-console.log(herNumbers);
-
+// const myNumbers = [1, 2, 3];
+// const herNumbers = [-1, ...myNumbers, 7];
+// const hisNumbers = [...herNumbers];
+// hisNumbers.push(101);
+// console.log("MY:", myNumbers, "HIS:", hisNumbers);
+// 
+// console.log(herNumbers);
+// 
 //* Object Copy
 
 const myObj = { a: 1, b: 2, c: 4 };
