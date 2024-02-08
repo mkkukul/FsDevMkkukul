@@ -420,6 +420,21 @@ console.log(fruits);
 // 
 //* String spread
 
+// str değişkeni tanımlanır.
+let str = "Hello FS12";
+
+// str değişkeninin her bir karakteri charArray adlı bir diziye dönüştürülür.
+const charArray = [...str];
+
+// Dizi charArray ve string str konsola yazdırılır.
+console.log(charArray, str);
+
+// charArray dizisinin ilk elemanı "X" olarak değiştirilir.
+charArray[0] = "X";
+
+// Dizi charArray ve string str konsola yazdırılır.
+// Dizinin ilk elemanı değiştirildiği için bu değişiklik charArray üzerinde etkili olur, ancak str değişkeni değişmez.
+console.log(charArray, str);
 
 
 // let str = "Hello FS12";
