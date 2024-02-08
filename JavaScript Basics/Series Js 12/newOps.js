@@ -318,24 +318,27 @@ console.log(pName, job); //* pName ve job özellikleri yazdırılıyor
 
 const sum = (x, y) => x + y;
 
+
+
+
 //? hata vermez fakat sadece 2 argumani toplar
-console.log(sum(1, 2, 3, 4, 5, 6));
-
-
-const sumAll = (...numbers) => {
-  console.log(numbers); //? (4) [1, 2, 3, 4]
-  return numbers.reduce((s, n) => (s += n), 0);
-};
-
-console.log("SUM OF NUMBERS:", sumAll(1, 2, 3, 4, 5, 6));
-
-const showName = (name, surname, ...titles) => {
-  console.log(titles);
-  const summary = `${name} ${surname} is a ${titles.join(" and ")}`;
-  console.log(summary);
-};
-
-showName("Noah", "Adams", "Developer", "Instr", "Professor", "Dad");
+// console.log(sum(1, 2, 3, 4, 5, 6));
+// 
+// 
+// const sumAll = (...numbers) => {
+  // console.log(numbers); //? (4) [1, 2, 3, 4]
+  // return numbers.reduce((s, n) => (s += n), 0);
+// };
+// 
+// console.log("SUM OF NUMBERS:", sumAll(1, 2, 3, 4, 5, 6));
+// 
+// const showName = (name, surname, ...titles) => {
+  // console.log(titles);
+  // const summary = `${name} ${surname} is a ${titles.join(" and ")}`;
+  // console.log(summary);
+// };
+// 
+// showName("Noah", "Adams", "Developer", "Instr", "Professor", "Dad");
 
 //*======================================================
 //*  SPREAD (...)
