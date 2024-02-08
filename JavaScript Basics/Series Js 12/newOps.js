@@ -389,7 +389,6 @@ const showName = (name, surname, ...titles) => {
 //* array concatination
 
 
-
 // const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
 //! const automobiles = ["Truck", "Bus", "Car", "SUV"];
 // const allVehicles = [flyingVecihles, automobiles];
