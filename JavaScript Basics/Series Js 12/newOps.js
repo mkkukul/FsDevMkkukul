@@ -320,7 +320,6 @@ const sum = (x, y) => x + y;
 
 
 
-
 //? hata vermez fakat sadece 2 argumani toplar
 // console.log(sum(1, 2, 3, 4, 5, 6));
 // 
