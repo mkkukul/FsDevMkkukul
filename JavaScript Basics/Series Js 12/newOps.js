@@ -446,7 +446,15 @@ console.log(charArray, str);
 
 //* Max() - Dizileri fonksiyonlara acik bir sekilde parametre vermek icin
 
+// Math.max fonksiyonu kullanılarak bir dizi içindeki en büyük sayıyı bulma
+console.log(Math.max(1, 3, 5, 2, 10));
 
+// Spread operatörü kullanılarak bir dizi içindeki en büyük sayıyı bulma
+const nums = [1, 3, 5, 2, 10];
+console.log(Math.max(...nums));
+// İlk olarak, Math.max doğrudan sayılar listesiyle çağrılmıştır. Bu durumda, fonksiyonun parametreleri arasında belirtilen sayılar arasındaki en büyük sayıyı döndürür.
+// 
+//  İkincisi, Math.max fonksiyonu spread operatörü (...) kullanılarak bir dizi içindeki en büyük sayıyı bulmak için kullanılmıştır. Bu durumda, spread operatörü, nums dizisinin her bir elemanını ayrı ayrı fonksiyonun parametreleri olarak geçirir. Bu sayede Math.max fonksiyonu, dizideki en büyük sayıyı bulur ve döndürür.
 
 // console.log(Math.max(1, 3, 5, 2, 10));
 // const nums = [1, 3, 5, 2, 10];
