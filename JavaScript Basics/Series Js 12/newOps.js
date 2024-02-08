@@ -475,7 +475,10 @@ console.log("MY:", myNumbers, "HIS:", hisNumbers);
 
 console.log(herNumbers);
 
-
+// herNumbers dizisi, -1, myNumbers dizisinin tüm elemanları ve 7 değeriyle oluşturulur. Spread operatörü (...) kullanılarak myNumbers dizisinin elemanları tek tek alınarak yeni diziye eklenir.
+//  hisNumbers dizisi, herNumbers dizisinin bir kopyasıdır. Bu, spread operatörü kullanılarak herNumbers dizisinin tüm elemanlarının yeni bir diziye kopyalanmasıyla gerçekleştirilir.
+// Son olarak, hisNumbers dizisine push yöntemi kullanılarak 101 sayısı eklenir.
+// İlgili console.log ifadeleriyle değişkenlerin içeriği konsola yazdırılır.
 
 // const myNumbers = [1, 2, 3];
 // const herNumbers = [-1, ...myNumbers, 7];
