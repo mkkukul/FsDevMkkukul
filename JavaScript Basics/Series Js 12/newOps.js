@@ -287,6 +287,18 @@ console.log(restAutos); //* Kalan öğeler restAutos değişkenine atanıyor ve 
 // 
 //* REST (Objects)
 
+const personel = {
+  pName: "john",
+  surname: "smith",
+  job: "developer",
+  age: 30,
+};
+
+//* Object destructuring ile personel nesnesinden pName ve job özellikleri alınıyor
+const { pName, job, ...ageSurname } = personel;
+
+console.log(ageSurname); //* Yaş ve soyad özelliklerini içeren ageSurname nesnesi yazdırılıyor
+console.log(pName, job); //* pName ve job özellikleri yazdırılıyor
 
 
 // const personel = {
