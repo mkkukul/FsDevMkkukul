@@ -419,12 +419,12 @@ console.log(fruits);
 // console.log(fruits);
 // 
 //* String spread
-let str = "Hello FS12";
-const charArray = [...str];
-console.log(charArray, str);
-
-charArray[0] = "X";
-console.log(charArray, str);
+// let str = "Hello FS12";
+// const charArray = [...str];
+// console.log(charArray, str);
+// 
+// charArray[0] = "X";
+// console.log(charArray, str);
 
 //* Max() - Dizileri fonksiyonlara acik bir sekilde parametre vermek icin
 console.log(Math.max(1, 3, 5, 2, 10));
