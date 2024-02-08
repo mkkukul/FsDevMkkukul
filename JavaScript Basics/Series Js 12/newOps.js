@@ -387,16 +387,19 @@ const showName = (name, surname, ...titles) => {
 //? degerler haline getirir.
 
 //* array concatination
-const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
-const automobiles = ["Truck", "Bus", "Car", "SUV"];
+
+
+
+// const flyingVecihles = ["Aircraft", "Helicopter", "QuadCopter"];
+//! const automobiles = ["Truck", "Bus", "Car", "SUV"];
 // const allVehicles = [flyingVecihles, automobiles];
-const allVehicles = [...flyingVecihles, ...automobiles];
-console.log(allVehicles);
-
-const citrus = ["orange", "lime", "lemon"];
-const fruits = ["apple", ...citrus, "banana", "chery", "pear"];
-console.log(fruits);
-
+// const allVehicles = [...flyingVecihles, ...automobiles];
+// console.log(allVehicles);
+// 
+// const citrus = ["orange", "lime", "lemon"];
+// const fruits = ["apple", ...citrus, "banana", "chery", "pear"];
+// console.log(fruits);
+// 
 //* String spread
 let str = "Hello FS12";
 const charArray = [...str];
