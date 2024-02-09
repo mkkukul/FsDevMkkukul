@@ -507,6 +507,11 @@ const combinedObj = { ...herObj, ...myObj };
 console.log(combinedObj);
 
 
+// myObj ve herObj adında iki nesne oluşturulur.
+//  copiedObj, myObj'nin bir kopyasını oluşturmak için spread operatörü kullanılarak oluşturulur. Bu, myObj'nin tüm özelliklerinin (a, b, ve c) kopyalanarak yeni bir nesne oluşturulmasını sağlar.
+// copiedObj nesnesinin c özelliği değiştirilir, ancak bu değişiklik myObj üzerinde herhangi bir etki yapmaz.
+//  combinedObj, herObj ve myObj nesnelerinin özellikleri birleştirilerek oluşturulur. myObj'de aynı ada sahip özellikler, herObj'den öncelikli alınır. Bu işlem, iki nesnenin özelliklerini birleştirmek için spread operatörünün kullanılmasıyla gerçekleştirilir.
+
 // const myObj = { a: 1, b: 2, c: 4 };
 // const herObj = { a: 2, z: 4, c: 3 };
 // 
