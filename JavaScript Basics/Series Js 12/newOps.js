@@ -490,15 +490,17 @@ console.log(herNumbers);
 // 
 //* Object Copy
 
-const myObj = { a: 1, b: 2, c: 4 };
-const herObj = { a: 2, z: 4, c: 3 };
 
-const copiedObj = { ...myObj };
-console.log(copiedObj);
-
-copiedObj.c = "33";
-console.log(copiedObj, myObj);
-
-const combinedObj = { ...herObj, ...myObj };
-
-console.log(combinedObj);
+// const myObj = { a: 1, b: 2, c: 4 };
+// const herObj = { a: 2, z: 4, c: 3 };
+// 
+// const copiedObj = { ...myObj };
+// console.log(copiedObj);
+// 
+// copiedObj.c = "33";
+// console.log(copiedObj, myObj);
+// 
+// const combinedObj = { ...herObj, ...myObj };
+// 
+// console.log(combinedObj);
+// 
