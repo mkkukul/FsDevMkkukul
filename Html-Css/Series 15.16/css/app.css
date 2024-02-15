@@ -97,9 +97,11 @@ footer i {
   transition: color 1s;
 }
 
+
 footer i:hover {
   color: var(--red);
 }
+
 
 /** -------------- UP-BUTTON ------------------ */
 .btn-up {
