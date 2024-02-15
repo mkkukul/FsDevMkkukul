@@ -124,6 +124,7 @@ footer i:hover {
   color: black;
 }
 
+
 .btn-up:hover i {
   transform: scale(1.2);
   font-size: 1.4rem;
