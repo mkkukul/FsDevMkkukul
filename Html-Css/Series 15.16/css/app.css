@@ -64,6 +64,7 @@ section#instructors .socials i {
   transition: opacity 0.5s;
 }
 
+
 section#instructors .socials i:hover {
   opacity: 0.5;
 }
