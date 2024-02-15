@@ -75,6 +75,7 @@ section#students img {
   min-width: 200px;
 }
 
+
 /*! ----------- 5- COURSES SECTION ----------- */
 section#courses .nav-link.active {
   background-color: var(--red);
