@@ -18,3 +18,4 @@ const myInput = document.getElementById("input")
 const button = document.getElementById("btn")
 button.style.background = "black" 
 button.style.color = "white" 
+button.style.width = "7rem";
