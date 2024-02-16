@@ -15,5 +15,5 @@ h1.style.color = "white";
 //*-------------------------------------------
 
 const myInput = document.getElementById("input")
-const myInput = document.getElementById("btn")
-myBtn.style.background = "black"
+const button = document.getElementById("btn")
+btn.style.background = "black" 
