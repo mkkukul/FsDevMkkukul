@@ -6,3 +6,4 @@ console.log("***** SELECTORS *****");
 
 //* EXAMPLE-1
 //*-------------------------------------------
+const h1 = document.getElementById("header")
