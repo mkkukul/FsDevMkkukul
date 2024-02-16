@@ -14,3 +14,4 @@ h1.style.color = "white";
 //* EXAMPLE-2
 //*-------------------------------------------
 
+const myInput = document.getElementById("input")
