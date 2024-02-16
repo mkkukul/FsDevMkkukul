@@ -11,3 +11,6 @@ console.log(h1)
 h1.style.background = "red";
 h1.style.color = "white";
 
+//* EXAMPLE-2
+//*-------------------------------------------
+
