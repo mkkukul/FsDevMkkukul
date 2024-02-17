@@ -22,4 +22,4 @@ button.style.width = "7rem";
 button.style.border = "10px";
 button.style.borderRadius = "10px";
 button.style.borderRadius = "10px";
-button.style. = "10px";
+button.style.padding = "1rem";
