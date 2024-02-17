@@ -19,4 +19,5 @@ const button = document.getElementById("btn")
 button.style.background = "black" 
 button.style.color = "white" 
 button.style.width = "7rem";
-button.style.border = "7rem";
+button.style.border = "none";
+button.style.borderRadius = "none";
