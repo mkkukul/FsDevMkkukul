@@ -25,3 +25,11 @@ button.style.borderRadius = "10px";
 button.style.padding = "1rem";
 muInput.style.fontSize = "1.1rem"
 muInput.style.padding = "1rem"
+
+
+//*===========================================
+//*          GETELEMENTSBYTAGNAME()
+//*===========================================
+
+//*EXAMPLE-3
+//*-------------------------------------------
