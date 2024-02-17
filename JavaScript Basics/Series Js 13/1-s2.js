@@ -23,4 +23,5 @@ button.style.border = "none";
 button.style.borderRadius = "10px";
 button.style.borderRadius = "10px";
 button.style.padding = "1rem";
+muInput.style.fontSize = "1rem"
 muInput.style.padding = "1rem"
