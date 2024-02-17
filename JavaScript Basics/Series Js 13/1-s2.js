@@ -35,4 +35,4 @@ muInput.style.padding = "1rem"
 //*-------------------------------------------
 
 const list = document.getElementsByTagName("li")
-console.log(li)
+console.log(li); //? HTML Collection (array-like object)
