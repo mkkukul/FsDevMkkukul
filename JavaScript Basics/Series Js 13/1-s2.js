@@ -37,3 +37,4 @@ muInput.style.padding = "1rem"
 const list = document.getElementsByTagName("li")
 console.log(list); //? HTML Collection (array-like object)
 list[2].style.color = "red";
+
