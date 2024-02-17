@@ -34,4 +34,5 @@ muInput.style.padding = "1rem"
 //*EXAMPLE-3
 //*-------------------------------------------
 
-const list = document.getElement
+const list = document.getElementsByTagName("li")
+console.log()
