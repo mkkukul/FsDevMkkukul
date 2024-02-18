@@ -42,3 +42,4 @@ list.item(3).style.color = "blue";
 const elementsThree = list.item(3)
 elementsThree.style.color = "blue"
 elementsThree.textContent = "React / Vue / Angular"
+list[4].scroll
