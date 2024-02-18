@@ -57,3 +57,4 @@ Web</a>";
 
 //* EXAMPLE-4
 //* ------------------------------------------
+const mylist = document.getElementsByClassName("list")
