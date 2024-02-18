@@ -45,3 +45,5 @@ list[4].innerText = "Django / Flask";
 
 console.log(list[1].textContent);
 console.log(list[1].innerText);
+
+ 
