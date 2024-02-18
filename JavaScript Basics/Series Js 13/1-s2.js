@@ -59,4 +59,5 @@ Web</a>";
 //* ------------------------------------------
 const mylist = document.getElementsByClassName("list")
 console.log(myList)
+console.log(myList[0].innerText)
 myList
