@@ -39,7 +39,7 @@ console.log(list); //? HTML Collection (array-like object)
 list[2].style.color = "red";
 
 list.item(3).style.color = "blue";
-const elementsThree = list.item(3)
-elementsThree.style.color = "blue"
-elementsThree.textContent = "React / Vue / Angular"
-list[4].scroll
+const elementsThree = list.item(3);
+elementsThree.style.color = "blue";
+elementsThree.textContent = "React / Vue / Angular";
+list[4].innerText = "Django / Flask";
