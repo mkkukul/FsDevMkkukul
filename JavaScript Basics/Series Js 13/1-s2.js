@@ -155,6 +155,8 @@ console.log(myBtn);
 //*              QUERYSELECTORALL()
 //* ========================================
 
+
+
 // const lists = document.querySelectorAll("ul li");
 // console.log(lists); //? nodelist
 // 
