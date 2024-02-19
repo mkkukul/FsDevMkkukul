@@ -90,6 +90,14 @@ myListArray.forEach((item) => console.log(item.innerText));
 
 //? 1- queryselector() etiket secebilir.
 
+// HTML'de ilk <li> öğesini seçme
+const myLi = document.querySelector("li");
+
+// Seçilen <li> öğesinin içeriğini konsola yazdırma
+console.log(myLi.innerText);
+
+// Seçilen <li> öğesinin metin rengini sarı yeşil olarak ayarlama
+myLi.style.color = "yellowgreen";
 
 
 // const myLi = document.querySelector("li");
