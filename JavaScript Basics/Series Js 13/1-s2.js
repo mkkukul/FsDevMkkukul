@@ -47,8 +47,7 @@ console.log(list[1].textContent);
 console.log(list[1].innerText);
 
 //? HTML kodlarini calistirir. (Guvenlik acisindan problemli)
-list[4].innerHTML = "<a href='https://www.clarusway.com'>Clarusway 
-Web</a>";
+list[4].innerHTML = "<a href='https://www.clarusway.com'>ClaruswayWeb</a>";
 
 //*===========================================
 //*          GETELEMENTSBYCLASSNAME()
