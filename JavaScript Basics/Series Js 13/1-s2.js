@@ -132,12 +132,12 @@ itemList.style.background = "grey";
 // 
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
-const itemH2 = document.querySelector(".item-list h2");
-itemH2.style.color = "purple";
-
-const myBtn = document.querySelector("input[type='button']");
-console.log(myBtn);
-
+// const itemH2 = document.querySelector(".item-list h2");
+// itemH2.style.color = "purple";
+// 
+// const myBtn = document.querySelector("input[type='button']");
+// console.log(myBtn);
+// 
 //* ========================================
 //*              QUERYSELECTORALL()
 //* ========================================
