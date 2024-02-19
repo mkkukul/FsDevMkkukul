@@ -87,6 +87,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 //*              QUERYSELECTOR()
 //* ========================================
 
+
 //? 1- queryselector() etiket secebilir.
 const myLi = document.querySelector("li");
 console.log(myLi.innerText);
