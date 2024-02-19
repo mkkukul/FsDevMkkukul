@@ -106,6 +106,8 @@ myLi.style.color = "yellowgreen";
 
 //? 2- queryselector() class secebilir.
 
+
+
 // const itemList = document.querySelector(".item-list");
 // itemList.style.background = "grey";
 // 
