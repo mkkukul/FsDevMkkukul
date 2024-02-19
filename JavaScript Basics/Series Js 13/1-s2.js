@@ -155,6 +155,20 @@ console.log(myBtn);
 //*              QUERYSELECTORALL()
 //* ========================================
 
+// HTML belgesindeki tüm <ul> içindeki <li> öğelerini seçme
+const lists = document.querySelectorAll("ul li");
+
+// Seçilen öğelerin bir NodeList olduğunu ve bu NodeList'i konsola yazdırma
+console.log(lists); // NodeList
+
+// NodeList'teki her bir <li> öğesinin içeriğini konsola yazdırma
+lists.forEach((li) => console.log(li.innerText));
+
+// HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
+console.log(document.querySelectorAll("section ul li:nth-child(3)")[0].innerText);
+
+// HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
+console.log(document.querySelector("section ul li:nth-child(3)").innerText);
 
 
 // const lists = document.querySelectorAll("ul li");
