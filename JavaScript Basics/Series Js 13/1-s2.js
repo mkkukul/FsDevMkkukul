@@ -63,12 +63,22 @@ console.log(myList[0].innerText);
 
 //?Array.from()
 
+// HTML koleksiyonunu diziye dönüştürme
+const myListArray = Array.from(myList);
+// Dizi üzerinde forEach döngüsü oluşturma ve her bir öğenin içeriğini konsola yazdırma
+myListArray.forEach((item) => console.log(item.innerText));
+
+// Alternatif olarak, yayma operatörünü kullanarak doğrudan HTML koleksiyonunu diziye dönüştürme ve işlem yapma
+[...myList].forEach((item) => console.log(item.innerText));
+
+// Yayma operatörünü kullanarak koleksiyonu diziye dönüştürme ve forEach döngüsüyle her bir öğenin CSS rengini kırmızı olarak ayarlama
+[...myList].forEach((item) => (item.style.color = "red"));
 
 
 // const myListArray = Array.from(myList);
 // myListArray.forEach((item) => console.log(item.innerText));
 // 
-?Spread
+// ?Spread
 // [...myList].forEach((item) => console.log(item.innerText));
 // 
 // [...myList].forEach((item) => (item.style.color = "red"));
