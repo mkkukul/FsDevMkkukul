@@ -89,6 +89,9 @@ myListArray.forEach((item) => console.log(item.innerText));
 
 
 //? 1- queryselector() etiket secebilir.
+
+
+
 const myLi = document.querySelector("li");
 console.log(myLi.innerText);
 myLi.style.color = "yellowgreen";
