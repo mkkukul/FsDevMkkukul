@@ -62,6 +62,9 @@ console.log(myList[0].innerText);
 //? Spread ve Array.from() ile kullanilabilri hale gelir.
 
 //?Array.from()
+
+
+
 const myListArray = Array.from(myList);
 myListArray.forEach((item) => console.log(item.innerText));
 
