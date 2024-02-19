@@ -132,6 +132,17 @@ itemList.style.background = "grey";
 // 
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
+// HTML'de sınıfı "item-list" olan bir öğenin içindeki h2 öğesini seçme
+const itemH2 = document.querySelector(".item-list h2");
+
+// Seçilen h2 öğesinin metin rengini mora ayarlama
+itemH2.style.color = "purple";
+
+// HTML'de bir input öğesini seçme, bu öğe türü "button" olan bir input öğesi olmalıdır
+const myBtn = document.querySelector("input[type='button']");
+
+// Seçilen input öğesini konsola yazdırma
+console.log(myBtn);
 
 
 // const itemH2 = document.querySelector(".item-list h2");
