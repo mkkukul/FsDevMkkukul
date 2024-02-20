@@ -50,6 +50,10 @@ console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliği
 
 //? classList
 
+console.log(newP.classList.contains("par")); // Yeni <p> öğesinin sınıf listesinde "par" sınıfı varsa true, yoksa false döndürür
+newP.classList.add("new-class"); // Yeni <p> öğesine "new-class" sınıfını ekler
+console.log(newP); // Güncellenmiş <p> öğesini konsola yazdırır
+newP.classList.remove("new-class"); // Yeni <p> öğesinden "new-class" sınıfını kaldırır
 
 
 // console.log(newP.classList.contains("par")); //? true
@@ -58,5 +62,6 @@ console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliği
 // newP.classList.remove("new-class");
 
 //? INNER HTML (Ciddi Guvenlik aciklari var)
-const ul = document.querySelector("ul");
-ul.innerHTML += `<li id="list-id" class="list">Boostrap</li>`;
+// const ul = document.querySelector("ul");
+// ul.innerHTML += `<li id="list-id" class="list">Boostrap</li>`;
+// 
