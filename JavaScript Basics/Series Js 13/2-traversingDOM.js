@@ -20,14 +20,14 @@ console.log("**** TRAVERSING DOM ****");
 
 
 
-const list = document.querySelector(".list");
-const ul = list.parentNode;
-ul.style.border = "2px solid red";
-
-console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); //? document
-
-console.log(list.parentElement);
-
+// const list = document.querySelector(".list");
+// const ul = list.parentNode;
+// ul.style.border = "2px solid red";
+// 
+// // console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); //? document
+// 
+// console.log(list.parentElement);
+// 
 //! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 const itemListSec = list.closest("section");
 itemListSec.style.background = "grey";
