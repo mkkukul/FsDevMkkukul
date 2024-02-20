@@ -60,6 +60,9 @@ itemListSec.style.background = "grey";
 
 //*2- Asagi Yonde traverse
 //*----------------------------------------------
+
+
+
 const addItem = document.querySelector(".add-item");
 console.log(addItem.children);
 const h2 = addItem.children[0];
