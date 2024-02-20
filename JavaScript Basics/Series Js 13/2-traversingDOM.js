@@ -98,13 +98,13 @@ console.log(ul.lastElementChild.innerText);
 
 //! nextElementSibling ,previousElementSibling
 
-const myList = ul.children;
-console.log(myList);
-
-const javascript = myList[2];
-
-const css = javascript.previousElementSibling;
-console.log(css.innerText);
-const react = javascript.nextElementSibling;
-console.log(react.textContent);
-console.log(javascript.previousElementSibling.previousElementSibling.innerText);
+// const myList = ul.children;
+// console.log(myList);
+// 
+// const javascript = myList[2];
+// 
+// const css = javascript.previousElementSibling;
+// console.log(css.innerText);
+// const react = javascript.nextElementSibling;
+// console.log(react.textContent);
+// // console.log(javascript.previousElementSibling.previousElementSibling.innerText);
