@@ -38,9 +38,9 @@ h2.after(newP);
 // h2.after(newP);
 
 //? getAttribute()
-console.log(newP.getAttribute("class"));
-console.log(newP.getAttribute("id"));
-console.log(newP.getAttribute("name"));
+// console.log(newP.getAttribute("class"));
+// console.log(newP.getAttribute("id"));
+// console.log(newP.getAttribute("name"));
 
 //? classList
 console.log(newP.classList.contains("par")); //? true
