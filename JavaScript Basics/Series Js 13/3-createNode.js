@@ -49,10 +49,11 @@ console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliği
 // console.log(newP.getAttribute("name"));
 
 //? classList
-console.log(newP.classList.contains("par")); //? true
-newP.classList.add("new-class");
-console.log(newP);
-newP.classList.remove("new-class");
+
+// console.log(newP.classList.contains("par")); //? true
+// newP.classList.add("new-class");
+// console.log(newP);
+// newP.classList.remove("new-class");
 
 //? INNER HTML (Ciddi Guvenlik aciklari var)
 const ul = document.querySelector("ul");
