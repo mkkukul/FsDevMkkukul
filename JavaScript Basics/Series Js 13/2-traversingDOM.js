@@ -45,6 +45,9 @@ console.log(list.parentElement);
 
 
 //! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
+
+
+
 const itemListSec = list.closest("section");
 itemListSec.style.background = "grey";
 
