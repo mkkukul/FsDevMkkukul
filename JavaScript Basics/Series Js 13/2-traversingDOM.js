@@ -61,6 +61,24 @@ itemListSec.style.background = "grey";
 //*2- Asagi Yonde traverse
 //*----------------------------------------------
 
+// .add-item sınıfına sahip bir HTML öğesini seçme
+const addItem = document.querySelector(".add-item");
+
+// Seçilen öğenin alt öğelerine erişim sağlama
+console.log(addItem.children);
+
+// Seçilen öğenin ilk alt öğesi olan h2 etiketine erişim sağlama ve rengini mavi yapma
+const h2 = addItem.children[0];
+h2.style.color = "blue";
+
+// Seçilen öğenin üst üst öğesinin (grandparent) ilk alt öğesine erişim sağlama (genellikle header olur)
+console.log(addItem.parentNode.parentNode.children[0]); //? Header
+
+// ul öğesinin ilk çocuğunun içerik metnini yazdırma
+console.log(ul.firstElementChild.innerText);
+
+// ul öğesinin son çocuğunun içerik metnini yazdırma
+console.log(ul.lastElementChild.innerText);
 
 
 // const addItem = document.querySelector(".add-item");
