@@ -50,6 +50,8 @@ console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliği
 
 //? classList
 
+
+
 // console.log(newP.classList.contains("par")); //? true
 // newP.classList.add("new-class");
 // console.log(newP);
