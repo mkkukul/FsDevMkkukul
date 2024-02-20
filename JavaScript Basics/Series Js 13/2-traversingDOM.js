@@ -107,4 +107,4 @@ console.log(ul.lastElementChild.innerText);
 // console.log(css.innerText);
 // const react = javascript.nextElementSibling;
 // console.log(react.textContent);
-// // console.log(javascript.previousElementSibling.previousElementSibling.innerText);
+//  console.log(javascript.previousElementSibling.previousElementSibling.innerText);
