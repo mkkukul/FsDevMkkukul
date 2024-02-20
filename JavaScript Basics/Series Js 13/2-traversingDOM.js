@@ -91,6 +91,8 @@ console.log(ul.lastElementChild.innerText);
 // console.log(ul.firstElementChild.innerText);
 // console.log(ul.lastElementChild.innerText);
 // 
+
+
 //*3- Yatay Yonde traverse
 //*----------------------------------------------
 
