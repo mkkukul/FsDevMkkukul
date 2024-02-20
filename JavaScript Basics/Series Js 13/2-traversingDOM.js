@@ -24,7 +24,7 @@ console.log("**** TRAVERSING DOM ****");
 // const ul = list.parentNode;
 // ul.style.border = "2px solid red";
 // 
-// // console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); //? document
+// console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); //? document
 // 
 // console.log(list.parentElement);
 // 
