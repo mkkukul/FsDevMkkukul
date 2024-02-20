@@ -98,6 +98,9 @@ console.log(ul.lastElementChild.innerText);
 
 //! nextElementSibling ,previousElementSibling
 
+
+
+
 // const myList = ul.children;
 // console.log(myList);
 // 
