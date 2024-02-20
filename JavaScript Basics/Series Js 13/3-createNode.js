@@ -39,6 +39,9 @@ h2.after(newP);
 
 //? getAttribute()
 
+console.log(newP.getAttribute("class")); // Yeni <p> öğesinin "class" özelliğinin değerini alır
+console.log(newP.getAttribute("id")); // Yeni <p> öğesinin "id" özelliğinin değerini alır
+console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliğinin değerini alır (null olacak, çünkü <p> öğesi için varsayılan olarak "name" özelliği tanımlı değildir)
 
 
 // console.log(newP.getAttribute("class"));
