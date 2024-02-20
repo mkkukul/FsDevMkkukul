@@ -17,6 +17,9 @@ console.log("**** TRAVERSING DOM ****");
 //*----------------------------------------------
 
 //! parentElement, parentNode
+
+
+
 const list = document.querySelector(".list");
 const ul = list.parentNode;
 ul.style.border = "2px solid red";
