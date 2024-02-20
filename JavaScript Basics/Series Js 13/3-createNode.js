@@ -1,6 +1,9 @@
 console.log("**** CREATE NODE ****");
 
 //?Yeni bir P elementi olusturalim
+
+
+
 const newP = document.createElement("p");
 newP.id = "new-par";
 newP.setAttribute("class", "new-class");
