@@ -48,9 +48,9 @@ console.log(list.parentElement);
 
 
 
-const itemListSec = list.closest("section");
-itemListSec.style.background = "grey";
-
+// const itemListSec = list.closest("section");
+// itemListSec.style.background = "grey";
+// 
 //*2- Asagi Yonde traverse
 //*----------------------------------------------
 const addItem = document.querySelector(".add-item");
