@@ -18,6 +18,20 @@ console.log("**** TRAVERSING DOM ****");
 
 //! parentElement, parentNode
 
+// HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
+const list = document.querySelector(".list");
+
+// Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
+const ul = list.parentNode;
+
+// Üst ebeveyn öğenin kenarlığını kırmızı bir çerçeveyle değiştirme
+ul.style.border = "2px solid red";
+
+// list'in ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveynini bulma (document'a kadar)
+console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); // document
+
+// list'in ebeveyn öğesini (parentNode) kullanarak bulma
+console.log(list.parentElement);
 
 
 // const list = document.querySelector(".list");
@@ -28,6 +42,8 @@ console.log("**** TRAVERSING DOM ****");
 // 
 // console.log(list.parentElement);
 // 
+
+
 //! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 const itemListSec = list.closest("section");
 itemListSec.style.background = "grey";
