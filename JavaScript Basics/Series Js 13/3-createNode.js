@@ -38,6 +38,9 @@ h2.after(newP);
 // h2.after(newP);
 
 //? getAttribute()
+
+
+
 // console.log(newP.getAttribute("class"));
 // console.log(newP.getAttribute("id"));
 // console.log(newP.getAttribute("name"));
