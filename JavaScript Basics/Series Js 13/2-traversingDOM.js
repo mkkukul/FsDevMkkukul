@@ -115,7 +115,7 @@ console.log(react.textContent);
 
 // javascript öğesinin iki önceki kardeşinin içerik metnini yazdırma
 console.log(javascript.previousElementSibling.previousElementSibling.innerText);
-
+bunu 
 
 
 // const myList = ul.children;
