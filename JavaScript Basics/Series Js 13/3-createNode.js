@@ -5,10 +5,10 @@ console.log("**** CREATE NODE ****");
 //! Yeni bir <p> öğesi oluşturma
 const newP = document.createElement("p");
 
-// Yeni <p> öğesine id özelliği eklenmesi
+//! Yeni <p> öğesine id özelliği eklenmesi
 newP.id = "new-par";
 
-// Yeni <p> öğesine class özelliği eklenmesi
+//! Yeni <p> öğesine class özelliği eklenmesi
 newP.setAttribute("class", "new-class");
 
 // Yeni bir metin düğümü (text node) oluşturma ve içeriğini belirleme
