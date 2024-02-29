@@ -28,7 +28,7 @@ h2.after(newP);
 
 
 //! const newP = document.createElement("p");
-// newP.id = "new-par";
+//! newP.id = "new-par";
 // newP.setAttribute("class", "new-class");
 // const text = document.createTextNode("This is a new p element");
 // newP.appendChild(text);
