@@ -69,6 +69,6 @@ console.log(newP); // Güncellenmiş <p> öğesini konsola yazdırır
 newP.classList.remove("new-class"); // Yeni <p> öğesinden "new-class" sınıfını kaldırır
 
 
-// const ul = document.querySelector("ul");
-// ul.innerHTML += `<li id="list-id" class="list">Boostrap</li>`;
+//! const ul = document.querySelector("ul");
+//! ul.innerHTML += `<li id="list-id" class="list">Boostrap</li>`;
 // 
