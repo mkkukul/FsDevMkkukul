@@ -57,7 +57,7 @@ newP.classList.remove("new-class"); // Yeni <p> öğesinden "new-class" sınıf�
 
 
 //! console.log(newP.classList.contains("par")); //? true
-// newP.classList.add("new-class");
+//! newP.classList.add("new-class");
 // console.log(newP);
 // newP.classList.remove("new-class");
 
