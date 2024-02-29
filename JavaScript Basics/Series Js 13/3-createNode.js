@@ -34,7 +34,7 @@ h2.after(newP);
 //! newP.appendChild(text);
 //! console.log(newP);
 // 
-// const h2 = document.querySelector(".item-list h2");
+//! const h2 = document.querySelector(".item-list h2");
 // h2.after(newP);
 
 //? getAttribute()
