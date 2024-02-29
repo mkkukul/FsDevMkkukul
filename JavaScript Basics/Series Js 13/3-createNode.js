@@ -23,7 +23,7 @@ console.log(newP);
 //! HTML içerisindeki ".item-list h2" seçicisi ile hedeflenen h2 öğesine erişim sağlanması
 const h2 = document.querySelector(".item-list h2");
 
-// h2 öğesinin sonrasına (hemen sonra) yeni oluşturulan <p> öğesinin eklenmesi
+//! h2 öğesinin sonrasına (hemen sonra) yeni oluşturulan <p> öğesinin eklenmesi
 h2.after(newP);
 
 
