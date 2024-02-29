@@ -45,7 +45,7 @@ console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliği
 
 
 //! console.log(newP.getAttribute("class"));
-// console.log(newP.getAttribute("id"));
+//! console.log(newP.getAttribute("id"));
 // console.log(newP.getAttribute("name"));
 
 //? classList
