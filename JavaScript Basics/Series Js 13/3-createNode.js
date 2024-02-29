@@ -44,7 +44,7 @@ console.log(newP.getAttribute("id")); // Yeni <p> öğesinin "id" özelliğinin 
 console.log(newP.getAttribute("name")); // Yeni <p> öğesinin "name" özelliğinin değerini alır (null olacak, çünkü <p> öğesi için varsayılan olarak "name" özelliği tanımlı değildir)
 
 
-// console.log(newP.getAttribute("class"));
+//! console.log(newP.getAttribute("class"));
 // console.log(newP.getAttribute("id"));
 // console.log(newP.getAttribute("name"));
 
