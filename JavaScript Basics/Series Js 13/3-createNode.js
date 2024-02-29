@@ -2,7 +2,7 @@ console.log("**** CREATE NODE ****");
 
 //?Yeni bir P elementi olusturalim
 
-// Yeni bir <p> öğesi oluşturma
+//! Yeni bir <p> öğesi oluşturma
 const newP = document.createElement("p");
 
 // Yeni <p> öğesine id özelliği eklenmesi
