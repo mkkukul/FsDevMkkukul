@@ -14,7 +14,7 @@ newP.setAttribute("class", "new-class");
 //! Yeni bir metin düğümü (text node) oluşturma ve içeriğini belirleme
 const text = document.createTextNode("This is a new p element");
 
-// Metin düğümünü (<p> öğesinin içeriği) yeni <p> öğesine eklenmesi
+//! Metin düğümünü (<p> öğesinin içeriği) yeni <p> öğesine eklenmesi
 newP.appendChild(text);
 
 // Oluşturulan yeni <p> öğesinin konsola yazdırılması
