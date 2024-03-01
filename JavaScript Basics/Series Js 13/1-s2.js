@@ -96,7 +96,7 @@ const myLi = document.querySelector("li");
 //! Seçilen <li> öğesinin içeriğini konsola yazdırma
 console.log(myLi.innerText);
 
-// Seçilen <li> öğesinin metin rengini sarı yeşil olarak ayarlama
+//! Seçilen <li> öğesinin metin rengini sarı yeşil olarak ayarlama
 myLi.style.color = "yellowgreen";
 
 
