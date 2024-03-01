@@ -105,7 +105,7 @@ console.log(myList);
 //! myList'in 2. çocuğunu (3. sıradaki) javascript değişkenine atama
 const javascript = myList[2];
 
-// javascript öğesinin bir önceki kardeşini (previousElementSibling) seçme ve içerik metnini yazdırma
+//! javascript öğesinin bir önceki kardeşini (previousElementSibling) seçme ve içerik metnini yazdırma
 const css = javascript.previousElementSibling;
 console.log(css.innerText);
 
