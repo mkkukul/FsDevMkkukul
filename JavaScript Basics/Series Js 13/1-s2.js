@@ -76,7 +76,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 
 
 //! const myListArray = Array.from(myList);
-// myListArray.forEach((item) => console.log(item.innerText));
+//! myListArray.forEach((item) => console.log(item.innerText));
 // 
 // ?Spread
 // [...myList].forEach((item) => console.log(item.innerText));
