@@ -88,7 +88,7 @@ console.log(ul.lastElementChild.innerText);
 // 
 //! console.log(addItem.parentNode.parentNode.children[0]); //? Header
 // 
-// console.log(ul.firstElementChild.innerText);
+//! console.log(ul.firstElementChild.innerText);
 // console.log(ul.lastElementChild.innerText);
 // 
 
