@@ -93,7 +93,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 //! HTML'de ilk <li> öğesini seçme
 const myLi = document.querySelector("li");
 
-// Seçilen <li> öğesinin içeriğini konsola yazdırma
+//! Seçilen <li> öğesinin içeriğini konsola yazdırma
 console.log(myLi.innerText);
 
 // Seçilen <li> öğesinin metin rengini sarı yeşil olarak ayarlama
