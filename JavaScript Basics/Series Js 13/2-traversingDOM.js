@@ -86,7 +86,7 @@ console.log(ul.lastElementChild.innerText);
 //! const h2 = addItem.children[0];
 //! h2.style.color = "blue";
 // 
-// console.log(addItem.parentNode.parentNode.children[0]); //? Header
+//! console.log(addItem.parentNode.parentNode.children[0]); //? Header
 // 
 // console.log(ul.firstElementChild.innerText);
 // console.log(ul.lastElementChild.innerText);
