@@ -84,7 +84,7 @@ console.log(ul.lastElementChild.innerText);
 //! const addItem = document.querySelector(".add-item");
 //! console.log(addItem.children);
 //! const h2 = addItem.children[0];
-// h2.style.color = "blue";
+//! h2.style.color = "blue";
 // 
 // console.log(addItem.parentNode.parentNode.children[0]); //? Header
 // 
