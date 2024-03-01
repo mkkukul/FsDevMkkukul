@@ -63,7 +63,7 @@ console.log(myList[0].innerText);
 
 //?Array.from()
 
-// HTML koleksiyonunu diziye dönüştürme
+//! HTML koleksiyonunu diziye dönüştürme
 const myListArray = Array.from(myList);
 // Dizi üzerinde forEach döngüsü oluşturma ve her bir öğenin içeriğini konsola yazdırma
 myListArray.forEach((item) => console.log(item.innerText));
