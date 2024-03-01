@@ -75,7 +75,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 [...myList].forEach((item) => (item.style.color = "red"));
 
 
-// const myListArray = Array.from(myList);
+//! const myListArray = Array.from(myList);
 // myListArray.forEach((item) => console.log(item.innerText));
 // 
 // ?Spread
