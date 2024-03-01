@@ -98,7 +98,7 @@ console.log(ul.lastElementChild.innerText);
 
 //! nextElementSibling ,previousElementSibling
 
-// ul öğesinin children özelliğine erişim sağlama ve bu öğeleri myList değişkenine atama
+//! ul öğesinin children özelliğine erişim sağlama ve bu öğeleri myList değişkenine atama
 const myList = ul.children;
 console.log(myList);
 
