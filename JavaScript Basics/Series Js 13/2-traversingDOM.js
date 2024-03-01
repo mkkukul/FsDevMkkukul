@@ -113,7 +113,7 @@ console.log(css.innerText);
 const react = javascript.nextElementSibling;
 console.log(react.textContent);
 
-// javascript öğesinin iki önceki kardeşinin içerik metnini yazdırma
+//! javascript öğesinin iki önceki kardeşinin içerik metnini yazdırma
 console.log(javascript.previousElementSibling.previousElementSibling.innerText);
 bunu 
 
