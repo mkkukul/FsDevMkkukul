@@ -79,7 +79,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 //! myListArray.forEach((item) => console.log(item.innerText));
 // 
 // ?Spread
-// [...myList].forEach((item) => console.log(item.innerText));
+//! [...myList].forEach((item) => console.log(item.innerText));
 // 
 // [...myList].forEach((item) => (item.style.color = "red"));
 
