@@ -109,7 +109,7 @@ const javascript = myList[2];
 const css = javascript.previousElementSibling;
 console.log(css.innerText);
 
-// javascript öğesinin bir sonraki kardeşini (nextElementSibling) seçme ve içerik metnini yazdırma
+//! javascript öğesinin bir sonraki kardeşini (nextElementSibling) seçme ve içerik metnini yazdırma
 const react = javascript.nextElementSibling;
 console.log(react.textContent);
 
