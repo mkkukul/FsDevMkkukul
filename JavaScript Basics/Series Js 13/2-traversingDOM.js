@@ -102,7 +102,7 @@ console.log(ul.lastElementChild.innerText);
 const myList = ul.children;
 console.log(myList);
 
-// myList'in 2. çocuğunu (3. sıradaki) javascript değişkenine atama
+//! myList'in 2. çocuğunu (3. sıradaki) javascript değişkenine atama
 const javascript = myList[2];
 
 // javascript öğesinin bir önceki kardeşini (previousElementSibling) seçme ve içerik metnini yazdırma
