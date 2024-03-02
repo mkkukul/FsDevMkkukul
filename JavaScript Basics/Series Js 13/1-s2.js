@@ -141,7 +141,7 @@ itemH2.style.color = "purple";
 //! HTML'de bir input öğesini seçme, bu öğe türü "button" olan bir input öğesi olmalıdır
 const myBtn = document.querySelector("input[type='button']");
 
-// Seçilen input öğesini konsola yazdırma
+//! Seçilen input öğesini konsola yazdırma
 console.log(myBtn);
 
 
