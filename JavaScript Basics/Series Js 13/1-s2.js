@@ -118,7 +118,7 @@ itemList.style.background = "grey";
 // 
 //? 3- queryselector() id secebilir.
 
-// HTML'de sınıfı "item-list" olan bir öğeyi seçme
+//! HTML'de sınıfı "item-list" olan bir öğeyi seçme
 const itemList = document.querySelector(".item-list");
 
 // Seçilen öğenin arka plan rengini griye ayarlama
