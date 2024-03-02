@@ -132,7 +132,7 @@ itemList.style.background = "grey";
 // 
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
-// HTML'de sınıfı "item-list" olan bir öğenin içindeki h2 öğesini seçme
+//! HTML'de sınıfı "item-list" olan bir öğenin içindeki h2 öğesini seçme
 const itemH2 = document.querySelector(".item-list h2");
 
 // Seçilen h2 öğesinin metin rengini mora ayarlama
