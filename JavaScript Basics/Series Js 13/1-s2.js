@@ -100,7 +100,7 @@ console.log(myLi.innerText);
 myLi.style.color = "yellowgreen";
 
 
-// const myLi = document.querySelector("li");
+//! const myLi = document.querySelector("li");
 // console.log(myLi.innerText);
 // myLi.style.color = "yellowgreen";
 
