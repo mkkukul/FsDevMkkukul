@@ -155,7 +155,7 @@ console.log(myBtn);
 //*              QUERYSELECTORALL()
 //* ========================================
 
-// HTML belgesindeki tüm <ul> içindeki <li> öğelerini seçme
+//! HTML belgesindeki tüm <ul> içindeki <li> öğelerini seçme
 const lists = document.querySelectorAll("ul li");
 
 // Seçilen öğelerin bir NodeList olduğunu ve bu NodeList'i konsola yazdırma
