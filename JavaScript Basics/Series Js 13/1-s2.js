@@ -135,7 +135,7 @@ itemList.style.background = "grey";
 //! HTML'de sınıfı "item-list" olan bir öğenin içindeki h2 öğesini seçme
 const itemH2 = document.querySelector(".item-list h2");
 
-// Seçilen h2 öğesinin metin rengini mora ayarlama
+//! Seçilen h2 öğesinin metin rengini mora ayarlama
 itemH2.style.color = "purple";
 
 // HTML'de bir input öğesini seçme, bu öğe türü "button" olan bir input öğesi olmalıdır
