@@ -164,7 +164,7 @@ console.log(lists); // NodeList
 //! NodeList'teki her bir <li> öğesinin içeriğini konsola yazdırma
 lists.forEach((li) => console.log(li.innerText));
 
-// HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
+//! HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
 console.log(document.querySelectorAll("section ul li:nth-child(3)")[0].innerText);
 
 // HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
