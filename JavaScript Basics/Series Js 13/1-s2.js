@@ -158,7 +158,7 @@ console.log(myBtn);
 //! HTML belgesindeki tüm <ul> içindeki <li> öğelerini seçme
 const lists = document.querySelectorAll("ul li");
 
-// Seçilen öğelerin bir NodeList olduğunu ve bu NodeList'i konsola yazdırma
+//! Seçilen öğelerin bir NodeList olduğunu ve bu NodeList'i konsola yazdırma
 console.log(lists); // NodeList
 
 // NodeList'teki her bir <li> öğesinin içeriğini konsola yazdırma
