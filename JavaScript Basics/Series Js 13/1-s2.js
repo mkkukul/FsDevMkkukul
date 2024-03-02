@@ -138,7 +138,7 @@ const itemH2 = document.querySelector(".item-list h2");
 //! Seçilen h2 öğesinin metin rengini mora ayarlama
 itemH2.style.color = "purple";
 
-// HTML'de bir input öğesini seçme, bu öğe türü "button" olan bir input öğesi olmalıdır
+//! HTML'de bir input öğesini seçme, bu öğe türü "button" olan bir input öğesi olmalıdır
 const myBtn = document.querySelector("input[type='button']");
 
 // Seçilen input öğesini konsola yazdırma
