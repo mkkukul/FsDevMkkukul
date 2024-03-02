@@ -161,7 +161,7 @@ const lists = document.querySelectorAll("ul li");
 //! Seçilen öğelerin bir NodeList olduğunu ve bu NodeList'i konsola yazdırma
 console.log(lists); // NodeList
 
-// NodeList'teki her bir <li> öğesinin içeriğini konsola yazdırma
+//! NodeList'teki her bir <li> öğesinin içeriğini konsola yazdırma
 lists.forEach((li) => console.log(li.innerText));
 
 // HTML belgesindeki belirli bir <section> içindeki üçüncü <li> öğesinin içeriğini konsola yazdırma
