@@ -57,7 +57,7 @@ function Personel(id, ad, maas) {
 //! 'kisi1' adında yeni bir 'Personel' nesnesi oluşturuyoruz.
 const kisi1 = new Personel("1234567890", "Mustafa", 15000);
 
-// 'kisi2' adında başka bir 'Personel' nesnesi oluşturuyoruz.
+//! 'kisi2' adında başka bir 'Personel' nesnesi oluşturuyoruz.
 const kisi2 = new Personel("177567890", "Canan", 25000);
 
 // Oluşturduğumuz 'kisi1' ve 'kisi2' nesnelerinin özelliklerine erişiyoruz.
