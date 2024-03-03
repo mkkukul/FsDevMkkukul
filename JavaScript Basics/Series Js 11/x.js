@@ -16,7 +16,7 @@ arabalar.model = 2022;
 //! 'arabalar' nesnesine "model" adında bir özellik ekliyoruz ve değerini 2022 olarak atıyoruz.
 
 arabalar.lpg = true;
-// 'arabalar' nesnesine "lpg" adında bir özellik ekliyoruz ve değerini 'true' olarak atıyoruz.
+//! 'arabalar' nesnesine "lpg" adında bir özellik ekliyoruz ve değerini 'true' olarak atıyoruz.
 
 console.log(arabalar);
 // 'arabalar' nesnesini konsola yazdırıyoruz.
