@@ -10,7 +10,7 @@ arabalar.marka = "BMW";
 //! 'arabalar' nesnesine "marka" adında bir özellik (property) ekliyoruz ve değerini "BMW" olarak atıyoruz.
 
 arabalar.motor = "1.3";
-// Aynı şekilde, 'arabalar' nesnesine "motor" adında bir özellik ekliyoruz ve değerini "1.3" olarak atıyoruz.
+//! Aynı şekilde, 'arabalar' nesnesine "motor" adında bir özellik ekliyoruz ve değerini "1.3" olarak atıyoruz.
 
 arabalar.model = 2022;
 // 'arabalar' nesnesine "model" adında bir özellik ekliyoruz ve değerini 2022 olarak atıyoruz.
