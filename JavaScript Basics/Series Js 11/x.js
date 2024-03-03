@@ -27,7 +27,7 @@ console.log(arabalar.lpg);
 //! 'arabalar' nesnesinin "lpg" özelliğine "." notasyonu ile erişiyoruz.
 
 console.log("MODEL:", arabalar["model"]); 
-// 'arabalar' nesnesinin "model" özelliğine köşeli parantez notasyonu ile erişiyoruz.
+//! 'arabalar' nesnesinin "model" özelliğine köşeli parantez notasyonu ile erişiyoruz.
 
 // //? Square bracket yönteminin en büyük avantajı key değerini
 // //? değişken olarak kullanabilmemizdir.
