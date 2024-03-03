@@ -89,7 +89,7 @@ const worker = {
 //! 'worker' nesnesini konsola yazdırıyoruz.
 console.log(worker);
 
-// 'worker' nesnesinin "job" özelliğini konsola yazdırıyoruz.
+//! 'worker' nesnesinin "job" özelliğini konsola yazdırıyoruz.
 console.log("JOB:", worker.job);
 
 // 'worker' nesnesinin "languages" özelliğine farklı erişim yöntemleri ile konsola yazdırıyoruz.
