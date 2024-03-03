@@ -86,7 +86,7 @@ const worker = {
   salary: 140000                            // Maaş özelliği
 };
 
-// 'worker' nesnesini konsola yazdırıyoruz.
+//! 'worker' nesnesini konsola yazdırıyoruz.
 console.log(worker);
 
 // 'worker' nesnesinin "job" özelliğini konsola yazdırıyoruz.
