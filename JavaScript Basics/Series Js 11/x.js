@@ -76,7 +76,7 @@ window.alert("Merhaba");
 //* 3- Object literal (En çok tercih edilen yöntem)
 //* ---------------------------------------------------------
 
-// 'worker' adında bir nesne oluşturuyoruz ve çeşitli özelliklerini tanımlıyoruz.
+//! 'worker' adında bir nesne oluşturuyoruz ve çeşitli özelliklerini tanımlıyoruz.
 const worker = {
   name: "Can",                              // İsim özelliği
   surname: "Canan",                         // Soyisim özelliği
