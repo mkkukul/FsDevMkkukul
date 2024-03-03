@@ -4,10 +4,10 @@
 //* ---------------------------------------------------------
 
 const arabalar = new Object();
-// 'Object()' sınıfından bir nesne oluşturuyoruz ve 'arabalar' adında bir değişkene atıyoruz.
+//! 'Object()' sınıfından bir nesne oluşturuyoruz ve 'arabalar' adında bir değişkene atıyoruz.
 
 arabalar.marka = "BMW";
-// 'arabalar' nesnesine "marka" adında bir özellik (property) ekliyoruz ve değerini "BMW" olarak atıyoruz.
+//! 'arabalar' nesnesine "marka" adında bir özellik (property) ekliyoruz ve değerini "BMW" olarak atıyoruz.
 
 arabalar.motor = "1.3";
 // Aynı şekilde, 'arabalar' nesnesine "motor" adında bir özellik ekliyoruz ve değerini "1.3" olarak atıyoruz.
