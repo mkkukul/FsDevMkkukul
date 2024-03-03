@@ -33,7 +33,7 @@ console.log("MODEL:", arabalar["model"]);
 // //? değişken olarak kullanabilmemizdir.
 // const key = "mark";
 // console.log(arabalar[key]);
-// Köşeli parantez notasyonu, dinamik bir anahtar (key) kullanmamıza olanak tanır. Bu örnekte, 'key' değişkenini kullanarak 'arabalar' nesnesinin "marka" özelliğine erişebiliriz.
+//! Köşeli parantez notasyonu, dinamik bir anahtar (key) kullanmamıza olanak tanır. Bu örnekte, 'key' değişkenini kullanarak 'arabalar' nesnesinin "marka" özelliğine erişebiliriz.
 
 // arabalar.motor = "1.6";
 // 'arabalar' nesnesinin "motor" özelliğini güncelliyoruz ve değerini "1.6" olarak değiştiriyoruz.
