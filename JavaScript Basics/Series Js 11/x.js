@@ -60,7 +60,7 @@ const kisi1 = new Personel("1234567890", "Mustafa", 15000);
 //! 'kisi2' adında başka bir 'Personel' nesnesi oluşturuyoruz.
 const kisi2 = new Personel("177567890", "Canan", 25000);
 
-// Oluşturduğumuz 'kisi1' ve 'kisi2' nesnelerinin özelliklerine erişiyoruz.
+//! Oluşturduğumuz 'kisi1' ve 'kisi2' nesnelerinin özelliklerine erişiyoruz.
 console.log(kisi1.ad);     // 'kisi1' nesnesinin "ad" özelliğine erişiyoruz ve konsola yazdırıyoruz.
 console.log(kisi2.maas);   // 'kisi2' nesnesinin "maas" özelliğine erişiyoruz ve konsola yazdırıyoruz.
 console.log(kisi2["id"]);  // 'kisi2' nesnesinin "id" özelliğine köşeli parantez notasyonu ile erişiyoruz.
