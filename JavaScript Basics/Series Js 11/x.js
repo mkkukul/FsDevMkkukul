@@ -39,7 +39,7 @@ console.log("MODEL:", arabalar["model"]);
 // 'arabalar' nesnesinin "motor" özelliğini güncelliyoruz ve değerini "1.6" olarak değiştiriyoruz.
 
 // console.log(arabalar);
-// 'arabalar' nesnesini güncellenmiş haliyle konsola yazdırıyoruz.
+//! 'arabalar' nesnesini güncellenmiş haliyle konsola yazdırıyoruz.
 
 //* ---------------------------------------------------------
 //* 2- object constructor'i kullanarak (OOP ile ayrıntılandırılacak)
