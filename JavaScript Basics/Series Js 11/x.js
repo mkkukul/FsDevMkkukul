@@ -22,7 +22,7 @@ console.log(arabalar);
 //! 'arabalar' nesnesini konsola yazdırıyoruz.
 
 //!Read
-// Nesnenin özelliklerine erişme:
+//! Nesnenin özelliklerine erişme:
 console.log(arabalar.lpg); 
 // 'arabalar' nesnesinin "lpg" özelliğine "." notasyonu ile erişiyoruz.
 
