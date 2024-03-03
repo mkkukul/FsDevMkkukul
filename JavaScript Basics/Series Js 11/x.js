@@ -19,7 +19,7 @@ arabalar.lpg = true;
 //! 'arabalar' nesnesine "lpg" adında bir özellik ekliyoruz ve değerini 'true' olarak atıyoruz.
 
 console.log(arabalar);
-// 'arabalar' nesnesini konsola yazdırıyoruz.
+//! 'arabalar' nesnesini konsola yazdırıyoruz.
 
 //!Read
 // Nesnenin özelliklerine erişme:
