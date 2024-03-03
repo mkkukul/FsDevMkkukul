@@ -66,7 +66,7 @@ console.log(kisi2.maas);   // 'kisi2' nesnesinin "maas" özelliğine erişiyoruz
 console.log(kisi2["id"]);  // 'kisi2' nesnesinin "id" özelliğine köşeli parantez notasyonu ile erişiyoruz.
 
 //!JavaScript'te 'this' kelimesi, bulunduğu bağlamın (context) referansını verir. 
-// Bu örnekte global alanda olduğu için 'this', 'window' objesini gösterir.
+//! Bu örnekte global alanda olduğu için 'this', 'window' objesini gösterir.
 console.log(this); 
 
 // Tarayıcıda bir uyarı penceresi oluşturarak "Merhaba" mesajını gösteriyoruz.
