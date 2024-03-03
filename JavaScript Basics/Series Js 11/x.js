@@ -54,7 +54,7 @@ function Personel(id, ad, maas) {
   // console.log(this); // 'this' kelimesi, tanımlandığı constructor fonksiyonuna referans verir.
 }
 
-// 'kisi1' adında yeni bir 'Personel' nesnesi oluşturuyoruz.
+//! 'kisi1' adında yeni bir 'Personel' nesnesi oluşturuyoruz.
 const kisi1 = new Personel("1234567890", "Mustafa", 15000);
 
 // 'kisi2' adında başka bir 'Personel' nesnesi oluşturuyoruz.
