@@ -69,7 +69,7 @@ console.log(kisi2["id"]);  // 'kisi2' nesnesinin "id" özelliğine köşeli para
 //! Bu örnekte global alanda olduğu için 'this', 'window' objesini gösterir.
 console.log(this); 
 
-// Tarayıcıda bir uyarı penceresi oluşturarak "Merhaba" mesajını gösteriyoruz.
+//! Tarayıcıda bir uyarı penceresi oluşturarak "Merhaba" mesajını gösteriyoruz.
 window.alert("Merhaba");
 
 //* ---------------------------------------------------------
