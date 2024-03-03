@@ -92,7 +92,7 @@ console.log(worker);
 //! 'worker' nesnesinin "job" özelliğini konsola yazdırıyoruz.
 console.log("JOB:", worker.job);
 
-// 'worker' nesnesinin "languages" özelliğine farklı erişim yöntemleri ile konsola yazdırıyoruz.
+//! 'worker' nesnesinin "languages" özelliğine farklı erişim yöntemleri ile konsola yazdırıyoruz.
 console.log("Lang:", worker["languages"]);
 
 // 'worker' nesnesinin "languages" dizisindeki 2. indeksteki dil bilgisini konsola yazdırıyoruz.
