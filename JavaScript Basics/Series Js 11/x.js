@@ -45,7 +45,7 @@ console.log("MODEL:", arabalar["model"]);
 //* 2- object constructor'i kullanarak (OOP ile ayrıntılandırılacak)
 //* ---------------------------------------------------------
 
-// 'Personel' adında bir constructor (kurucu) fonksiyon tanımlıyoruz.
+//! 'Personel' adında bir constructor (kurucu) fonksiyon tanımlıyoruz.
 function Personel(id, ad, maas) {
   this.id = id;       // 'Personel' nesnesine bir 'id' özelliği (property) ekliyoruz.
   this.ad = ad;       // 'Personel' nesnesine bir 'ad' özelliği ekliyoruz.
