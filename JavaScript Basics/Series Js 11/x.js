@@ -169,7 +169,7 @@ console.log("Salary of P2:", people.person2.salary); // 'person2' adlı kişinin
 
 //! Nesne üzerindeki key'leri (anahtarları) bir dizi olarak döndüren 'Object.keys()' metodunu kullanıyoruz.
 console.log(Object.keys(people)); 
-// Örnek çıktı: ["person1", "person2", "person3"] - 'people' nesnesinin anahtarlarından oluşan bir dizi döner.
+//! Örnek çıktı: ["person1", "person2", "person3"] - 'people' nesnesinin anahtarlarından oluşan bir dizi döner.
 
 // Nesne üzerindeki value'ları (değerleri) bir dizi olarak döndüren 'Object.values()' metodunu kullanıyoruz.
 console.log(Object.values(people)); 
