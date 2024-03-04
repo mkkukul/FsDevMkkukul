@@ -167,7 +167,7 @@ console.log("Salary of P2:", people.person2.salary); // 'person2' adlı kişinin
 //? JavaScript'te, nesneler (objects) doğrudan iterable (yineleyici) olarak kabul edilmezler. 
 //? Ancak, 'for...in' ve 'for...of' döngüleri ile üzerlerinde yineleme yapabiliriz.
 
-// Nesne üzerindeki key'leri (anahtarları) bir dizi olarak döndüren 'Object.keys()' metodunu kullanıyoruz.
+//! Nesne üzerindeki key'leri (anahtarları) bir dizi olarak döndüren 'Object.keys()' metodunu kullanıyoruz.
 console.log(Object.keys(people)); 
 // Örnek çıktı: ["person1", "person2", "person3"] - 'people' nesnesinin anahtarlarından oluşan bir dizi döner.
 
