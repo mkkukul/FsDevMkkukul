@@ -158,7 +158,7 @@ const people = {
   }
 };
 
-// 'people' nesnesini konsola yazdırıyoruz.
+//! 'people' nesnesini konsola yazdırıyoruz.
 console.log(people); // Nesnenin tamamını gösterir
 
 // 'people' nesnesinin 'person2' özelliğinin 'salary' özelliğini konsola yazdırıyoruz.
