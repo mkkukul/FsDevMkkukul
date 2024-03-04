@@ -119,7 +119,7 @@ person.dob = 2000;
 console.log("PERSON:", person);
 
 //* Nesne Kopyalama (Deep Copy)
-// 'worker' nesnesini tamamen kopyalayarak derin bir kopya oluşturuyoruz.
+//! 'worker' nesnesini tamamen kopyalayarak derin bir kopya oluşturuyoruz.
 let deepCopyOfWorker = JSON.parse(JSON.stringify(worker));
 
 // 'deepCopyOfWorker' nesnesinin "dob" özelliğini güncelliyoruz ve sonucunu konsola yazdırıyoruz.
