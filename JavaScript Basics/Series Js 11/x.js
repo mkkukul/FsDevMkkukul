@@ -205,7 +205,7 @@ for (let person in people) {
 
 console.log("****************");
 
-// 'Object.keys(people)' ifadesi, 'people' nesnesinin anahtarlarını (keys) bir dizi olarak döndürür.
+//! 'Object.keys(people)' ifadesi, 'people' nesnesinin anahtarlarını (keys) bir dizi olarak döndürür.
 // Bu döngüde, 'for...of' ile bu anahtarları tek tek dolaşıyoruz ve her birini konsola yazdırıyoruz.
 for (let key of Object.keys(people)) {
   console.log(key);
