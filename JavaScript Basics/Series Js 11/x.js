@@ -161,7 +161,7 @@ const people = {
 //! 'people' nesnesini konsola yazdırıyoruz.
 console.log(people); // Nesnenin tamamını gösterir
 
-// 'people' nesnesinin 'person2' özelliğinin 'salary' özelliğini konsola yazdırıyoruz.
+//! 'people' nesnesinin 'person2' özelliğinin 'salary' özelliğini konsola yazdırıyoruz.
 console.log("Salary of P2:", people.person2.salary); // 'person2' adlı kişinin maaşını gösterir
 
 //? JavaScript'te, nesneler (objects) doğrudan iterable (yineleyici) olarak kabul edilmezler. 
