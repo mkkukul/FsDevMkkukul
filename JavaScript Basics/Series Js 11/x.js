@@ -101,11 +101,11 @@ console.log(worker.languages[2]);
 //! 'worker' nesnesinin "languages" dizisindeki her bir dil bilgisini döngü ile konsola yazdırıyoruz.
 worker["languages"].forEach((l) => console.log(l));
 
-// 'worker' nesnesine yeni özellikler ekliyoruz: "dob" (doğum yılı) ve "email".
+//! 'worker' nesnesine yeni özellikler ekliyoruz: "dob" (doğum yılı) ve "email".
 worker.dob = "1990";
 worker.email = "can@gmail.com";
 
-// 'worker' nesnesinin "salary" özelliğini %10 artırıyoruz ve sonucunu konsola yazdırıyoruz.
+//! 'worker' nesnesinin "salary" özelliğini %10 artırıyoruz ve sonucunu konsola yazdırıyoruz.
 worker["salary"] *= 1.1;
 console.log(worker);
 
