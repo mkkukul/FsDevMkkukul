@@ -110,7 +110,7 @@ worker["salary"] *= 1.1;
 console.log(worker);
 
 //* Nesne Kopyalama (Shallow Copy)
-// 'worker' nesnesini 'person' adında başka bir değişkene atayarak kopyalıyoruz (sığ kopya).
+//! 'worker' nesnesini 'person' adında başka bir değişkene atayarak kopyalıyoruz (sığ kopya).
 const person = worker; 
 console.log("PERSON:", person);
 
