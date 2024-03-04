@@ -16,9 +16,9 @@ console.log("**** TRAVERSING DOM ****");
 //* 1- Yukari Yonde traverse
 //*----------------------------------------------
 
-//! parentElement, parentNode
+//!! parentElement, parentNode
 
-// HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
+//! HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
 const list = document.querySelector(".list");
 
 // Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
