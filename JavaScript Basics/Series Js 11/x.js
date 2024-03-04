@@ -98,7 +98,7 @@ console.log("Lang:", worker["languages"]);
 //! 'worker' nesnesinin "languages" dizisindeki 2. indeksteki dil bilgisini konsola yazdırıyoruz.
 console.log(worker.languages[2]);
 
-// 'worker' nesnesinin "languages" dizisindeki her bir dil bilgisini döngü ile konsola yazdırıyoruz.
+//! 'worker' nesnesinin "languages" dizisindeki her bir dil bilgisini döngü ile konsola yazdırıyoruz.
 worker["languages"].forEach((l) => console.log(l));
 
 // 'worker' nesnesine yeni özellikler ekliyoruz: "dob" (doğum yılı) ve "email".
