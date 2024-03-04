@@ -122,7 +122,7 @@ console.log("PERSON:", person);
 //! 'worker' nesnesini tamamen kopyalayarak derin bir kopya oluşturuyoruz.
 let deepCopyOfWorker = JSON.parse(JSON.stringify(worker));
 
-// 'deepCopyOfWorker' nesnesinin "dob" özelliğini güncelliyoruz ve sonucunu konsola yazdırıyoruz.
+//! 'deepCopyOfWorker' nesnesinin "dob" özelliğini güncelliyoruz ve sonucunu konsola yazdırıyoruz.
 deepCopyOfWorker.dob = "2022";
 console.log("DEEP:", deepCopyOfWorker);
 
