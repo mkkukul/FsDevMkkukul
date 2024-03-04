@@ -176,7 +176,7 @@ console.log(Object.values(people));
 //! Örnek çıktı: [{name: "Can", surname: "Canan", ...}, {name: "John", surname: "Sweet", ...}, ...] 
 //! - 'people' nesnesinin değerlerini içeren bir dizi döner.
 
-// Nesne üzerindeki her bir anahtar-değer çiftini bir dizi içinde döndüren 'Object.entries()' metodunu kullanıyoruz.
+//! Nesne üzerindeki her bir anahtar-değer çiftini bir dizi içinde döndüren 'Object.entries()' metodunu kullanıyoruz.
 console.log(Object.entries(people)); 
 // Örnek çıktı: 
 // [["person1", {name: "Can", surname: "Canan", ...}], 
