@@ -130,7 +130,7 @@ console.log("DEEP:", deepCopyOfWorker);
 // *                  OBJECT ITERATION
 // * ======================================================
 
-// 'people' adında bir nesne oluşturuyoruz. Bu nesne, içerisinde farklı kişilere ait bilgileri barındıran iç içe nesneleri içerir.
+//! 'people' adında bir nesne oluşturuyoruz. Bu nesne, içerisinde farklı kişilere ait bilgileri barındıran iç içe nesneleri içerir.
 const people = {
   person1: {
     name: "Can",                      // İsim özelliği
