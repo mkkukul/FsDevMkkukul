@@ -196,7 +196,7 @@ for (let person in people) {
   console.log(people[person]); 
 }
 
-// Örneğin, 'person1', 'person2', 'person3' gibi anahtarları konsola yazdırırken, 
+//! Örneğin, 'person1', 'person2', 'person3' gibi anahtarları konsola yazdırırken, 
 // bu anahtarların karşılık gelen değerleri olan objeleri de ayrı ayrı konsola yazdırıyoruz.
 //! FOR - OF
 //* for (x of iterable) {
