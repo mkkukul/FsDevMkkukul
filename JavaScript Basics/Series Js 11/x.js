@@ -213,7 +213,7 @@ for (let key of Object.keys(people)) {
 
 console.log("****************");
 
-// 'Object.values(people)' ifadesi, 'people' nesnesinin değerlerini (values) bir dizi olarak döndürür.
+//! 'Object.values(people)' ifadesi, 'people' nesnesinin değerlerini (values) bir dizi olarak döndürür.
 // Bu döngüde, 'for...of' ile bu değerleri tek tek dolaşıyoruz ve her birinin 'salary' özelliğini konsola yazdırıyoruz.
 for (let v of Object.values(people)) {
   // Her bir 'v' değerinin içerisindeki 'salary' özelliğini konsola yazdırıyoruz.
