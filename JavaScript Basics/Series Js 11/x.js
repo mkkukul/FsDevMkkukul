@@ -197,7 +197,7 @@ for (let person in people) {
 }
 
 //! Örneğin, 'person1', 'person2', 'person3' gibi anahtarları konsola yazdırırken, 
-// bu anahtarların karşılık gelen değerleri olan objeleri de ayrı ayrı konsola yazdırıyoruz.
+//! bu anahtarların karşılık gelen değerleri olan objeleri de ayrı ayrı konsola yazdırıyoruz.
 //! FOR - OF
 //* for (x of iterable) {
 //*   code block to be executed
