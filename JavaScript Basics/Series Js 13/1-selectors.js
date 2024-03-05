@@ -13,7 +13,7 @@ const h1 = document.getElementById("header");
 //! Seçilen elementi konsola yazdırır
 console.log(h1);
 
-// Seçilen <h1> elementinin metin rengini beyaz olarak ayarlar
+//! Seçilen <h1> elementinin metin rengini beyaz olarak ayarlar
 h1.style.color = "white";
 
 // Seçilen <h1> elementinin arka plan rengini kırmızı olarak ayarlar
