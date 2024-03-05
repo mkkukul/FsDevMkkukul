@@ -30,7 +30,7 @@ ul.style.border = "2px solid red";
 //! list'in ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveynini bulma (document'a kadar)
 console.log(list.parentNode.parentNode.parentNode.parentNode.parentNode); // document
 
-// list'in ebeveyn öğesini (parentNode) kullanarak bulma
+//! list'in ebeveyn öğesini (parentNode) kullanarak bulma
 console.log(list.parentElement);
 
 
