@@ -74,7 +74,7 @@ h2.style.color = "blue";
 //! Seçilen öğenin üst üst öğesinin (grandparent) ilk alt öğesine erişim sağlama (genellikle header olur)
 console.log(addItem.parentNode.parentNode.children[0]); //? Header
 
-// ul öğesinin ilk çocuğunun içerik metnini yazdırma
+//! ul öğesinin ilk çocuğunun içerik metnini yazdırma
 console.log(ul.firstElementChild.innerText);
 
 // ul öğesinin son çocuğunun içerik metnini yazdırma
