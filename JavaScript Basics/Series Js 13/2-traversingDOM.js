@@ -21,7 +21,7 @@ console.log("**** TRAVERSING DOM ****");
 //! HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
 const list = document.querySelector(".list");
 
-// Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
+//! Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
 const ul = list.parentNode;
 
 // Üst ebeveyn öğenin kenarlığını kırmızı bir çerçeveyle değiştirme
