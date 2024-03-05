@@ -29,6 +29,23 @@ h1.style.background = "red";
 //* EXAMPLE-2
 //*-------------------------------------------
 
+// Belirli bir id'ye sahip olan <input> elementini seçer
+const myInput = document.getElementById("input");
+
+// Belirli bir id'ye sahip olan <btn> elementini seçer
+const button = document.getElementById("btn");
+
+// Butonun stiline çeşitli özellikler eklenir
+button.style.background = "black"; // Arka plan rengi siyah olarak ayarlanır
+button.style.color = "white"; // Metin rengi beyaz olarak ayarlanır
+button.style.width = "7rem"; // Genişlik 7 rem olarak ayarlanır
+button.style.border = "none"; // Kenarlık eklenmez
+button.style.borderRadius = "10px"; // Köşeler 10 piksel olarak yuvarlanır
+button.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
+button.style.fontSize = "1.1rem"; // Yazı tipi boyutu 1.1 rem olarak ayarlanır
+
+// Giriş kutusunun stiline iç boşluk eklenir
+myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 
 
 // const myInput = document.getElementById("input");
