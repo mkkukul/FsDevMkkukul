@@ -24,7 +24,7 @@ const list = document.querySelector(".list");
 //! Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
 const ul = list.parentNode;
 
-// Üst ebeveyn öğenin kenarlığını kırmızı bir çerçeveyle değiştirme
+//! Üst ebeveyn öğenin kenarlığını kırmızı bir çerçeveyle değiştirme
 ul.style.border = "2px solid red";
 
 // list'in ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveyninin ebeveynini bulma (document'a kadar)
