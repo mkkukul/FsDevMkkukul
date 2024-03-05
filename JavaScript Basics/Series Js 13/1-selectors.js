@@ -29,13 +29,13 @@ h1.style.background = "red";
 //* EXAMPLE-2
 //*-------------------------------------------
 
-// Belirli bir id'ye sahip olan <input> elementini seçer
+//! Belirli bir id'ye sahip olan <input> elementini seçer
 const myInput = document.getElementById("input");
 
-// Belirli bir id'ye sahip olan <btn> elementini seçer
+//! Belirli bir id'ye sahip olan <btn> elementini seçer
 const button = document.getElementById("btn");
 
-// Butonun stiline çeşitli özellikler eklenir
+//! Butonun stiline çeşitli özellikler eklenir
 button.style.background = "black"; // Arka plan rengi siyah olarak ayarlanır
 button.style.color = "white"; // Metin rengi beyaz olarak ayarlanır
 button.style.width = "7rem"; // Genişlik 7 rem olarak ayarlanır
