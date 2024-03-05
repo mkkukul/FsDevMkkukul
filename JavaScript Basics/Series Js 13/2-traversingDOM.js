@@ -49,7 +49,7 @@ console.log(list.parentElement);
 //! list öğesinin en yakın üst öğesini bulma (section öğesi)
 const itemListSec = list.closest("section");
 
-// En yakın üst öğe (section) üzerinde bir stil değişikliği yapma
+//! En yakın üst öğe (section) üzerinde bir stil değişikliği yapma
 itemListSec.style.background = "grey";
 
 
@@ -61,7 +61,7 @@ itemListSec.style.background = "grey";
 //*2- Asagi Yonde traverse
 //*----------------------------------------------
 
-// .add-item sınıfına sahip bir HTML öğesini seçme
+//! .add-item sınıfına sahip bir HTML öğesini seçme
 const addItem = document.querySelector(".add-item");
 
 // Seçilen öğenin alt öğelerine erişim sağlama
