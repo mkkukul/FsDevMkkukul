@@ -10,7 +10,7 @@ console.log("***** SELECTORS *****");
 // Belirli bir id'ye sahip olan <h1> elementini seçer
 const h1 = document.getElementById("header");
 
-// Seçilen elementi konsola yazdırır
+//! Seçilen elementi konsola yazdırır
 console.log(h1);
 
 // Seçilen <h1> elementinin metin rengini beyaz olarak ayarlar
