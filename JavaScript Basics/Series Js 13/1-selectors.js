@@ -44,7 +44,7 @@ button.style.borderRadius = "10px"; // Köşeler 10 piksel olarak yuvarlanır
 button.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 button.style.fontSize = "1.1rem"; // Yazı tipi boyutu 1.1 rem olarak ayarlanır
 
-// Giriş kutusunun stiline iç boşluk eklenir
+//! Giriş kutusunun stiline iç boşluk eklenir
 myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 
 
