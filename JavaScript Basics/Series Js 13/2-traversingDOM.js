@@ -46,7 +46,7 @@ console.log(list.parentElement);
 
 //! closest(): belirtilen elementin parent'larin ilk uygun parent'i secer
 
-// list öğesinin en yakın üst öğesini bulma (section öğesi)
+//! list öğesinin en yakın üst öğesini bulma (section öğesi)
 const itemListSec = list.closest("section");
 
 // En yakın üst öğe (section) üzerinde bir stil değişikliği yapma
