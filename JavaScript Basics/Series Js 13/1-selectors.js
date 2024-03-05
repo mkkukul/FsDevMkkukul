@@ -7,11 +7,11 @@ console.log("***** SELECTORS *****");
 //* EXAMPLE-1
 //*-------------------------------------------
 
-const h1 = document.getElementById("header");
-console.log(h1);
-h1.style.color = "white";
-h1.style.background = "red";
-
+// const h1 = document.getElementById("header");
+// console.log(h1);
+// h1.style.color = "white";
+// h1.style.background = "red";
+// 
 //* EXAMPLE-2
 //*-------------------------------------------
 
