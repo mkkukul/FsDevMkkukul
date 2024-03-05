@@ -29,6 +29,8 @@ h1.style.background = "red";
 //* EXAMPLE-2
 //*-------------------------------------------
 
+
+
 // const myInput = document.getElementById("input");
 // const button = document.getElementById("btn");
 // button.style.background = "black";
