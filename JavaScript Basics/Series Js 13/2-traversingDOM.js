@@ -67,7 +67,7 @@ const addItem = document.querySelector(".add-item");
 //! Seçilen öğenin alt öğelerine erişim sağlama
 console.log(addItem.children);
 
-// Seçilen öğenin ilk alt öğesi olan h2 etiketine erişim sağlama ve rengini mavi yapma
+//! Seçilen öğenin ilk alt öğesi olan h2 etiketine erişim sağlama ve rengini mavi yapma
 const h2 = addItem.children[0];
 h2.style.color = "blue";
 
