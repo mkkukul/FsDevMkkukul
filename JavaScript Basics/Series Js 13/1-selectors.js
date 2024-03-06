@@ -81,7 +81,7 @@ const elementThree = list.item(3);
 //! Dördüncü öğenin metin rengini maviye ayarlar
 elementThree.style.color = "blue";
 
-// Dördüncü öğenin metnini değiştirir
+//! Dördüncü öğenin metnini değiştirir
 elementThree.textContent = "React / Vue / Angular";
 
 // Listede bulunan beşinci öğenin içeriğini değiştirir
