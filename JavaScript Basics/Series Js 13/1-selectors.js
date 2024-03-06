@@ -115,6 +115,14 @@ list[4].innerHTML = "<a href='https://www.clarusway.com'>Clarusway Web</a>";
 
 //* EXAMPLE-4
 //* ------------------------------------------
+// "list" sınıfına sahip tüm öğeleri içeren bir HTML koleksiyonunu alır
+const myList = document.getElementsByClassName("list");
+
+// Koleksiyonu konsola yazdırır (HTML Collection)
+console.log(myList);
+
+// Koleksiyondaki ilk öğenin iç metnini konsola yazdırır
+console.log(myList[0].innerText);
 
 
 
