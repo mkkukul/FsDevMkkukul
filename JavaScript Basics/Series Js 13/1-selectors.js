@@ -122,7 +122,7 @@ const myList = document.getElementsByClassName("list");
 //! Koleksiyonu konsola yazdırır (HTML Collection)
 console.log(myList);
 
-// Koleksiyondaki ilk öğenin iç metnini konsola yazdırır
+//! Koleksiyondaki ilk öğenin iç metnini konsola yazdırır
 console.log(myList[0].innerText);
 
 
