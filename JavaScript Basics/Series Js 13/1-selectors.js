@@ -125,8 +125,6 @@ console.log(myList);
 //! Koleksiyondaki ilk öğenin iç metnini konsola yazdırır
 console.log(myList[0].innerText);
 
-
-
 // const myList = document.getElementsByClassName("list");
 // console.log(myList); //? HTML Collection
 // console.log(myList[0].innerText);
