@@ -90,7 +90,7 @@ list[4].innerText = "Django / Flask";
 //! Listede bulunan ikinci öğenin metnini konsola yazdırır
 console.log(list[1].textContent);
 
-// Listede bulunan ikinci öğenin iç metnini konsola yazdırır
+//! Listede bulunan ikinci öğenin iç metnini konsola yazdırır
 console.log(list[1].innerText);
 
 
