@@ -72,7 +72,7 @@ const list = document.getElementsByTagName("li");
 //! Koleksiyonu konsola yazdırır (HTML Collection)
 console.log(list);
 
-// Listede bulunan üçüncü öğenin metin rengini kırmızıya ayarlar
+//! Listede bulunan üçüncü öğenin metin rengini kırmızıya ayarlar
 list[2].style.color = "red";
 
 // Listede bulunan dördüncü öğeyi alır
