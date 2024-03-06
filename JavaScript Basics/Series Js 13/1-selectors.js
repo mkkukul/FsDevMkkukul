@@ -78,7 +78,7 @@ list[2].style.color = "red";
 //! Listede bulunan dördüncü öğeyi alır
 const elementThree = list.item(3);
 
-// Dördüncü öğenin metin rengini maviye ayarlar
+//! Dördüncü öğenin metin rengini maviye ayarlar
 elementThree.style.color = "blue";
 
 // Dördüncü öğenin metnini değiştirir
