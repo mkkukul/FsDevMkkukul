@@ -66,6 +66,8 @@ myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 //*EXAMPLE-3
 //*-------------------------------------------
 
+
+
 // const list = document.getElementsByTagName("li");
 // console.log(list); //? HTML Collection
 // list[2].style.color = "red";
