@@ -66,7 +66,7 @@ myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 //*EXAMPLE-3
 //*-------------------------------------------
 
-// Tüm <li> elementlerini içeren bir HTML koleksiyonunu alır
+//! Tüm <li> elementlerini içeren bir HTML koleksiyonunu alır
 const list = document.getElementsByTagName("li");
 
 // Koleksiyonu konsola yazdırır (HTML Collection)
