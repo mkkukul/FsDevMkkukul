@@ -83,8 +83,8 @@ elementThree.style.color = "blue";
 
 //! Dördüncü öğenin metnini değiştirir
 elementThree.textContent = "React / Vue / Angular";
-
-// Listede bulunan beşinci öğenin içeriğini değiştirir
+!
+//! Listede bulunan beşinci öğenin içeriğini değiştirir
 list[4].innerText = "Django / Flask";
 
 // Listede bulunan ikinci öğenin metnini konsola yazdırır
