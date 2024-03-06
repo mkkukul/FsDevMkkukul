@@ -115,9 +115,9 @@ list[4].innerHTML = "<a href='https://www.clarusway.com'>Clarusway Web</a>";
 
 //* EXAMPLE-4
 //* ------------------------------------------
-const myList = document.getElementsByClassName("list");
-console.log(myList); //? HTML Collection
-console.log(myList[0].innerText);
+// const myList = document.getElementsByClassName("list");
+// console.log(myList); //? HTML Collection
+// console.log(myList[0].innerText);
 
 //? HRML Collection'larda Dizi metotlari dogrudan kullanilamaz.
 //? Spread ve Array.from() ile kullanilabilri hale gelir.
