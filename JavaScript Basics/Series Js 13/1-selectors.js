@@ -66,18 +66,18 @@ myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 //*EXAMPLE-3
 //*-------------------------------------------
 
-const list = document.getElementsByTagName("li");
-console.log(list); //? HTML Collection
-list[2].style.color = "red";
-const elementThree = list.item(3);
-elementThree.style.color = "blue";
-elementThree.textContent = "React / Vue / Angular";
-
-list[4].innerText = "Django / Flask";
-
-console.log(list[1].textContent);
-console.log(list[1].innerText);
-
+// const list = document.getElementsByTagName("li");
+// console.log(list); //? HTML Collection
+// list[2].style.color = "red";
+// const elementThree = list.item(3);
+// elementThree.style.color = "blue";
+// elementThree.textContent = "React / Vue / Angular";
+// 
+// list[4].innerText = "Django / Flask";
+// 
+// console.log(list[1].textContent);
+// console.log(list[1].innerText);
+// 
 //? HTML kodlarini calistirir. (Guvenlik acisindan problemli)
 list[4].innerHTML = "<a href='https://www.clarusway.com'>Clarusway Web</a>";
 
