@@ -133,13 +133,15 @@ console.log(myList[0].innerText);
 //? Spread ve Array.from() ile kullanilabilri hale gelir.
 
 //?Array.from()
-const myListArray = Array.from(myList);
-myListArray.forEach((item) => console.log(item.innerText));
 
-//?Spread
-[...myList].forEach((item) => console.log(item.innerText));
 
-[...myList].forEach((item) => (item.style.color = "red"));
+// const myListArray = Array.from(myList);
+// myListArray.forEach((item) => console.log(item.innerText));
+// 
+// ?Spread
+// [...myList].forEach((item) => console.log(item.innerText));
+// 
+// [...myList].forEach((item) => (item.style.color = "red"));
 
 //* ========================================
 //*              QUERYSELECTOR()
