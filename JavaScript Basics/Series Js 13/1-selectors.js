@@ -66,6 +66,32 @@ myInput.style.padding = "1rem"; // İç boşluklar 1 rem olarak ayarlanır
 //*EXAMPLE-3
 //*-------------------------------------------
 
+// Tüm <li> elementlerini içeren bir HTML koleksiyonunu alır
+const list = document.getElementsByTagName("li");
+
+// Koleksiyonu konsola yazdırır (HTML Collection)
+console.log(list);
+
+// Listede bulunan üçüncü öğenin metin rengini kırmızıya ayarlar
+list[2].style.color = "red";
+
+// Listede bulunan dördüncü öğeyi alır
+const elementThree = list.item(3);
+
+// Dördüncü öğenin metin rengini maviye ayarlar
+elementThree.style.color = "blue";
+
+// Dördüncü öğenin metnini değiştirir
+elementThree.textContent = "React / Vue / Angular";
+
+// Listede bulunan beşinci öğenin içeriğini değiştirir
+list[4].innerText = "Django / Flask";
+
+// Listede bulunan ikinci öğenin metnini konsola yazdırır
+console.log(list[1].textContent);
+
+// Listede bulunan ikinci öğenin iç metnini konsola yazdırır
+console.log(list[1].innerText);
 
 
 // const list = document.getElementsByTagName("li");
