@@ -191,6 +191,7 @@ itemList.style.background = "grey";
 //? 3- queryselector() id secebilir.
 
 
+
 // const input = document.querySelector("#input");
 // console.log(input.value);
 // 
