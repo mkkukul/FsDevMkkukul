@@ -193,7 +193,7 @@ itemList.style.background = "grey";
 //! id'si "input" olan bir input öğesini seçer
 const input = document.querySelector("#input");
 
-// Seçilen input öğesinin değerini konsola yazdırır
+//! Seçilen input öğesinin değerini konsola yazdırır
 console.log(input.value);
 
 // id'si "btn" olan bir düğmenin imleç stilini "pointer" (işaretçi) olarak ayarlar
