@@ -180,7 +180,7 @@ myLi.style.color = "yellowgreen";
 //! ".item-list" sınıfına sahip olan bir öğeyi seçer
 const itemList = document.querySelector(".item-list");
 
-// Seçilen öğenin arka plan rengini gri (grey) olarak ayarlar
+//! Seçilen öğenin arka plan rengini gri (grey) olarak ayarlar
 itemList.style.background = "grey";
 
 
