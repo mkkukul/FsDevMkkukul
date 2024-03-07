@@ -177,8 +177,8 @@ myLi.style.color = "yellowgreen";
 // 
 //? 2- queryselector() class secebilir.
 
-const itemList = document.querySelector(".item-list");
-itemList.style.background = "grey";
+// const itemList = document.querySelector(".item-list");
+// itemList.style.background = "grey";
 
 //? 3- queryselector() id secebilir.
 const input = document.querySelector("#input");
