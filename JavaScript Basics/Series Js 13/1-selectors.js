@@ -196,7 +196,7 @@ const input = document.querySelector("#input");
 //! Seçilen input öğesinin değerini konsola yazdırır
 console.log(input.value);
 
-// id'si "btn" olan bir düğmenin imleç stilini "pointer" (işaretçi) olarak ayarlar
+//! id'si "btn" olan bir düğmenin imleç stilini "pointer" (işaretçi) olarak ayarlar
 document.querySelector("#btn").style.cursor = "pointer";
 
 
