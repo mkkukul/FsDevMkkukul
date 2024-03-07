@@ -161,7 +161,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 
 //? 1- queryselector() etiket secebilir.
 
-// İlk <li> öğesini seçer
+//! İlk <li> öğesini seçer
 const myLi = document.querySelector("li");
 
 // Seçilen <li> öğesinin iç metnini konsola yazdırır
