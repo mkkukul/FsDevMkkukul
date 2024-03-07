@@ -160,10 +160,10 @@ myListArray.forEach((item) => console.log(item.innerText));
 //* ========================================
 
 //? 1- queryselector() etiket secebilir.
-const myLi = document.querySelector("li");
-console.log(myLi.innerText);
-myLi.style.color = "yellowgreen";
-
+// const myLi = document.querySelector("li");
+// console.log(myLi.innerText);
+// myLi.style.color = "yellowgreen";
+// 
 //? 2- queryselector() class secebilir.
 
 const itemList = document.querySelector(".item-list");
