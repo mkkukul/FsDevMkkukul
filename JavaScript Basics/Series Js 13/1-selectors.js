@@ -189,11 +189,11 @@ itemList.style.background = "grey";
 // itemList.style.background = "grey";
 
 //? 3- queryselector() id secebilir.
-const input = document.querySelector("#input");
-console.log(input.value);
-
-document.querySelector("#btn").style.cursor = "pointer";
-
+// const input = document.querySelector("#input");
+// console.log(input.value);
+// 
+// document.querySelector("#btn").style.cursor = "pointer";
+// 
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
 const itemH2 = document.querySelector(".item-list h2");
