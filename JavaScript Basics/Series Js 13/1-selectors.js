@@ -164,7 +164,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 //! İlk <li> öğesini seçer
 const myLi = document.querySelector("li");
 
-// Seçilen <li> öğesinin iç metnini konsola yazdırır
+//! Seçilen <li> öğesinin iç metnini konsola yazdırır
 console.log(myLi.innerText);
 
 // Seçilen <li> öğesinin metninin rengini sarı yeşil (yellowgreen) olarak ayarlar
