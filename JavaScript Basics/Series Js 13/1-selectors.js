@@ -137,7 +137,7 @@ console.log(myList[0].innerText);
 //! myList HTML Collection'ı bir diziye dönüştürür
 const myListArray = Array.from(myList);
 
-// Dizideki her bir öğenin iç metnini konsola yazdırır
+//! Dizideki her bir öğenin iç metnini konsola yazdırır
 myListArray.forEach((item) => console.log(item.innerText));
 
 // Spread operatörü kullanarak myList'ı bir diziye dönüştürür ve her bir öğenin iç metnini konsola yazdırır
