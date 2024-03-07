@@ -143,7 +143,7 @@ myListArray.forEach((item) => console.log(item.innerText));
 //! Spread operatörü kullanarak myList'ı bir diziye dönüştürür ve her bir öğenin iç metnini konsola yazdırır
 [...myList].forEach((item) => console.log(item.innerText));
 
-// Spread operatörü kullanarak myList'ı bir diziye dönüştürür ve her bir öğenin metninin rengini kırmızıya ayarlar
+//! Spread operatörü kullanarak myList'ı bir diziye dönüştürür ve her bir öğenin metninin rengini kırmızıya ayarlar
 [...myList].forEach((item) => (item.style.color = "red"));
 
 
