@@ -177,6 +177,11 @@ myLi.style.color = "yellowgreen";
 // 
 //? 2- queryselector() class secebilir.
 
+// ".item-list" sınıfına sahip olan bir öğeyi seçer
+const itemList = document.querySelector(".item-list");
+
+// Seçilen öğenin arka plan rengini gri (grey) olarak ayarlar
+itemList.style.background = "grey";
 
 
 // const itemList = document.querySelector(".item-list");
