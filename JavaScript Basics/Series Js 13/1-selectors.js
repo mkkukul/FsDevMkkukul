@@ -134,7 +134,7 @@ console.log(myList[0].innerText);
 
 //?Array.from()
 
-// myList HTML Collection'ı bir diziye dönüştürür
+//! myList HTML Collection'ı bir diziye dönüştürür
 const myListArray = Array.from(myList);
 
 // Dizideki her bir öğenin iç metnini konsola yazdırır
