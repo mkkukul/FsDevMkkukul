@@ -18,7 +18,7 @@ console.log("**** TRAVERSING DOM ****");
 
 //!! parentElement, parentNode
 
-//! HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
+//!! HTML belgesindeki bir sınıf adıyla eşleşen ilk öğeyi seçme
 const list = document.querySelector(".list");
 
 //! Seçilen öğenin doğrudan üst ebeveyn öğesini seçme
