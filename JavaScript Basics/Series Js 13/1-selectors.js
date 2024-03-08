@@ -207,6 +207,17 @@ document.querySelector("#btn").style.cursor = "pointer";
 // 
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
+// "item-list" sınıfına sahip bir div içindeki h2 başlığını seçer
+const itemH2 = document.querySelector(".item-list h2");
+
+// Seçilen h2 başlığının metin rengini mor olarak ayarlar
+itemH2.style.color = "purple";
+
+// input türü "button" olan bir düğmeyi seçer
+const myBtn = document.querySelector("input[type='button']");
+
+// Seçilen düğmeyi konsola yazdırır
+console.log(myBtn);
 
 
 // const itemH2 = document.querySelector(".item-list h2");
