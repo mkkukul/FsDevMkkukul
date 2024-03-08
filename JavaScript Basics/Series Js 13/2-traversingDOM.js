@@ -58,6 +58,7 @@ itemListSec.style.background = "grey";
 // 
 
 
+
 //*2- Asagi Yonde traverse
 //*----------------------------------------------
 
