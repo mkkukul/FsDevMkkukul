@@ -49,7 +49,7 @@ console.log(list.parentElement);
 //!! list öğesinin en yakın üst öğesini bulma (section öğesi)
 const itemListSec = list.closest("section");
 
-//! En yakın üst öğe (section) üzerinde bir stil değişikliği yapma
+//!! En yakın üst öğe (section) üzerinde bir stil değişikliği yapma
 itemListSec.style.background = "grey";
 
 
