@@ -230,6 +230,18 @@ console.log(myBtn);
 //*              QUERYSELECTORALL()
 //* ========================================
 
+// "ul" elementlerinin içindeki "li" öğelerini seçer ve NodeList döndürür
+const lists = document.querySelectorAll("ul li");
+console.log(lists); // NodeList'i konsola yazdırır
+
+// Seçilen "li" öğelerinin içindeki metinleri konsola yazdırır
+lists.forEach((li) => console.log(li.innerText));
+
+// "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
+console.log(document.querySelectorAll("section ul li:nth-child(3)")[0].innerText);
+
+// "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
+console.log(document.querySelector("section ul li:nth-child(3)").innerText);
 
 
 // const lists = document.querySelectorAll("ul li");
