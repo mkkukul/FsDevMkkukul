@@ -213,7 +213,7 @@ const itemH2 = document.querySelector(".item-list h2");
 //! Seçilen h2 başlığının metin rengini mor olarak ayarlar
 itemH2.style.color = "purple";
 
-// input türü "button" olan bir düğmeyi seçer
+//! input türü "button" olan bir düğmeyi seçer
 const myBtn = document.querySelector("input[type='button']");
 
 // Seçilen düğmeyi konsola yazdırır
