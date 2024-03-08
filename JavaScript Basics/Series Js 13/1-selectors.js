@@ -208,6 +208,7 @@ document.querySelector("#btn").style.cursor = "pointer";
 //? 4- queryselector() ile CSS deki gibi secim yapilabilir.
 
 
+
 // const itemH2 = document.querySelector(".item-list h2");
 // itemH2.style.color = "purple";
 // 
