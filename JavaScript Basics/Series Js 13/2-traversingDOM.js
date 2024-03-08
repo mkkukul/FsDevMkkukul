@@ -65,7 +65,7 @@ itemListSec.style.background = "grey";
 //!! .add-item sınıfına sahip bir HTML öğesini seçme
 const addItem = document.querySelector(".add-item");
 
-//! Seçilen öğenin alt öğelerine erişim sağlama
+//!! Seçilen öğenin alt öğelerine erişim sağlama
 console.log(addItem.children);
 
 //! Seçilen öğenin ilk alt öğesi olan h2 etiketine erişim sağlama ve rengini mavi yapma
