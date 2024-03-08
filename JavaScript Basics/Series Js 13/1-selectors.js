@@ -231,6 +231,7 @@ console.log(myBtn);
 //* ========================================
 
 
+
 // const lists = document.querySelectorAll("ul li");
 // console.log(lists); //? nodelist
 // 
