@@ -210,7 +210,7 @@ document.querySelector("#btn").style.cursor = "pointer";
 //! "item-list" sınıfına sahip bir div içindeki h2 başlığını seçer
 const itemH2 = document.querySelector(".item-list h2");
 
-// Seçilen h2 başlığının metin rengini mor olarak ayarlar
+//! Seçilen h2 başlığının metin rengini mor olarak ayarlar
 itemH2.style.color = "purple";
 
 // input türü "button" olan bir düğmeyi seçer
