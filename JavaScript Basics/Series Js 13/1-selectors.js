@@ -216,7 +216,7 @@ itemH2.style.color = "purple";
 //! input türü "button" olan bir düğmeyi seçer
 const myBtn = document.querySelector("input[type='button']");
 
-// Seçilen düğmeyi konsola yazdırır
+//! Seçilen düğmeyi konsola yazdırır
 console.log(myBtn);
 
 
