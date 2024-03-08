@@ -234,7 +234,7 @@ console.log(myBtn);
 const lists = document.querySelectorAll("ul li");
 console.log(lists); // NodeList'i konsola yazdırır
 
-// Seçilen "li" öğelerinin içindeki metinleri konsola yazdırır
+//! Seçilen "li" öğelerinin içindeki metinleri konsola yazdırır
 lists.forEach((li) => console.log(li.innerText));
 
 // "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
