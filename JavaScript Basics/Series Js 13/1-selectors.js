@@ -230,7 +230,7 @@ console.log(myBtn);
 //*              QUERYSELECTORALL()
 //* ========================================
 
-// "ul" elementlerinin içindeki "li" öğelerini seçer ve NodeList döndürür
+//! "ul" elementlerinin içindeki "li" öğelerini seçer ve NodeList döndürür
 const lists = document.querySelectorAll("ul li");
 console.log(lists); // NodeList'i konsola yazdırır
 
