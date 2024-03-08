@@ -237,7 +237,7 @@ console.log(lists); // NodeList'i konsola yazdırır
 //! Seçilen "li" öğelerinin içindeki metinleri konsola yazdırır
 lists.forEach((li) => console.log(li.innerText));
 
-// "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
+//! "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
 console.log(document.querySelectorAll("section ul li:nth-child(3)")[0].innerText);
 
 // "section" içindeki "ul" elementinin üçüncü "li" öğesini seçer ve içeriğini konsola yazdırır
