@@ -13,7 +13,7 @@ const dizi = [-5, 15, 22, -4, 45, 78];
 const negatifler = [];
 const pozitifler = [];
 
-// dizelereAyir adlı bir fonksiyon tanımlama, bu fonksiyon negatif ve pozitif sayıları ayrıştırır
+//! dizelereAyir adlı bir fonksiyon tanımlama, bu fonksiyon negatif ve pozitif sayıları ayrıştırır
 const dizelereAyir = (n) => {
   for (let i = 0; i < n.length; i++) {
     // Her elemanı kontrol et
