@@ -9,7 +9,7 @@ console.log("******* LOOPS IN ARRAYS ******");
 //! Bir dizi tanımlama
 const dizi = [-5, 15, 22, -4, 45, 78];
 
-// Boş diziler tanımlama (negatif ve pozitif sayıları ayırmak için)
+//! Boş diziler tanımlama (negatif ve pozitif sayıları ayırmak için)
 const negatifler = [];
 const pozitifler = [];
 
