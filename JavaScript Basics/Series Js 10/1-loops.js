@@ -117,7 +117,7 @@ const findStudents = (arr, search) => {
   for (let i = 0; i < arr.length; i++) {
     //! Aranan isim ile dizideki isim karşılaştırılırken küçük harfe çevriliyor
     if (search === arr[i].toLowerCase()) {
-      // Eğer isim bulunursa sayacı artır
+      //! Eğer isim bulunursa sayacı artır
       counter++;
     }
   }
