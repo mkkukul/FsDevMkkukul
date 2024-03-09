@@ -38,7 +38,7 @@ console.log(worker);
 worker["salary"] *= 1.1;
 console.log(worker);
 
-// Nesne kopyalama
+//! Nesne kopyalama
 const person = worker; // Sığ kopyalama
 console.log("PERSON:", person);
 // 
