@@ -33,7 +33,7 @@ worker.dob = "1990";
 worker.email = "can@gmail.com";
 console.log(worker);
 
-// Çalışanın maaşının artırılması (iki farklı yöntem)
+//! Çalışanın maaşının artırılması (iki farklı yöntem)
 // worker["salary"] = worker["salary"] * 1.1;
 worker["salary"] *= 1.1;
 console.log(worker);
