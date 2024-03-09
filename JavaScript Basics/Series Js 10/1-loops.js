@@ -108,7 +108,7 @@ console.log("ORTALAMA:", toplam / notlar.length);
 //! Verilen öğrenci dizisi
 const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 
-// Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
+//! Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
 const findStudents = (arr, search) => {
   // Başlangıçta sayacı sıfıra ayarla
   let counter = 0;
