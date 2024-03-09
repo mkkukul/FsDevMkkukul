@@ -30,7 +30,7 @@ const dizelereAyir = (n) => {
 //! dizelereAyir fonksiyonunu kullanarak diziyi negatif ve pozitif sayılara ayırma
 dizelereAyir(dizi);
 
-// Sonuçları ekrana yazdırma
+//! Sonuçları ekrana yazdırma
 console.log(negatifler); // Negatif sayıları içeren dizi
 console.log(pozitifler); // Pozitif sayıları içeren dizi
 console.log(dizi); // Orijinal dizi
