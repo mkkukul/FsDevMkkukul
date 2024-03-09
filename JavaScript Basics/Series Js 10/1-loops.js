@@ -110,7 +110,7 @@ const students = ["ahmet", "mehmet", "ismet", "ahmet", "can", "mehmet", "cem"];
 
 //! Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
 const findStudents = (arr, search) => {
-  // Başlangıçta sayacı sıfıra ayarla
+  //! Başlangıçta sayacı sıfıra ayarla
   let counter = 0;
 
   // Dizi üzerinde döngü
