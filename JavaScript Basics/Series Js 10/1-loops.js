@@ -27,7 +27,7 @@ const dizelereAyir = (n) => {
   }
 };
 
-// dizelereAyir fonksiyonunu kullanarak diziyi negatif ve pozitif sayılara ayırma
+//! dizelereAyir fonksiyonunu kullanarak diziyi negatif ve pozitif sayılara ayırma
 dizelereAyir(dizi);
 
 // Sonuçları ekrana yazdırma
