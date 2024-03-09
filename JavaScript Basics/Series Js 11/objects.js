@@ -3,7 +3,7 @@
 // //* 3- Object literal (En cok tercih edilen yontem)
 // //* ---------------------------------------------------------
 
-// Bir çalışan nesnesi oluşturulması
+//! Bir çalışan nesnesi oluşturulması
 const worker = {
   name: "Can",
   surname: "Canan",
