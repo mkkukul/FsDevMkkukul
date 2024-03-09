@@ -70,7 +70,7 @@ for (let i = 0; i < notlar.length; i++) {
   toplam += notlar[i];
 }
 
-// Ortalamayı hesapla ve ekrana yazdır
+//! Ortalamayı hesapla ve ekrana yazdır
 console.log("ORTALAMA:", toplam / notlar.length);
 
  
