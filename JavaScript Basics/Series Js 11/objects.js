@@ -22,7 +22,7 @@ console.log("JOB:", worker.job);
 //! Çalışanın bildiği dillerin ekrana yazdırılması (dizi olarak)
 console.log("Lang:", worker["languages"]);
 
-// Çalışanın üçüncü dil bilgisinin ekrana yazdırılması
+//! Çalışanın üçüncü dil bilgisinin ekrana yazdırılması
 console.log(worker.languages[2]);
 
 // Çalışanın bildiği dillerin her birinin ayrı ayrı ekrana yazdırılması
