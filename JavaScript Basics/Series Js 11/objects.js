@@ -25,7 +25,7 @@ console.log("Lang:", worker["languages"]);
 //! Çalışanın üçüncü dil bilgisinin ekrana yazdırılması
 console.log(worker.languages[2]);
 
-// Çalışanın bildiği dillerin her birinin ayrı ayrı ekrana yazdırılması
+//! Çalışanın bildiği dillerin her birinin ayrı ayrı ekrana yazdırılması
 worker["languages"].forEach((l) => console.log(l));
 
 // Çalışana doğum tarihi ve e-posta ekleme
