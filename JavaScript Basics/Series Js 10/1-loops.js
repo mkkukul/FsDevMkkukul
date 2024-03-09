@@ -65,7 +65,7 @@ const notlar = [55, 77, 23, 89, 100];
 //! Toplamı saklamak için bir değişken tanımlama
 let toplam = 0;
 
-// Döngü kullanarak notları topla
+//! Döngü kullanarak notları topla
 for (let i = 0; i < notlar.length; i++) {
   toplam += notlar[i];
 }
