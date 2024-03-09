@@ -13,10 +13,10 @@ const worker = {
   salary: "140000",
 };
 
-// Çalışan nesnesinin tüm bilgilerinin ekrana yazdırılması
+//! Çalışan nesnesinin tüm bilgilerinin ekrana yazdırılması
 console.log(worker);
 
-// Çalışanın iş bilgisinin ekrana yazdırılması
+//! Çalışanın iş bilgisinin ekrana yazdırılması
 console.log("JOB:", worker.job);
 
 // Çalışanın bildiği dillerin ekrana yazdırılması (dizi olarak)
