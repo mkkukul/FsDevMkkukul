@@ -28,7 +28,7 @@ console.log(worker.languages[2]);
 //! Çalışanın bildiği dillerin her birinin ayrı ayrı ekrana yazdırılması
 worker["languages"].forEach((l) => console.log(l));
 
-// Çalışana doğum tarihi ve e-posta ekleme
+//! Çalışana doğum tarihi ve e-posta ekleme
 worker.dob = "1990";
 worker.email = "can@gmail.com";
 console.log(worker);
