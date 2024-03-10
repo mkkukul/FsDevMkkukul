@@ -218,7 +218,7 @@ console.log(findStudents(students, name));
 
 //! Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
 const findStudentsOf = (arr, search) => {
-  // Başlangıçta sayacı sıfıra ayarla
+  //! Başlangıçta sayacı sıfıra ayarla
   let counter = 0;
 
   //! Dizi üzerinde döngü
