@@ -169,7 +169,7 @@ const findStudents = (arr, search) => {
     // Çünkü "in" operatörü dizinin dışındaki özelliklere de ulaşabilir
     // Bu nedenle "of" operatörü kullanmak daha güvenlidir
     if (search === arr[i]) {
-      // Eğer isim bulunursa sayacı artır
+      //! Eğer isim bulunursa sayacı artır
       counter++;
     }
   }
