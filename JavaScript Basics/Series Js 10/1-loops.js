@@ -223,7 +223,7 @@ const findStudentsOf = (arr, search) => {
 
   // Dizi üzerinde döngü
   for (let item of arr) {
-    // Ternary operatörü kullanarak
+    //! Ternary operatörü kullanarak
     // search === item ? counter++ : null;
 
     // Short-circuit yöntemi ile ifadeyi daha kısa hale getirme
