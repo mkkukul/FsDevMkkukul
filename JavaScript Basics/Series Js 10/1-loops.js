@@ -166,7 +166,7 @@ const findStudents = (arr, search) => {
   // Dizi üzerinde döngü
   for (let i in arr) {
     // Döngü değişkeni i, dizinin indexini temsil eder, ancak bu durumda kullanmak önerilmez
-    // Çünkü "in" operatörü dizinin dışındaki özelliklere de ulaşabilir
+    //! Çünkü "in" operatörü dizinin dışındaki özelliklere de ulaşabilir
     // Bu nedenle "of" operatörü kullanmak daha güvenlidir
     if (search === arr[i]) {
       //! Eğer isim bulunursa sayacı artır
