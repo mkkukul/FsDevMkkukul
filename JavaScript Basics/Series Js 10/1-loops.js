@@ -221,7 +221,7 @@ const findStudentsOf = (arr, search) => {
   // Başlangıçta sayacı sıfıra ayarla
   let counter = 0;
 
-  // Dizi üzerinde döngü
+  //! Dizi üzerinde döngü
   for (let item of arr) {
     //! Ternary operatörü kullanarak
     // search === item ? counter++ : null;
