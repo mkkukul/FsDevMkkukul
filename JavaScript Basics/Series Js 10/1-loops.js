@@ -174,7 +174,7 @@ const findStudents = (arr, search) => {
     }
   }
 
-  // Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
+  //! Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
   if (!counter) {
     return `${search} can not be found`;
   } else {
