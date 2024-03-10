@@ -185,7 +185,7 @@ const findStudents = (arr, search) => {
 //! Kullanıcıdan isim al
 const name = prompt("Please enter a name").toLowerCase();
 
-// Fonksiyonu çağır ve sonucu ekrana yazdır
+//! Fonksiyonu çağır ve sonucu ekrana yazdır
 console.log(findStudents(students, name));
 
 
