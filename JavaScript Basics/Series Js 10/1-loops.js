@@ -233,7 +233,7 @@ const findStudentsOf = (arr, search) => {
     search === item || counter++;
   }
 
-  // Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
+  //! Eğer hiç bulunmazsa uygun mesajı döndür, aksi takdirde bulunan sayıyla birlikte mesajı döndür
   return !counter
     ? `${search} can not be found`
     : `${search} found ${counter} times`;
