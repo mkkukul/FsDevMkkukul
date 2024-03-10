@@ -130,7 +130,7 @@ const findStudents = (arr, search) => {
   }
 };
 
-// Kullanıcıdan isim al
+//! Kullanıcıdan isim al
 const name = prompt("Please enter a name").toLowerCase();
 
 // Fonksiyonu çağır ve sonucu ekrana yazdır
