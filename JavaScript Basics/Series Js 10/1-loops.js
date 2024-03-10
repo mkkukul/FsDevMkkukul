@@ -216,7 +216,7 @@ console.log(findStudents(students, name));
 //* kapsayacak sekilde guncellenmis halidir. Bu dongude dizi
 //* icersindeki veriye erisirken indisleme kullanmaya gerek yoktur.
 
-// Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
+//! Belirli bir öğrenci isminin dizide kaç kez geçtiğini bulan fonksiyon
 const findStudentsOf = (arr, search) => {
   // Başlangıçta sayacı sıfıra ayarla
   let counter = 0;
