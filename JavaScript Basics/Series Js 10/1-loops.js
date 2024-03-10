@@ -239,7 +239,7 @@ const findStudentsOf = (arr, search) => {
     : `${search} found ${counter} times`;
 };
 
-// Kullanıcıdan isim al
+//! Kullanıcıdan isim al
 const studentName = prompt("Please enter a name").toLowerCase();
 
 // Fonksiyonu çağır ve sonucu ekrana yazdır
