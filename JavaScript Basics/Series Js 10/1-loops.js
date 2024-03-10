@@ -227,7 +227,7 @@ const findStudentsOf = (arr, search) => {
     //! search === item ? counter++ : null;
 
     //! Short-circuit yöntemi ile ifadeyi daha kısa hale getirme
-    // search === item && counter++;
+    //! search === item && counter++;
 
     // Eğer bulunursa counter'ı artır, bulunmasa da counter'ı artır
     search === item || counter++;
