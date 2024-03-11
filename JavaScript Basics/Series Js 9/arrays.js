@@ -21,7 +21,7 @@ console.log(isimler.length); // 5
 //! Boş bir dizi oluşturulur
 const bosDizi = [];
 
-// Boş diziyi yazdırır (içinde hiçbir eleman olmadığı için [])
+//! Boş diziyi yazdırır (içinde hiçbir eleman olmadığı için [])
 console.log(bosDizi);
 
 
