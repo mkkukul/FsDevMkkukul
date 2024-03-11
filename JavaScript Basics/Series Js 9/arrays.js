@@ -134,7 +134,7 @@ console.log(kisiler);
 
 const yas55 = kisiler[5][2];
 //! Dizinin 5. elemanı bir dizi olduğu için, bu diziden 2. elemanı seçer.
-// Bu örnekte, yas55 değeri 55 olacaktır.
+//! Bu örnekte, yas55 değeri 55 olacaktır.
 
 console.log(yas55); // 55
 
