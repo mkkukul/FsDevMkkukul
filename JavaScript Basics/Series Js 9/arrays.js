@@ -15,7 +15,7 @@ console.log(isimler); // ["ahmet", "ismet", "can", "canan", "Mathew"]
 //! Dizinin veri türünü yazdırır (Array)
 console.log(typeof isimler);
 
-// Dizide kaç eleman olduğunu yazdırır
+//! Dizide kaç eleman olduğunu yazdırır
 console.log(isimler.length); // 5
 
 // Boş bir dizi oluşturulur
