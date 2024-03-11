@@ -133,7 +133,7 @@ console.log(kisiler);
 //! Örneğin, ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]] gibi bir çıktı alınacaktır.
 
 const yas55 = kisiler[5][2];
-// Dizinin 5. elemanı bir dizi olduğu için, bu diziden 2. elemanı seçer.
+//! Dizinin 5. elemanı bir dizi olduğu için, bu diziden 2. elemanı seçer.
 // Bu örnekte, yas55 değeri 55 olacaktır.
 
 console.log(yas55); // 55
