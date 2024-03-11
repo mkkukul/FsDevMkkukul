@@ -41,7 +41,7 @@ console.log(bosDizi);
 
 // ! 2.Yöntem (Object Constructor)
 
-// 1. Dizi oluşturma yöntemi: Dizi literali
+//! 1. Dizi oluşturma yöntemi: Dizi literali
 const diller = ["C++", "Javascript", "Assembly", "Go", "Ruby"];
 console.log(diller); // ["C++", "Javascript", "Assembly", "Go", "Ruby"]
 
