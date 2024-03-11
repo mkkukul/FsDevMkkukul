@@ -12,7 +12,7 @@ const isimler = ["ahmet", "ismet", "can", "canan", "Mathew"];
 //! İsimleri yazdırır
 console.log(isimler); // ["ahmet", "ismet", "can", "canan", "Mathew"]
 
-// Dizinin veri türünü yazdırır (Array)
+//! Dizinin veri türünü yazdırır (Array)
 console.log(typeof isimler);
 
 // Dizide kaç eleman olduğunu yazdırır
