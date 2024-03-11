@@ -117,7 +117,7 @@ console.log(isimler); //! Güncellenmiş `isimler` dizisini konsola yazdırır.
 
 console.log(numbers); //! Diziyi konsola yazdırır. Örneğin, [3, 2, 1]
 numbers[numbers.length - 1]++; //! Dizinin son elemanını bir artırır. Bu örnekte, [3, 2, 2] olacaktır.
-console.log(numbers); // Güncellenmiş diziyi konsola yazdırır.
+console.log(numbers); //! Güncellenmiş diziyi konsola yazdırır.
 
 
 // console.log(numbers);
