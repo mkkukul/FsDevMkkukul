@@ -49,7 +49,7 @@ console.log(diller); // ["C++", "Javascript", "Assembly", "Go", "Ruby"]
 const numbers = new Array(3, 2, 1);
 console.log(numbers); // [3, 2, 1]
 
-// Bu örnekte, diller adında bir dizi literali kullanılarak diller dizisi oluşturulmuş ve yazdırılmıştır. Ardından, numbers adında bir Array constructor kullanılarak sayılar dizisi oluşturulmuş ve yazdırılmıştır.
+//! Bu örnekte, diller adında bir dizi literali kullanılarak diller dizisi oluşturulmuş ve yazdırılmıştır. Ardından, numbers adında bir Array constructor kullanılarak sayılar dizisi oluşturulmuş ve yazdırılmıştır.
 
 // const diller = ["C++", "Javasciprt", "Assembly", "Go", "Ruby"];
 // console.log(diller);
