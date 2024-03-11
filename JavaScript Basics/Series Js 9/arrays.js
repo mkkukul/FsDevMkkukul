@@ -18,7 +18,7 @@ console.log(typeof isimler);
 //! Dizide kaç eleman olduğunu yazdırır
 console.log(isimler.length); // 5
 
-// Boş bir dizi oluşturulur
+//! Boş bir dizi oluşturulur
 const bosDizi = [];
 
 // Boş diziyi yazdırır (içinde hiçbir eleman olmadığı için [])
