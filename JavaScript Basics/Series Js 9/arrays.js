@@ -88,7 +88,7 @@ console.log(veri); // ["Deneme"]
 //* ---------------------------------------------------------
 //!  Diziden veri okuma
 
-console.log(diller[1]); // Dizinin ikinci elemanını (indeks 1) konsola yazdırır.
+console.log(diller[1]); //! Dizinin ikinci elemanını (indeks 1) konsola yazdırır.
 const go = diller[3]; // Dizinin dördüncü elemanını `go` adlı bir değişkene atar.
 console.log(go); // `go` değişkenini konsola yazdırır.
 console.log(isimler[isimler.length - 1]); // `isimler` dizisinin son elemanını konsola yazdırır.
