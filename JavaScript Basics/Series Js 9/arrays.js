@@ -130,7 +130,7 @@ const yaslar = [22, 44, 55];
 const kisiler = ["Ahmet", "Can", 2022, 2022 - 1990, true, yaslar];
 
 console.log(kisiler);
-// Örneğin, ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]] gibi bir çıktı alınacaktır.
+//! Örneğin, ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]] gibi bir çıktı alınacaktır.
 
 const yas55 = kisiler[5][2];
 // Dizinin 5. elemanı bir dizi olduğu için, bu diziden 2. elemanı seçer.
