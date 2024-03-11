@@ -45,7 +45,7 @@ console.log(bosDizi);
 const diller = ["C++", "Javascript", "Assembly", "Go", "Ruby"];
 console.log(diller); // ["C++", "Javascript", "Assembly", "Go", "Ruby"]
 
-// 2. Dizi oluşturma yöntemi: Array constructor'ı kullanma
+//! 2. Dizi oluşturma yöntemi: Array constructor'ı kullanma
 const numbers = new Array(3, 2, 1);
 console.log(numbers); // [3, 2, 1]
 
