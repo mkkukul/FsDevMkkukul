@@ -9,7 +9,7 @@ console.log("***** ARRAYS ******");
 
 const isimler = ["ahmet", "ismet", "can", "canan", "Mathew"];
 
-// İsimleri yazdırır
+//! İsimleri yazdırır
 console.log(isimler); // ["ahmet", "ismet", "can", "canan", "Mathew"]
 
 // Dizinin veri türünü yazdırır (Array)
