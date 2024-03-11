@@ -90,8 +90,8 @@ console.log(veri); // ["Deneme"]
 
 console.log(diller[1]); //! Dizinin ikinci elemanını (indeks 1) konsola yazdırır.
 const go = diller[3]; //! Dizinin dördüncü elemanını `go` adlı bir değişkene atar.
-console.log(go); // `go` değişkenini konsola yazdırır.
-console.log(isimler[isimler.length - 1]); // `isimler` dizisinin son elemanını konsola yazdırır.
+console.log(go); //! `go` değişkenini konsola yazdırır.
+console.log(isimler[isimler.length - 1]); //! `isimler` dizisinin son elemanını konsola yazdırır.
 console.log(isimler.at(-1)); // `at()` metodu ile dizinin son elemanını konsola yazdırır. `-1` kullanarak sondan başa doğru indeksleme yapabilirsiniz.
 isimler[1] = "saffet"; // `isimler` dizisinin ikinci elemanını "saffet" ile değiştirir.
 console.log(isimler); // Güncellenmiş `isimler` dizisini konsola yazdırır.
