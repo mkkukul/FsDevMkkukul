@@ -196,7 +196,7 @@ console.log(arabalar, silinen);
 // Önceki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
 
 const n = arabalar.push("Citroen");
-// push() metodu, dizinin sonuna yeni bir eleman ekler ve dizinin yeni uzunluğunu döndürür.
+//! push() metodu, dizinin sonuna yeni bir eleman ekler ve dizinin yeni uzunluğunu döndürür.
 // Şu anki durum: ["BMW", "MERCEDES", "Fiat", "Anadol", "Citroen"]
 // Yeni uzunluk: 5
 
