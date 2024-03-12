@@ -376,7 +376,7 @@ const sayilar1 = [1, 2, 3, 4, 5, 2];
 
 console.log(sayilar1.indexOf(2));
 //! Konsola yazdırılan: 1
-// 2 değerinin ilk bulunduğu indeks 1'dir.
+//! 2 değerinin ilk bulunduğu indeks 1'dir.
 
 console.log(sayilar1.lastIndexOf(2));
 // Konsola yazdırılan: 5
