@@ -254,7 +254,7 @@ arabalar.splice(1, 0, "Passat");
 //! splice metodu, dizinin belirli bir konumundan başlayarak öğeler ekler veya çıkarır.
 //! 1. parametre: Eklenecek veya çıkarılacak elemanların başlangıç indeksi (1. indeks)
 //! 2. parametre: Kaç elemanın çıkarılacağı (bu durumda 0, yani çıkarılmayacak)
-// 3. parametre ve sonrası: Eklenen yeni elemanlar ("Passat" ekleniyor)
+//! 3. parametre ve sonrası: Eklenen yeni elemanlar ("Passat" ekleniyor)
 
 console.log(arabalar);
 // Konsola yazdırılanlar: ["BMW", "Passat", "MERCEDES", "Fiat", "Anadol"]
