@@ -148,7 +148,7 @@ console.log(yas55); // 55
 
 //? kisiler icerisindeki yaslar dizisinde bulunan 44 yasini bir eksiltiniz.
 
-kisiler[5][1]--; // kisiler dizisinin 5. elemanının (yaslar dizisi) 1. elemanını azaltır.
+kisiler[5][1]--; //! kisiler dizisinin 5. elemanının (yaslar dizisi) 1. elemanını azaltır.
 console.log(kisiler);
 // Önceki durum: ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]]
 // Yeni durum: ["Ahmet", "Can", 2022, 31, true, [22, 43, 55]]
