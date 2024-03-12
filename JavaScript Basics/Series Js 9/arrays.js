@@ -233,7 +233,7 @@ console.log(arabalar, n1);
 // Önceki durum: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"]
 
 const Audi = arabalar.shift();
-// shift() metodu, dizinin başındaki elemanı çıkarır ve bu elemanı döndürür.
+//! shift() metodu, dizinin başındaki elemanı çıkarır ve bu elemanı döndürür.
 // Şu anki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
 // Çıkarılan eleman: "Audi"
 
