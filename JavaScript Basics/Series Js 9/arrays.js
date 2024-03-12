@@ -363,7 +363,7 @@ console.log(sayilar1.includes(5));
 
 console.log(sayilar1.includes("5"));
 //! Konsola yazdırılan: false
-// Dizi içinde "5" değeri string olarak bulunmaz, bu nedenle false döner.
+//! Dizi içinde "5" değeri string olarak bulunmaz, bu nedenle false döner.
 
 // console.log(sayilar1.includes(5));
 // console.log(sayilar1.includes("5"));
