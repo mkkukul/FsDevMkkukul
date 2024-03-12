@@ -215,7 +215,7 @@ console.log(arabalar, n);
 // Önceki durum: ["BMW", "MERCEDES", "Fiat", "Anadol"]
 
 const n1 = arabalar.unshift("Audi");
-// unshift() metodu, dizinin başına yeni bir eleman ekler ve dizinin yeni uzunluğunu döndürür.
+//! unshift() metodu, dizinin başına yeni bir eleman ekler ve dizinin yeni uzunluğunu döndürür.
 // Şu anki durum: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"]
 // Yeni uzunluk: 5
 
