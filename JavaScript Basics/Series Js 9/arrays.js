@@ -359,7 +359,7 @@ const sayilar1 = [3, 5, 2, "2", "uc", 2, "3", "bes", "5"];
 
 console.log(sayilar1.includes(5));
 //! Konsola yazdırılan: true
-// Dizi içinde 5 değeri bulunduğu için true döner.
+//! Dizi içinde 5 değeri bulunduğu için true döner.
 
 console.log(sayilar1.includes("5"));
 // Konsola yazdırılan: false
