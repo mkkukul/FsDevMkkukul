@@ -152,7 +152,7 @@ kisiler[5][1]--; //! kisiler dizisinin 5. elemanının (yaslar dizisi) 1. eleman
 console.log(kisiler);
 // Önceki durum: ["Ahmet", "Can", 2022, 32, true, [22, 44, 55]]
 // Yeni durum: ["Ahmet", "Can", 2022, 31, true, [22, 43, 55]]
-// 1. eleman olan "Can"ın yaşını bir azaltır.
+//! 1. eleman olan "Can"ın yaşını bir azaltır.
 
 console.log(yaslar);
 // Önceki durum: [22, 44, 55]
