@@ -220,7 +220,7 @@ const n1 = arabalar.unshift("Audi");
 // Yeni uzunluk: 5
 
 console.log(arabalar, n1);
-// Konsola yazdırılanlar: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"] 5
+//! Konsola yazdırılanlar: ["Audi", "BMW", "MERCEDES", "Fiat", "Anadol"] 5
 
 
 // const  n1 = arabalar.unshift("Audi");
