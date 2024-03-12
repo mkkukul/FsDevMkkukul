@@ -321,7 +321,7 @@ const array1 = [1, 2, 3, 4];
 // Önceki durum: [1, 2, 3, 4]
 
 array1.fill(0);
-//1 Diziyi sıfırlar ile doldurur.
+//! Diziyi sıfırlar ile doldurur.
 
 console.log(array1);
 // Konsola yazdırılanlar: [0, 0, 0, 0]
