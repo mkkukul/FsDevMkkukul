@@ -327,7 +327,7 @@ console.log(array1);
 //! Konsola yazdırılanlar: [0, 0, 0, 0]
 
 array1.fill(1, 2, 4);
-// İndeks 2'den başlayarak (dahil) indeks 4'e kadar (hariç) olan elemanları 1 ile doldurur.
+//! İndeks 2'den başlayarak (dahil) indeks 4'e kadar (hariç) olan elemanları 1 ile doldurur.
 
 console.log(array1);
 // Konsola yazdırılanlar: [0, 0, 1, 1]
