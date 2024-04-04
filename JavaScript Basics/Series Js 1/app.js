@@ -11,9 +11,6 @@
 // let v1 = 55;
 // console.log(v1)
 
-// /*
-
-
 // var myNumber1 = 22;
 // console.log(myNumber1)
 // let v2 = 88;
