@@ -25,7 +25,7 @@ console.log(sayi, typeof sayi);
 
 // ? ORNEK2: console'dan 3 tamsayi alarak bunlarin en buyugunu yazdırınız
 
-// Kullanıcıdan üç sayı al
+//! Kullanıcıdan üç sayı al
 const n1 = +prompt("Sayı 1:");
 const n2 = +prompt("Sayı 2:");
 const n3 = +prompt("Sayı 3:");
