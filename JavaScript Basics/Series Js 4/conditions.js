@@ -11,7 +11,7 @@ console.log("****** CONDITIONS *******");
 //! Kullanıcıdan bir sayı al
 const sayi = prompt("Bir sayı giriniz:");
 
-// Girilen sayının pozitif, negatif veya sıfır olduğunu kontrol et
+//! Girilen sayının pozitif, negatif veya sıfır olduğunu kontrol et
 if (sayi > 0) {
     console.log(`${sayi} pozitiftir.`);
 } else if (sayi == 0) {
