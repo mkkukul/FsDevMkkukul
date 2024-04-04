@@ -5,7 +5,7 @@ console.log('App js Running')
 // console.log(a);
 
 // {
-//     // var a =3;
+
 //     console.log(a)
 // }
 
