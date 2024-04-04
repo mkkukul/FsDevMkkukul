@@ -12,7 +12,7 @@
 // console.log(v1)
 
 // /*
-// */
+
 
 // var myNumber1 = 22;
 // console.log(myNumber1)
