@@ -1,7 +1,7 @@
 // console.log('app.js is loaded')
 
 //  let firstname=prompt("Enter Your Name:");
-// // alert("firstname :" + firstname);
+//  alert("firstname :" + firstname);
 
 // // let sonuc = confirm ('are you legal?');
 // // console.log(sonuc);
