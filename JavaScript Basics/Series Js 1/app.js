@@ -19,7 +19,7 @@
 // let v2 = 88;
 // console.log(v2)
 
-// Bir öğrenci nesnesi oluştur
+//! Bir öğrenci nesnesi oluştur
 const student = {
     name: 'Nedim',
     age: 34,
