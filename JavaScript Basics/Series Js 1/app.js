@@ -34,6 +34,6 @@ const otherStudent = student;
 //! Diğer öğrencinin adını değiştir
 otherStudent.name = 'Dan Brown';
 
-// İlk öğrenciyi ve diğer öğrenciyi konsola yazdır
+//! İlk öğrenciyi ve diğer öğrenciyi konsola yazdır
 console.log(student);
 console.log(otherStudent);
