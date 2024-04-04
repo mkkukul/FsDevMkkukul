@@ -28,7 +28,7 @@ const student = {
 //! İlk öğrenciyi konsola yazdır
 console.log(student); // { name: 'Nedim', age: 34 }
 
-// Diğer öğrenciye ilk öğrencinin referansını ata
+//! Diğer öğrenciye ilk öğrencinin referansını ata
 const otherStudent = student;
 
 // Diğer öğrencinin adını değiştir
