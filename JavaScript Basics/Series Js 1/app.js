@@ -25,7 +25,7 @@ const student = {
     age: 34,
 };
 
-// İlk öğrenciyi konsola yazdır
+//! İlk öğrenciyi konsola yazdır
 console.log(student); // { name: 'Nedim', age: 34 }
 
 // Diğer öğrenciye ilk öğrencinin referansını ata
