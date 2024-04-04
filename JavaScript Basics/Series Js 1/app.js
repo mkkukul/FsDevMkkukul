@@ -3,8 +3,8 @@
 //  let firstname=prompt("Enter Your Name:");
 //  alert("firstname :" + firstname);
 
-// // let sonuc = confirm ('are you legal?');
-// // console.log(sonuc);
+// let sonuc = confirm ('are you legal?');
+// console.log(sonuc);
 
 // var myNumber1 = 11;
 // console.log(myNumber1);
