@@ -39,7 +39,7 @@ if (n1 >= n2 && n1 >= n3) {
     console.log(`${n3} en büyük sayıdır`);
 }
 
-// 2. Yöntem: En büyük sayıyı bir değişkende tut
+//! 2. Yöntem: En büyük sayıyı bir değişkende tut
 let enBuyuk = n1;
 if (n2 >= enBuyuk) {
     enBuyuk = n2;
