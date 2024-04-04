@@ -20,7 +20,7 @@ if (sayi > 0) {
     console.log(`${sayi} negatiftir.`);
 }
 
-// Girilen sayının değerini ve türünü konsola yazdır
+//! Girilen sayının değerini ve türünü konsola yazdır
 console.log(sayi, typeof sayi);
 
 // ? ORNEK2: console'dan 3 tamsayi alarak bunlarin en buyugunu yazdırınız
