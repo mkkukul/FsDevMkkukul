@@ -52,7 +52,7 @@ console.log(`${enBuyuk} en büyüktür`);
 //! Kullanıcıdan bir not al
 const not = +prompt("Not Giriniz");
 
-// Ternary operatörü kullanarak geçme veya kalma durumunu kontrol et
+//! Ternary operatörü kullanarak geçme veya kalma durumunu kontrol et
 let sonuc = not >= 50 ? "Geçti" : "Kaldı";
 console.log(sonuc);
 console.log(not >= 50 ? "Geçti" : "Kaldı");
