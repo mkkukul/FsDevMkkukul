@@ -57,7 +57,7 @@ let sonuc = not >= 50 ? "Geçti" : "Kaldı";
 console.log(sonuc);
 console.log(not >= 50 ? "Geçti" : "Kaldı");
 
-// Ternary operatörü kullanarak askerlik durumunu kontrol et
+//! Ternary operatörü kullanarak askerlik durumunu kontrol et
 const yas = 17;
 const cinsiyet = "erkek";
 const saglikli = true;
