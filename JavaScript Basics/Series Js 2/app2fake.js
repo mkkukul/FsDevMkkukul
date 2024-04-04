@@ -55,7 +55,7 @@
 
 // console.log(age);
 
-// // console.log(myAge);
+// console.log(myAge);
 
 // var myAge = 40;
 // var myAge1 = 40;
