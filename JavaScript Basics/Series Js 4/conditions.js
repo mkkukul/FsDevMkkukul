@@ -30,7 +30,7 @@ const n1 = +prompt("Sayı 1:");
 const n2 = +prompt("Sayı 2:");
 const n3 = +prompt("Sayı 3:");
 
-// 1. Yöntem: Her bir sayıyı kontrol et ve en büyük olanı bul
+//! 1. Yöntem: Her bir sayıyı kontrol et ve en büyük olanı bul
 if (n1 >= n2 && n1 >= n3) {
     console.log(`${n1} en büyük sayıdır`);
 } else if (n2 >= n1 && n2 >= n3) {
