@@ -49,7 +49,7 @@ if (n3 >= enBuyuk) {
 }
 console.log(`${enBuyuk} en büyüktür`);
 
-// Kullanıcıdan bir not al
+//! Kullanıcıdan bir not al
 const not = +prompt("Not Giriniz");
 
 // Ternary operatörü kullanarak geçme veya kalma durumunu kontrol et
